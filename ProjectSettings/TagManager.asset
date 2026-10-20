@@ -11,11 +11,11 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - new1
+  - new2
+  - new3
+  - new4
+  - new5
   - 
   - 
   - 
@@ -43,6 +43,18 @@ TagManager:
     locked: 0
   - name: New Layer 1
     uniqueID: 3271347559
+    locked: 0
+  - name: New Layer 2
+    uniqueID: 2651596407
+    locked: 0
+  - name: New Layer 3
+    uniqueID: 2628488787
+    locked: 0
+  - name: New Layer 4
+    uniqueID: 2743741605
+    locked: 0
+  - name: New Layer 5
+    uniqueID: 2747362229
     locked: 0
   m_RenderingLayers:
   - Default
