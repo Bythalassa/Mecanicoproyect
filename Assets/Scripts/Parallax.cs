@@ -20,7 +20,7 @@ public class Parallax : MonoBehaviour
     private void LateUpdate()
     {
         //->Calcula cuánto debe desplazarse el fondo: la posición X de la cámara por el efecto.
-        float parallaxDistance = targetCamera.position.x - parallaxEffect;
+        float parallaxDistance = targetCamera.position.x * parallaxEffect;
 
         //->
         transform.position = new Vector3(initialPos + parallaxDistance, transform.position.y, transform.position.z);
