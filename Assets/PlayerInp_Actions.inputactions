@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "name": "InputSystem_Actions",
+    "name": "PlayerInp_Actions",
     "maps": [
         {
             "name": "Player",
@@ -143,22 +143,22 @@
                 },
                 {
                     "name": "",
-                    "id": "603f3daf-40bd-4854-8724-93e8017f59e3",
-                    "path": "<XRController>/secondaryButton",
+                    "id": "c099dc4d-31fb-4939-b4e9-516dea6cc4d1",
+                    "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
-                    "groups": "XR",
-                    "action": "Jump",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "StepBack",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "c099dc4d-31fb-4939-b4e9-516dea6cc4d1",
-                    "path": "",
+                    "id": "1d1aaad5-f9fa-4bd5-81f5-83fba50bb73c",
+                    "path": "<DualShockGamepad>/buttonNorth",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": ";Gamepad",
                     "action": "StepBack",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -166,7 +166,18 @@
                 {
                     "name": "",
                     "id": "a29661d5-e5fe-49e8-899e-b7c0eac396cd",
-                    "path": "",
+                    "path": "<Keyboard>/c",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "Dash",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ae1c5ecf-93bd-47dc-8dce-bed05f04a58d",
+                    "path": "<Gamepad>/buttonSouth",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
