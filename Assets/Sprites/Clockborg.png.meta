@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2373f92575f939948bf59a01a66026ea
+guid: 6522bc9c416b5aa4b8b98ae7665fedf6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5093543150013466908
-    second: PAJARO-removebg-preview_0
+      213: 9111574651817735846
+    second: PLAYER-removebg-preview_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PAJARO-removebg-preview_0
+      name: PLAYER-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 102
-        y: 38
-        width: 281
-        height: 426
+        x: 12
+        y: 35
+        width: 483
+        height: 418
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4e6b257ed791059b0800000000000000
-      internalID: -5093543150013466908
+      spriteID: 6a6bc02eed0d27e70800000000000000
+      internalID: 9111574651817735846
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PAJARO-removebg-preview_0: -5093543150013466908
+      PLAYER-removebg-preview_0: 9111574651817735846
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
