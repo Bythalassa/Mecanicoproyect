@@ -17,6 +17,48 @@ TextureImporter:
   - first:
       213: -4358349374380336271
     second: "Birdbot_Aparici\xF3n_4"
+  - first:
+      213: 6124749053629107120
+    second: "Birdbot_Aparici\xF3n_5"
+  - first:
+      213: 8026337175331401891
+    second: "Birdbot_Aparici\xF3n_6"
+  - first:
+      213: 7347585756083953397
+    second: "Birdbot_Aparici\xF3n_7"
+  - first:
+      213: -4246223870609613316
+    second: "Birdbot_Aparici\xF3n_8"
+  - first:
+      213: -4611424303236439967
+    second: "Birdbot_Aparici\xF3n_9"
+  - first:
+      213: 8924436179876841862
+    second: "Birdbot_Aparici\xF3n_10"
+  - first:
+      213: -3455395941942697137
+    second: "Birdbot_Aparici\xF3n_11"
+  - first:
+      213: -8603364196465162649
+    second: "Birdbot_Aparici\xF3n_12"
+  - first:
+      213: 2839488441277946266
+    second: "Birdbot_Aparici\xF3n_13"
+  - first:
+      213: 4531756228397678699
+    second: "Birdbot_Aparici\xF3n_14"
+  - first:
+      213: 2992915355764113975
+    second: "Birdbot_Aparici\xF3n_15"
+  - first:
+      213: 8379044996861126840
+    second: "Birdbot_Aparici\xF3n_16"
+  - first:
+      213: 8078794049517254363
+    second: "Birdbot_Aparici\xF3n_17"
+  - first:
+      213: 7932067680531493701
+    second: "Birdbot_Aparici\xF3n_18"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -63,7 +105,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 120
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -115,12 +157,12 @@ TextureImporter:
       name: "Birdbot_Aparici\xF3n_0"
       rect:
         serializedVersion: 2
-        x: 856
-        y: 1639
-        width: 226
-        height: 199
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 224
+        y: 303
+        width: 273
+        height: 303
+      alignment: 9
+      pivot: {x: 0.4932934, y: -0.0015265839}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -137,12 +179,12 @@ TextureImporter:
       name: "Birdbot_Aparici\xF3n_1"
       rect:
         serializedVersion: 2
-        x: 2837
-        y: 1319
-        width: 364
-        height: 384
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 787
+        y: 249
+        width: 440
+        height: 485
+      alignment: 9
+      pivot: {x: 0.49583864, y: 0.0017004269}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -159,12 +201,12 @@ TextureImporter:
       name: "Birdbot_Aparici\xF3n_2"
       rect:
         serializedVersion: 2
-        x: 4449
-        y: 675
-        width: 1232
-        height: 1060
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1274
+        y: 186
+        width: 799
+        height: 624
+      alignment: 9
+      pivot: {x: 0.5022912, y: 0.004138335}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -181,12 +223,12 @@ TextureImporter:
       name: "Birdbot_Aparici\xF3n_3"
       rect:
         serializedVersion: 2
-        x: 6345
-        y: 333
-        width: 1543
-        height: 1478
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2254
+        y: 93
+        width: 884
+        height: 739
+      alignment: 9
+      pivot: {x: 0.49792838, y: 0.0020222128}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -199,33 +241,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: "Birdbot_Aparici\xF3n_4"
-      rect:
-        serializedVersion: 2
-        x: 8789
-        y: 194
-        width: 1439
-        height: 1771
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 17b9305e5580483c0800000000000000
-      internalID: -4358349374380336271
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: bfe702970197de44ebcc508aee36b697
     internalID: 0
     vertices: []
     indices: 
@@ -233,13 +253,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":1.0},"gridSpriteSize":{"x":831.0,"y":891.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       "Birdbot_Aparici\xF3n_0": -8790997776815687554
       "Birdbot_Aparici\xF3n_1": -8109488293831888387
       "Birdbot_Aparici\xF3n_2": -6806744007596305875
       "Birdbot_Aparici\xF3n_3": 2712288809402589479
-      "Birdbot_Aparici\xF3n_4": -4358349374380336271
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

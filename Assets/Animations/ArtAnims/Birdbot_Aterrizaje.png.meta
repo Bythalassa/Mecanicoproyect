@@ -78,7 +78,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 173
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -130,12 +130,12 @@ TextureImporter:
       name: Birdbot_Aterrizaje_0
       rect:
         serializedVersion: 2
-        x: 421
-        y: 455
-        width: 1141
-        height: 1098
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 160
+        y: 90
+        width: 1203
+        height: 1590
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -152,12 +152,12 @@ TextureImporter:
       name: Birdbot_Aterrizaje_1
       rect:
         serializedVersion: 2
-        x: 2746
-        y: 1523
-        width: 22
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1729
+        y: 125
+        width: 1302
+        height: 1185
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -174,12 +174,12 @@ TextureImporter:
       name: Birdbot_Aterrizaje_2
       rect:
         serializedVersion: 2
-        x: 2800
-        y: 1511
-        width: 13
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3613
+        y: 237
+        width: 1656
+        height: 1070
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -196,12 +196,12 @@ TextureImporter:
       name: Birdbot_Aterrizaje_3
       rect:
         serializedVersion: 2
-        x: 2605
-        y: 1387
-        width: 16
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 5626
+        y: 218
+        width: 1490
+        height: 1044
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -214,143 +214,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Birdbot_Aterrizaje_4
-      rect:
-        serializedVersion: 2
-        x: 2934
-        y: 1373
-        width: 28
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a9250eceff741e620800000000000000
-      internalID: 2801599607717515930
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Birdbot_Aterrizaje_5
-      rect:
-        serializedVersion: 2
-        x: 2387
-        y: 453
-        width: 1223
-        height: 804
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: df223f1c3a6d572c0800000000000000
-      internalID: -4434402259254435075
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Birdbot_Aterrizaje_6
-      rect:
-        serializedVersion: 2
-        x: 4312
-        y: 1198
-        width: 35
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 965f90c6d56ad6dd0800000000000000
-      internalID: -2491152098691254935
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Birdbot_Aterrizaje_7
-      rect:
-        serializedVersion: 2
-        x: 3858
-        y: 372
-        width: 1247
-        height: 788
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f412cfae611819a00800000000000000
-      internalID: 761531747433980239
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Birdbot_Aterrizaje_8
-      rect:
-        serializedVersion: 2
-        x: 4337
-        y: 280
-        width: 207
-        height: 241
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cc1307cb53315f710800000000000000
-      internalID: 1726307153682117068
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Birdbot_Aterrizaje_9
-      rect:
-        serializedVersion: 2
-        x: 5368
-        y: 196
-        width: 1168
-        height: 969
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d03e4e1f8fb273c20800000000000000
-      internalID: 3186063609598108429
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 20bca17b123bf524790372d0b0bdab6c
     internalID: 0
     vertices: []
     indices: 
@@ -358,18 +226,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":1.0},"gridSpriteSize":{"x":1879.0,"y":1680.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Birdbot_Aterrizaje_0: 8982468937419367247
       Birdbot_Aterrizaje_1: -5146215284712276749
       Birdbot_Aterrizaje_2: 4809295426383332211
       Birdbot_Aterrizaje_3: -2662527750187842353
-      Birdbot_Aterrizaje_4: 2801599607717515930
-      Birdbot_Aterrizaje_5: -4434402259254435075
-      Birdbot_Aterrizaje_6: -2491152098691254935
-      Birdbot_Aterrizaje_7: 761531747433980239
-      Birdbot_Aterrizaje_8: 1726307153682117068
-      Birdbot_Aterrizaje_9: 3186063609598108429
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
