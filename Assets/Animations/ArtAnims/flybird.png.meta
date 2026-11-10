@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: 06c8a15ddd433214693782b4bddce153
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7796296006169573787
+    second: flybird_0
+  - first:
+      213: 2905705703318506292
+    second: flybird_1
+  - first:
+      213: -4978532994965233662
+    second: flybird_2
+  - first:
+      213: 5941280579368722971
+    second: flybird_3
+  - first:
+      213: -7999823150913195151
+    second: flybird_4
+  - first:
+      213: 2039526120742259987
+    second: flybird_5
+  - first:
+      213: 7373694705983784660
+    second: flybird_6
+  - first:
+      213: 6224134536366117339
+    second: flybird_7
+  - first:
+      213: 2251020586046773770
+    second: flybird_8
+  - first:
+      213: 2461894813364649562
+    second: flybird_9
+  - first:
+      213: -7789384173102940448
+    second: flybird_10
+  - first:
+      213: -8894859925909939859
+    second: flybird_11
+  - first:
+      213: 3183288350928327810
+    second: flybird_12
+  - first:
+      213: 9138027830988891707
+    second: flybird_13
+  - first:
+      213: 3715136783779627574
+    second: flybird_14
+  - first:
+      213: 4537356210737841416
+    second: flybird_15
+  - first:
+      213: -9189386588925758362
+    second: flybird_16
+  - first:
+      213: -7911442558360739996
+    second: flybird_17
+  - first:
+      213: 589638516991123048
+    second: flybird_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: flybird_0
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 832
+        width: 1141
+        height: 873
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5664774c61efdc390800000000000000
+      internalID: -7796296006169573787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flybird_1
+      rect:
+        serializedVersion: 2
+        x: 2746
+        y: 1675
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43b402c21f3235820800000000000000
+      internalID: 2905705703318506292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flybird_2
+      rect:
+        serializedVersion: 2
+        x: 4794
+        y: 1675
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20029845e92b8eab0800000000000000
+      internalID: -4978532994965233662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flybird_3
+      rect:
+        serializedVersion: 2
+        x: 6842
+        y: 1675
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b12233c653ba37250800000000000000
+      internalID: 5941280579368722971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flybird_4
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 1663
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1737fd7aa3beaf090800000000000000
+      internalID: -7999823150913195151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flybird_5
+      rect:
+        serializedVersion: 2
+        x: 4848
+        y: 1663
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31d09f0733add4c10800000000000000
+      internalID: 2039526120742259987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flybird_6
+      rect:
+        serializedVersion: 2
+        x: 6896
+        y: 1663
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d687508440a45660800000000000000
+      internalID: 7373694705983784660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flybird_7
+      rect:
+        serializedVersion: 2
+        x: 2605
+        y: 1539
+        width: 16
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd1d75a4261906650800000000000000
+      internalID: 6224134536366117339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flybird_8
+      rect:
+        serializedVersion: 2
+        x: 2934
+        y: 1525
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0ad86deb4b3d3f10800000000000000
+      internalID: 2251020586046773770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flybird_9
+      rect:
+        serializedVersion: 2
+        x: 4653
+        y: 1542
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5ef9f00a486a2220800000000000000
+      internalID: 2461894813364649562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flybird_10
+      rect:
+        serializedVersion: 2
+        x: 4982
+        y: 1525
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ee362f4d5c86e390800000000000000
+      internalID: -7789384173102940448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flybird_11
+      rect:
+        serializedVersion: 2
+        x: 6701
+        y: 1542
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d69d74d360c1f8480800000000000000
+      internalID: -8894859925909939859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flybird_12
+      rect:
+        serializedVersion: 2
+        x: 7030
+        y: 1525
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 284d8bea3ef4d2c20800000000000000
+      internalID: 3183288350928327810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flybird_13
+      rect:
+        serializedVersion: 2
+        x: 2387
+        y: 832
+        width: 1223
+        height: 577
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b36e9bd95ebc0de70800000000000000
+      internalID: 9138027830988891707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flybird_14
+      rect:
+        serializedVersion: 2
+        x: 4498
+        y: 348
+        width: 1160
+        height: 1027
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6320c21a831de8330800000000000000
+      internalID: 3715136783779627574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flybird_15
+      rect:
+        serializedVersion: 2
+        x: 6525
+        y: 756
+        width: 1181
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80501780f6de7fe30800000000000000
+      internalID: 4537356210737841416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flybird_16
+      rect:
+        serializedVersion: 2
+        x: 6728
+        y: 665
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6647757b59db87080800000000000000
+      internalID: -9189386588925758362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flybird_17
+      rect:
+        serializedVersion: 2
+        x: 6736
+        y: 641
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46f1008e8e8e43290800000000000000
+      internalID: -7911442558360739996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flybird_18
+      rect:
+        serializedVersion: 2
+        x: 6630
+        y: 553
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86ed42f6b11de2800800000000000000
+      internalID: 589638516991123048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      flybird_0: -7796296006169573787
+      flybird_1: 2905705703318506292
+      flybird_10: -7789384173102940448
+      flybird_11: -8894859925909939859
+      flybird_12: 3183288350928327810
+      flybird_13: 9138027830988891707
+      flybird_14: 3715136783779627574
+      flybird_15: 4537356210737841416
+      flybird_16: -9189386588925758362
+      flybird_17: -7911442558360739996
+      flybird_18: 589638516991123048
+      flybird_2: -4978532994965233662
+      flybird_3: 5941280579368722971
+      flybird_4: -7999823150913195151
+      flybird_5: 2039526120742259987
+      flybird_6: 7373694705983784660
+      flybird_7: 6224134536366117339
+      flybird_8: 2251020586046773770
+      flybird_9: 2461894813364649562
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

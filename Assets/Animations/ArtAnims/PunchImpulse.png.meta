@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: 84efda46111d5d349a98ae144f87076b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -691834861558335395
+    second: PunchImpulse_0
+  - first:
+      213: 7579296101828490712
+    second: PunchImpulse_1
+  - first:
+      213: 1602087736285137510
+    second: PunchImpulse_2
+  - first:
+      213: 5057526942112427441
+    second: PunchImpulse_3
+  - first:
+      213: 357948438328250937
+    second: PunchImpulse_4
+  - first:
+      213: 9206708207477048443
+    second: PunchImpulse_5
+  - first:
+      213: -6315620746725245763
+    second: PunchImpulse_6
+  - first:
+      213: -3064951696854976201
+    second: PunchImpulse_7
+  - first:
+      213: -3752067937057361525
+    second: PunchImpulse_8
+  - first:
+      213: -1787376628987153661
+    second: PunchImpulse_9
+  - first:
+      213: -8790887071513872675
+    second: PunchImpulse_10
+  - first:
+      213: 806911015204125357
+    second: PunchImpulse_11
+  - first:
+      213: 9215394379718116039
+    second: PunchImpulse_12
+  - first:
+      213: -3180345226706321462
+    second: PunchImpulse_13
+  - first:
+      213: -3986672453044245452
+    second: PunchImpulse_14
+  - first:
+      213: 4309737793293910392
+    second: PunchImpulse_15
+  - first:
+      213: -1814919960026862273
+    second: PunchImpulse_16
+  - first:
+      213: 5355245613155474732
+    second: PunchImpulse_17
+  - first:
+      213: 6167201313133962858
+    second: PunchImpulse_18
+  - first:
+      213: 6269418457794981118
+    second: PunchImpulse_19
+  - first:
+      213: 5532652483014329164
+    second: PunchImpulse_20
+  - first:
+      213: -3725718389106769758
+    second: PunchImpulse_21
+  - first:
+      213: 2246312474922545037
+    second: PunchImpulse_22
+  - first:
+      213: 1642618395535089107
+    second: PunchImpulse_23
+  - first:
+      213: -6582737385605405316
+    second: PunchImpulse_24
+  - first:
+      213: 8590604354492783141
+    second: PunchImpulse_25
+  - first:
+      213: -2990719429506813206
+    second: PunchImpulse_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PunchImpulse_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 68
+        width: 388
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d587591ebdb1666f0800000000000000
+      internalID: -691834861558335395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PunchImpulse_1
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 63
+        width: 360
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d57df4d5a11f2960800000000000000
+      internalID: 7579296101828490712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PunchImpulse_2
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 248
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66a0944de42cb3610800000000000000
+      internalID: 1602087736285137510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PunchImpulse_3
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 259
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bd249a35f1ff2640800000000000000
+      internalID: 5057526942112427441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PunchImpulse_4
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 80
+        width: 364
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 932167a4530b7f400800000000000000
+      internalID: 357948438328250937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PunchImpulse_5
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 7
+        width: 399
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b74c751e55cc4cf70800000000000000
+      internalID: 9206708207477048443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PunchImpulse_6
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 211
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbcba5774686a58a0800000000000000
+      internalID: -6315620746725245763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PunchImpulse_7
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 222
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7397a37abaa1775d0800000000000000
+      internalID: -3064951696854976201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PunchImpulse_8
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 218
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b81309e271afdebc0800000000000000
+      internalID: -3752067937057361525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PunchImpulse_9
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 184
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 303b2650d66f137e0800000000000000
+      internalID: -1787376628987153661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PunchImpulse_10
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 195
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd677d9d8ce700680800000000000000
+      internalID: -8790887071513872675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PunchImpulse_11
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 198
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daa779a0b49b23b00800000000000000
+      internalID: 806911015204125357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PunchImpulse_12
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 202
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c2ca34fc58a3ef70800000000000000
+      internalID: 9215394379718116039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PunchImpulse_13
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 198
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acf7f03ddd42dd3d0800000000000000
+      internalID: -3180345226706321462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PunchImpulse_14
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 179
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c6678b68e7ca8c0800000000000000
+      internalID: -3986672453044245452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PunchImpulse_15
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 186
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8710c5460b34fcb30800000000000000
+      internalID: 4309737793293910392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PunchImpulse_16
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 180
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3d25d689eb10d6e0800000000000000
+      internalID: -1814919960026862273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PunchImpulse_17
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 170
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2dd9190387a15a40800000000000000
+      internalID: 5355245613155474732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PunchImpulse_18
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 167
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a662ca74bec469550800000000000000
+      internalID: 6167201313133962858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PunchImpulse_19
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 174
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efca52dded2710750800000000000000
+      internalID: 6269418457794981118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PunchImpulse_20
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 170
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4380cbbe1ee7cc40800000000000000
+      internalID: 5532652483014329164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PunchImpulse_21
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 174
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a086246dd69b4cc0800000000000000
+      internalID: -3725718389106769758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PunchImpulse_22
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 167
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8f69426b418c2f10800000000000000
+      internalID: 2246312474922545037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PunchImpulse_23
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 151
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dd146f4ab0cbc610800000000000000
+      internalID: 1642618395535089107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PunchImpulse_24
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 156
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c756e41893b65a4a0800000000000000
+      internalID: -6582737385605405316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PunchImpulse_25
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 146
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a577b3525f73770800000000000000
+      internalID: 8590604354492783141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PunchImpulse_26
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 70
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae2336d3684de76d0800000000000000
+      internalID: -2990719429506813206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PunchImpulse_0: -691834861558335395
+      PunchImpulse_1: 7579296101828490712
+      PunchImpulse_10: -8790887071513872675
+      PunchImpulse_11: 806911015204125357
+      PunchImpulse_12: 9215394379718116039
+      PunchImpulse_13: -3180345226706321462
+      PunchImpulse_14: -3986672453044245452
+      PunchImpulse_15: 4309737793293910392
+      PunchImpulse_16: -1814919960026862273
+      PunchImpulse_17: 5355245613155474732
+      PunchImpulse_18: 6167201313133962858
+      PunchImpulse_19: 6269418457794981118
+      PunchImpulse_2: 1602087736285137510
+      PunchImpulse_20: 5532652483014329164
+      PunchImpulse_21: -3725718389106769758
+      PunchImpulse_22: 2246312474922545037
+      PunchImpulse_23: 1642618395535089107
+      PunchImpulse_24: -6582737385605405316
+      PunchImpulse_25: 8590604354492783141
+      PunchImpulse_26: -2990719429506813206
+      PunchImpulse_3: 5057526942112427441
+      PunchImpulse_4: 357948438328250937
+      PunchImpulse_5: 9206708207477048443
+      PunchImpulse_6: -6315620746725245763
+      PunchImpulse_7: -3064951696854976201
+      PunchImpulse_8: -3752067937057361525
+      PunchImpulse_9: -1787376628987153661
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

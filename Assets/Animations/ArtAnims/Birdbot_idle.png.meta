@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: 4ae9aa225ca111441af804eb5ed6ab7b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8519444509749315102
+    second: Birdbot_idle_0
+  - first:
+      213: -379083818530673831
+    second: Birdbot_idle_1
+  - first:
+      213: 2643370361382483304
+    second: Birdbot_idle_2
+  - first:
+      213: 1907449554820765044
+    second: Birdbot_idle_3
+  - first:
+      213: -6549538886832476308
+    second: Birdbot_idle_4
+  - first:
+      213: -3266409982843226480
+    second: Birdbot_idle_5
+  - first:
+      213: -2579432434397591242
+    second: Birdbot_idle_6
+  - first:
+      213: -6363511680667907321
+    second: Birdbot_idle_7
+  - first:
+      213: 1202900384420532066
+    second: Birdbot_idle_8
+  - first:
+      213: -6928258486218283336
+    second: Birdbot_idle_9
+  - first:
+      213: 9046547636357560013
+    second: Birdbot_idle_10
+  - first:
+      213: 8501015117367943510
+    second: Birdbot_idle_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Birdbot_idle_0
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 504
+        width: 1141
+        height: 873
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e97db83b5ad4c980800000000000000
+      internalID: -8519444509749315102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birdbot_idle_1
+      rect:
+        serializedVersion: 2
+        x: 2639
+        y: 1347
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95b616886493dbaf0800000000000000
+      internalID: -379083818530673831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birdbot_idle_2
+      rect:
+        serializedVersion: 2
+        x: 3920
+        y: 488
+        width: 1141
+        height: 873
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 865bff7a6532fa420800000000000000
+      internalID: 2643370361382483304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birdbot_idle_3
+      rect:
+        serializedVersion: 2
+        x: 6245
+        y: 1331
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4759116934f987a10800000000000000
+      internalID: 1907449554820765044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birdbot_idle_4
+      rect:
+        serializedVersion: 2
+        x: 2693
+        y: 1335
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6f2eb7551d5b15a0800000000000000
+      internalID: -6549538886832476308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birdbot_idle_5
+      rect:
+        serializedVersion: 2
+        x: 6299
+        y: 1319
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 096f6d14d616ba2d0800000000000000
+      internalID: -3266409982843226480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birdbot_idle_6
+      rect:
+        serializedVersion: 2
+        x: 2498
+        y: 1211
+        width: 16
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6394c990ed3043cd0800000000000000
+      internalID: -2579432434397591242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birdbot_idle_7
+      rect:
+        serializedVersion: 2
+        x: 2827
+        y: 1197
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70b8dbd77d340b7a0800000000000000
+      internalID: -6363511680667907321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birdbot_idle_8
+      rect:
+        serializedVersion: 2
+        x: 6104
+        y: 1195
+        width: 16
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26f0191c68f81b010800000000000000
+      internalID: 1202900384420532066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birdbot_idle_9
+      rect:
+        serializedVersion: 2
+        x: 6433
+        y: 1181
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b6afd04d91e9df90800000000000000
+      internalID: -6928258486218283336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birdbot_idle_10
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 504
+        width: 1150
+        height: 577
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc6fdb4052bcb8d70800000000000000
+      internalID: 9046547636357560013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birdbot_idle_11
+      rect:
+        serializedVersion: 2
+        x: 5886
+        y: 488
+        width: 1150
+        height: 577
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65121fc753ca9f570800000000000000
+      internalID: 8501015117367943510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Birdbot_idle_0: -8519444509749315102
+      Birdbot_idle_1: -379083818530673831
+      Birdbot_idle_10: 9046547636357560013
+      Birdbot_idle_11: 8501015117367943510
+      Birdbot_idle_2: 2643370361382483304
+      Birdbot_idle_3: 1907449554820765044
+      Birdbot_idle_4: -6549538886832476308
+      Birdbot_idle_5: -3266409982843226480
+      Birdbot_idle_6: -2579432434397591242
+      Birdbot_idle_7: -6363511680667907321
+      Birdbot_idle_8: 1202900384420532066
+      Birdbot_idle_9: -6928258486218283336
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
