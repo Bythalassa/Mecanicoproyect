@@ -160,9 +160,9 @@ GameObject:
   m_Component:
   - component: {fileID: 320125520}
   - component: {fileID: 320125519}
-  - component: {fileID: 320125518}
   - component: {fileID: 320125521}
   - component: {fileID: 320125522}
+  - component: {fileID: 320125523}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -170,35 +170,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &320125518
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 320125517}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d2da0aaefd113449a527a42cd6ff40a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerSteampunk2D
-  velocidad: 5
-  fuerzaSalto: 10
-  puntoSuelo: {fileID: 240865781}
-  radioSuelo: 0.2
-  capaSuelo:
-    m_Bits: 8
-  puntoAtaque: {fileID: 1917615922}
-  radioAtaque: 0.7
-  danio: 10
-  tiempoEntreAtaques: 0.4
-  capaEnemigos:
-    m_Bits: 64
-  camaraShake: {fileID: 816866520}
-  rb: {fileID: 0}
-  movimientoX: 0
-  siguienteAtaque: 0
-  escalaOriginal: {x: 0, y: 0, z: 0}
 --- !u!212 &320125519
 SpriteRenderer:
   serializedVersion: 2
@@ -348,6 +319,33 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &320125523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320125517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1736d0faf601344a9275b8e62f7bddc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerSteampunk2D
+  velocidad: 5
+  fuerzaSalto: 10
+  puntoSuelo: {fileID: 240865781}
+  radioSuelo: 0.2
+  capaSuelo:
+    serializedVersion: 2
+    m_Bits: 64
+  puntoAtaque: {fileID: 1917615922}
+  radioAtaque: 0.7
+  danio: 10
+  tiempoEntreAtaques: 0.4
+  capaEnemigos:
+    serializedVersion: 2
+    m_Bits: 8
+  camaraShake: {fileID: 816866520}
 --- !u!1 &730868113
 GameObject:
   m_ObjectHideFlags: 0
@@ -359,7 +357,7 @@ GameObject:
   - component: {fileID: 730868116}
   - component: {fileID: 730868115}
   - component: {fileID: 730868114}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Suelo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -479,8 +477,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 730868113}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.02, y: -1.9, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.01999998, y: -1.9000001, z: 0}
   m_LocalScale: {x: 37.48155, y: 1.1336442, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -573,12 +571,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 816866515}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1437050480}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &816866519
 MonoBehaviour:
@@ -633,12 +631,60 @@ MonoBehaviour:
   m_GameObject: {fileID: 816866515}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 107094cfa2f4f974aadfd4b848153cb4, type: 3}
+  m_Script: {fileID: 11500000, guid: 0806ed07ba76cbf47bd874ba87e6f7ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CameraShake
   duracion: 0.15
   intensidad: 0.12
-  posicionOriginal: {x: 0, y: 0, z: 0}
+--- !u!1 &1437050479
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1437050480}
+  - component: {fileID: 1437050481}
+  m_Layer: 0
+  m_Name: CamaraSeguimiento
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1437050480
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1437050479}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 816866518}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1437050481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1437050479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77215a01a6b9eff4aa7fb7ff77deb030, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::camara
+  target: {fileID: 320125520}
+  followSpeed: 5
+  Offset: {x: 0, y: 0}
+  DinamicCamera: 0
 --- !u!1 &1917615921
 GameObject:
   m_ObjectHideFlags: 0
@@ -682,7 +728,7 @@ GameObject:
   - component: {fileID: 2137493698}
   - component: {fileID: 2137493700}
   - component: {fileID: 2137493701}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -775,9 +821,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c64432559b8533140b768c82d1952a95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::VidaEnemigo2D
-  vidaMaxima: 50
-  vidaActual: 0
-  muerto: 0
 --- !u!61 &2137493701
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -828,7 +871,7 @@ BoxCollider2D:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 816866518}
+  - {fileID: 1437050480}
   - {fileID: 320125520}
-  - {fileID: 730868116}
   - {fileID: 2137493699}
+  - {fileID: 730868116}
