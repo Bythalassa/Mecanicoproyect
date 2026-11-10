@@ -103,12 +103,12 @@ TextureImporter:
       name: PAJARO-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 102
-        y: 38
-        width: 281
-        height: 426
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 101
+        y: 36
+        width: 282
+        height: 428
+      alignment: 9
+      pivot: {x: 0.49494863, y: 0.06323723}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: acfd372230d840344acb8632e28feac1
     internalID: 0
     vertices: []
     indices: 

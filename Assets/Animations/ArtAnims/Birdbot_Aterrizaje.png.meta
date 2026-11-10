@@ -135,7 +135,7 @@ TextureImporter:
         width: 1203
         height: 1590
       alignment: 9
-      pivot: {x: 0.5, y: 0}
+      pivot: {x: 0.4953976, y: 0.27730083}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -152,12 +152,12 @@ TextureImporter:
       name: Birdbot_Aterrizaje_1
       rect:
         serializedVersion: 2
-        x: 1729
+        x: 1723
         y: 125
         width: 1302
         height: 1185
       alignment: 9
-      pivot: {x: 0.5, y: 0}
+      pivot: {x: 0.5250276, y: 0.33255666}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -179,7 +179,7 @@ TextureImporter:
         width: 1656
         height: 1070
       alignment: 9
-      pivot: {x: 0.5, y: 0}
+      pivot: {x: 0.37963808, y: 0.14488386}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -201,7 +201,7 @@ TextureImporter:
         width: 1490
         height: 1044
       alignment: 9
-      pivot: {x: 0.5, y: 0}
+      pivot: {x: 0.3922396, y: 0.095459215}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
