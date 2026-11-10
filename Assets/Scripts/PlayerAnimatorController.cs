@@ -1,4 +1,39 @@
-using System;
+/*
+
+////  MOVEMENT 
+Run
+Step Back
+Walk Upsidedown
+
+////  ADD FORCE
+ShortJump
+Punch Impulse
+
+//// TRIGGER ACTIONS
+Nulo-Attack
+Call Birdbot
+
+////  AUTOMATED ACTIONS 
+Idle
+Fall
+Rodar
+
+    ## PENDINGS
+
+    - [x] Run
+    - [ ] Step Back
+    - [ ] Walk Upsidedown
+    - [x] ShortJump
+    - [ ] Punch Impulse
+    - [x] Nulo-Attack
+    - [ ] Call Birdbot
+    - [ ] Idle
+    - [ ] Fall
+    - [ ] Rodar
+    - [ ] OnGround
+*/
+
+
 using UnityEngine;
 
 public class PlayerAnimatorController : MonoBehaviour
