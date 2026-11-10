@@ -72,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 118
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -128,8 +128,8 @@ TextureImporter:
         y: 20
         width: 337
         height: 532
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -143,72 +143,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clockborg_Idle_1
-      rect:
-        serializedVersion: 2
-        x: 365
-        y: 548
-        width: 12
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ba9fff24122581be0800000000000000
-      internalID: -1506363772543960661
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Clockborg_Idle_2
-      rect:
-        serializedVersion: 2
-        x: 1197
-        y: 538
-        width: 12
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b0718c09234bb0750800000000000000
-      internalID: 6272305035313944331
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Clockborg_Idle_3
-      rect:
-        serializedVersion: 2
-        x: 603
-        y: 528
-        width: 10
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 933c0831e8996a980800000000000000
-      internalID: -8527960008887844039
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Clockborg_Idle_4
       rect:
         serializedVersion: 2
@@ -216,8 +150,8 @@ TextureImporter:
         y: 10
         width: 337
         height: 532
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -231,28 +165,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clockborg_Idle_5
-      rect:
-        serializedVersion: 2
-        x: 1435
-        y: 518
-        width: 10
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5caab57ba3d23c9e0800000000000000
-      internalID: -1602387312206173499
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Clockborg_Idle_6
       rect:
         serializedVersion: 2
@@ -260,8 +172,8 @@ TextureImporter:
         y: 13
         width: 351
         height: 503
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -278,12 +190,12 @@ TextureImporter:
       name: Clockborg_Idle_7
       rect:
         serializedVersion: 2
-        x: 1331
-        y: 3
+        x: 1335
+        y: 1
         width: 351
         height: 503
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -300,7 +212,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 6c65e0aee9a2f054b955512d876b2387
     internalID: 0
     vertices: []
     indices: 

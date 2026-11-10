@@ -112,50 +112,6 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Clockborg_jump_0
-      rect:
-        serializedVersion: 2
-        x: 38
-        y: 36
-        width: 295
-        height: 325
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d343d15f8ce68e6b0800000000000000
-      internalID: -5266837954824948675
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Clockborg_jump_1
-      rect:
-        serializedVersion: 2
-        x: 351
-        y: 98
-        width: 404
-        height: 318
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c2b4221268ed76780800000000000000
-      internalID: -8689732288325203156
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Clockborg_jump_2
       rect:
         serializedVersion: 2
@@ -163,8 +119,8 @@ TextureImporter:
         y: 100
         width: 433
         height: 342
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -185,8 +141,8 @@ TextureImporter:
         y: 89
         width: 371
         height: 315
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -207,8 +163,8 @@ TextureImporter:
         y: 82
         width: 302
         height: 319
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -225,7 +181,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4eb513b725bc2a141af4446108de088b
     internalID: 0
     vertices: []
     indices: 
