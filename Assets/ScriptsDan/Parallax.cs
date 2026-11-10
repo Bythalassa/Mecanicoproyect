@@ -39,6 +39,7 @@ public class Parallax : MonoBehaviour
 
     }
     
+    //commit prueba
     
     void Update()
     {
