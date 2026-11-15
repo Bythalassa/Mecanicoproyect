@@ -51,7 +51,7 @@ public class PlayerAnimatorController : MonoBehaviour
 
     private void PlayAttackAnim()
     {
-        controller.SetTrigger("OnAttack1");
+        controller.SetTrigger("OnAttack");
     }
 
     private void SetGroundAnimation(bool value)

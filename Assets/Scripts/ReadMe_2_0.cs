@@ -8,12 +8,13 @@
    // ╚══════════════════════════════════════════════════════════════╝
 
     [Header("PLAYER INPUTS")]
-  - Move "wasd"
-  - Spin "s"
+  - Movement "wasd"
+  - Stepback "wasd"
   - Jump "space"
-  - Punch Impulse "C"
+  - Punch Impulse "C" 
+  - Spin "s
   - Attack "left click"
-  - Speed Gear "right click"    
+  - Speed Gear "right click" 
   - Transformation "Q" 
   - Call Birdbot "T"
 
@@ -21,20 +22,20 @@
 
    [Header("METRICS")]
    [Header("Clockborg Actions")]
-   -   Run
-   -   Step Back
-   -   ShortJump
-   -   Rodar
+   -   Run    -----------------------------[ ]                                
+   -   Step Back---------------------------[ ]
+   -   ShortJump---------------------------[ ]
+   -   Rodar  -----------------------------[ ]
 
    [Header("Clocksiniester Actions")]
-   - Walk Upsidedown
-   - ShortJump (mayor fuerza de salto)
-   - Punch Impulse
-   - Rodar  
-
+   - Walk Upsidedown ----------------------[ ]
+   - ShortJump (mayor fuerza de salto) ----[ ]
+   - Punch Impulse-------------------------[ ]
+   - Rodar  -------------------------------[ ]
+     //add Attack & SpeedGear
+ 
    [Header("Birdbot Actions")]
-   - Fly == move
-   - Aterrizar == s from move down
+   - Fly ------- --------------------------[ ]
 
 
 
@@ -63,18 +64,17 @@
    - Rodar  
 
     [Header(" Birdbot ! ")]
-   - Fly 
-   - Aterrizar 
+   - Fly  
    - Idle
    - Aparición
-   - Desaparición
+   - Fly  Away
 
 
 ## Pendientes
 
-- [ ] Attack disparo 1/ habilidad pasiva
-- [ ] Speed Gear
-
+- [x] Attack disparo 1/ habilidad pasiva
+- [x] Speed Gear
+- [ ] Efectos del ataque 
 
 
 

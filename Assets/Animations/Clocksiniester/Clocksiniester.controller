@@ -133,7 +133,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: PunchImpulse
+    m_ConditionEvent: OnPunchImpulse
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 3702811949240696510}
@@ -180,7 +180,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: Rodar
+    m_ConditionEvent: OnSpin
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 121805780421140614}
@@ -306,7 +306,7 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: Rodar
+  - m_Name: OnSpin
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -318,13 +318,13 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: PunchImpulse
+  - m_Name: OnPunchImpulse
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: WalkUpsidedown
+  - m_Name: Ismoving
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -666,7 +666,7 @@ AnimatorStateMachine:
     m_Position: {x: 740, y: 270, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -7647251097562511191}
-    m_Position: {x: -90, y: 210, z: 0}
+    m_Position: {x: -110, y: 170, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 121805780421140614}
     m_Position: {x: 60, y: 290, z: 0}

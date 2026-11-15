@@ -1,5 +1,12 @@
 /*
 
+
+Vergess NICHT DASS clockborg Attack nicht
+ABER Clocksiniester Attack hast.
+
+
+
+
 ////  MOVEMENT 
 Run
 Step Back
@@ -56,6 +63,13 @@ public class PlayerController : MonoBehaviour
     public static event Action OnHit;
     public static event Action<bool> OnGround;
     //OnHit?.Invoke();
+
+    //eventos condicionales
+
+    //Enum
+    /*crear el enum de estados aqui*/
+
+
 
     private void OnEnable()
     {
