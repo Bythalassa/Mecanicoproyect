@@ -1,0 +1,398 @@
+fileFormatVersion: 2
+guid: 49fa5313ac3fa9345878cd78a19152b1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1578110109515331139
+    second: sprite-sheet volar_0
+  - first:
+      213: -1017381750753917715
+    second: sprite-sheet volar_1
+  - first:
+      213: 4167350467749109643
+    second: sprite-sheet volar_2
+  - first:
+      213: -3130912509741926807
+    second: sprite-sheet volar_3
+  - first:
+      213: -5451207214423672790
+    second: sprite-sheet volar_4
+  - first:
+      213: -1866931642705097109
+    second: sprite-sheet volar_5
+  - first:
+      213: 6154389595684633676
+    second: sprite-sheet volar_6
+  - first:
+      213: -7262624574923320071
+    second: sprite-sheet volar_7
+  - first:
+      213: -3678522594515959382
+    second: sprite-sheet volar_8
+  - first:
+      213: 2048512848547689779
+    second: sprite-sheet volar_9
+  - first:
+      213: -4850874578585850864
+    second: sprite-sheet volar_10
+  - first:
+      213: 8021268868778921356
+    second: sprite-sheet volar_11
+  - first:
+      213: 5006052621949301727
+    second: sprite-sheet volar_12
+  - first:
+      213: -6346378386234323107
+    second: sprite-sheet volar_13
+  - first:
+      213: -6399634769534231789
+    second: sprite-sheet volar_14
+  - first:
+      213: -3100158741992857996
+    second: sprite-sheet volar_15
+  - first:
+      213: -9206542837808625314
+    second: sprite-sheet volar_16
+  - first:
+      213: -4744937180964218774
+    second: sprite-sheet volar_17
+  - first:
+      213: -4053320557717020507
+    second: sprite-sheet volar_18
+  - first:
+      213: 2804314019605434443
+    second: sprite-sheet volar_19
+  - first:
+      213: -1680920337697313915
+    second: sprite-sheet volar_20
+  - first:
+      213: 6164723320706577206
+    second: sprite-sheet volar_21
+  - first:
+      213: 1278537718538126754
+    second: sprite-sheet volar_22
+  - first:
+      213: 8189905528063495604
+    second: sprite-sheet volar_23
+  - first:
+      213: 627761463080826002
+    second: sprite-sheet volar_24
+  - first:
+      213: 1439609541105759757
+    second: sprite-sheet volar_25
+  - first:
+      213: 4877938015981022995
+    second: sprite-sheet volar_26
+  - first:
+      213: -4775091010235758548
+    second: sprite-sheet volar_27
+  - first:
+      213: 6113304764544032897
+    second: sprite-sheet volar_28
+  - first:
+      213: 9123186111012975090
+    second: sprite-sheet volar_29
+  - first:
+      213: 1390870070307828272
+    second: sprite-sheet volar_30
+  - first:
+      213: 5734606940580604820
+    second: sprite-sheet volar_31
+  - first:
+      213: -4963417765561507117
+    second: sprite-sheet volar_32
+  - first:
+      213: -4010499878301840317
+    second: sprite-sheet volar_33
+  - first:
+      213: -6583104885360243202
+    second: sprite-sheet volar_34
+  - first:
+      213: 2185180919609650848
+    second: sprite-sheet volar_35
+  - first:
+      213: 8892953193229981529
+    second: sprite-sheet volar_36
+  - first:
+      213: -8219414043061378905
+    second: sprite-sheet volar_37
+  - first:
+      213: -8151004775196261416
+    second: sprite-sheet volar_38
+  - first:
+      213: -2603875212405612052
+    second: sprite-sheet volar_39
+  - first:
+      213: -20015716500122910
+    second: sprite-sheet volar_40
+  - first:
+      213: 285003517471375593
+    second: sprite-sheet volar_41
+  - first:
+      213: 9032384069020030613
+    second: sprite-sheet volar_42
+  - first:
+      213: -2917725444029991926
+    second: sprite-sheet volar_43
+  - first:
+      213: -8962324068818439728
+    second: sprite-sheet volar_44
+  - first:
+      213: -30087866913275631
+    second: sprite-sheet volar_45
+  - first:
+      213: 391691580534237306
+    second: sprite-sheet volar_46
+  - first:
+      213: -7642654608335951547
+    second: sprite-sheet volar_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sprite-sheet volar_2
+      rect:
+        serializedVersion: 2
+        x: 2469
+        y: 721
+        width: 1141
+        height: 984
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f5ebcbb2765d930800000000000000
+      internalID: 4167350467749109643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-sheet volar_30
+      rect:
+        serializedVersion: 2
+        x: 4477
+        y: 713
+        width: 1223
+        height: 696
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 032bb65b5fc5d4310800000000000000
+      internalID: 1390870070307828272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-sheet volar_34
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 699
+        width: 1181
+        height: 683
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efdc6fc4cfc14a4a0800000000000000
+      internalID: -6583104885360243202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-sheet volar_37
+      rect:
+        serializedVersion: 2
+        x: 6583
+        y: 348
+        width: 1160
+        height: 1051
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a02875e976ceed80800000000000000
+      internalID: -8219414043061378905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1f878f7250a0d2940b9c97460a7040ea
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sprite-sheet volar_0: -1578110109515331139
+      sprite-sheet volar_1: -1017381750753917715
+      sprite-sheet volar_10: -4850874578585850864
+      sprite-sheet volar_11: 8021268868778921356
+      sprite-sheet volar_12: 5006052621949301727
+      sprite-sheet volar_13: -6346378386234323107
+      sprite-sheet volar_14: -6399634769534231789
+      sprite-sheet volar_15: -3100158741992857996
+      sprite-sheet volar_16: -9206542837808625314
+      sprite-sheet volar_17: -4744937180964218774
+      sprite-sheet volar_18: -4053320557717020507
+      sprite-sheet volar_19: 2804314019605434443
+      sprite-sheet volar_2: 4167350467749109643
+      sprite-sheet volar_20: -1680920337697313915
+      sprite-sheet volar_21: 6164723320706577206
+      sprite-sheet volar_22: 1278537718538126754
+      sprite-sheet volar_23: 8189905528063495604
+      sprite-sheet volar_24: 627761463080826002
+      sprite-sheet volar_25: 1439609541105759757
+      sprite-sheet volar_26: 4877938015981022995
+      sprite-sheet volar_27: -4775091010235758548
+      sprite-sheet volar_28: 6113304764544032897
+      sprite-sheet volar_29: 9123186111012975090
+      sprite-sheet volar_3: -3130912509741926807
+      sprite-sheet volar_30: 1390870070307828272
+      sprite-sheet volar_31: 5734606940580604820
+      sprite-sheet volar_32: -4963417765561507117
+      sprite-sheet volar_33: -4010499878301840317
+      sprite-sheet volar_34: -6583104885360243202
+      sprite-sheet volar_35: 2185180919609650848
+      sprite-sheet volar_36: 8892953193229981529
+      sprite-sheet volar_37: -8219414043061378905
+      sprite-sheet volar_38: -8151004775196261416
+      sprite-sheet volar_39: -2603875212405612052
+      sprite-sheet volar_4: -5451207214423672790
+      sprite-sheet volar_40: -20015716500122910
+      sprite-sheet volar_41: 285003517471375593
+      sprite-sheet volar_42: 9032384069020030613
+      sprite-sheet volar_43: -2917725444029991926
+      sprite-sheet volar_44: -8962324068818439728
+      sprite-sheet volar_45: -30087866913275631
+      sprite-sheet volar_46: 391691580534237306
+      sprite-sheet volar_47: -7642654608335951547
+      sprite-sheet volar_48: -1793437002
+      sprite-sheet volar_5: -1866931642705097109
+      sprite-sheet volar_6: 6154389595684633676
+      sprite-sheet volar_7: -7262624574923320071
+      sprite-sheet volar_8: -3678522594515959382
+      sprite-sheet volar_9: 2048512848547689779
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
