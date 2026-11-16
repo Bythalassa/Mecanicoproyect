@@ -31,7 +31,7 @@ Rodar
     - [ ] Fall
     - [ ] Rodar
     - [ ] OnGround
-*/
+
 
 
 using UnityEngine;
@@ -69,7 +69,7 @@ public class PlayerAnimatorController : MonoBehaviour
         /*if(moveInput.x != 0)
             controller.SetBool("IsMoving", true);
         else
-            controller.SetBool("IsMoving", false);*/
+            controller.SetBool("IsMoving", false);
 
         controller.SetBool("IsMoving", moveInput.x != 0 ? true : false);
         Debug.Log("IsMoving" + moveInput.x);
@@ -82,8 +82,6 @@ public class PlayerAnimatorController : MonoBehaviour
         controller.SetTrigger("OnHit");
     }
 
-    void Update()
-    {
 
-    }
 }
+*/

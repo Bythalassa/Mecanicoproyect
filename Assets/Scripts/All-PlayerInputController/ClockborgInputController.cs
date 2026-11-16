@@ -1,42 +1,5 @@
 /*
-
-
-Vergess NICHT DASS clockborg Attack nicht
-ABER Clocksiniester Attack hast.
-
-
-
-
-////  MOVEMENT 
-Run
-Step Back
-Walk Upsidedown
-
-////  ADD FORCE
-ShortJump
-Punch Impulse
-
-//// TRIGGER ACTIONS
-Nulo-Attack
-Call Birdbot
-
-////  AUTOMATED ACTIONS 
-Idle
-Fall
-Rodar
-
-    ## PENDINGS
-
-    - [x] Run
-    - [ ] Step Back
-    - [ ] Walk Upsidedown
-    - [x] ShortJump
-    - [ ] Punch Impulse
-    - [x] Nulo-Attack
-    - [ ] Call Birdbot
-    - [ ] Idle
-    - [ ] Fall
-    - [ ] Rodar
+    - [ ] y.Y
 */
 
 
@@ -44,7 +7,7 @@ using System;
 using UnityEngine;
 
 
-public class PlayerController : MonoBehaviour
+public class ClockborgInputController : MonoBehaviour
 {
     [Header("Movement")]
     public float speed = 8f;
@@ -54,36 +17,38 @@ public class PlayerController : MonoBehaviour
     public bool isGrounded;
     public float MoveInput;
 
-    [Header("Combat")]
-    public float AttackRadius;
-
     private Rigidbody2D rb;
 
 
     public static event Action OnHit;
     public static event Action<bool> OnGround;
-    //OnHit?.Invoke();
-
-    //eventos condicionales
+    public static event Action OnStepBack;
+    public static event Action OnSpin;
+    public static event Action IsCalled;
 
     //Enum
     /*crear el enum de estados aqui*/
 
-
-
     private void OnEnable()
     {
-        InputManagerController.OnMove += Move;
-        InputManagerController.OnJump += Jump;
-        InputManagerController.OnAttack += Attack;
+        InputClockborgController.OnMove += Move;
+        InputClockborgController.OnCBShortJump += Jump;
+        InputClockborgController.OnStepBack += StepBack;
+        InputClockborgController.OnCBSpin += Spin;
+        InputClockborgController.OnCallBirdbot += CallBirdbot;
     }
 
 
+    //controla la desubscripción de eventos cuando el objeto se desactiva
+    // hacerlo para todas los eventos
 
     private void OnDisable()
     {
-        InputManagerController.OnMove -= Move;
-        InputManagerController.OnJump -= Jump;
+        InputClockborgController.OnMove -= Move;
+        InputClockborgController.OnCBShortJump -= Jump;
+        InputClockborgController.OnStepBack -= StepBack;
+        InputClockborgController.OnCBSpin -= Spin;
+        InputClockborgController.OnCallBirdbot -= CallBirdbot;
     }
 
     private void Awake()
@@ -98,7 +63,15 @@ public class PlayerController : MonoBehaviour
     private void Move(Vector2 input)
     {
         MoveInput = input.x;
+        speed = 8f;
     }
+
+    private void StepBack()
+    {
+         speed = 6f;
+         OnStepBack?.Invoke();
+    }
+
     private void Jump()
     {
         if (!isGrounded) return;
@@ -108,18 +81,15 @@ public class PlayerController : MonoBehaviour
         rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
     }
 
-    private void Attack()
+    private void Spin()
     {
-        Collider2D[] Coll = Physics2D.OverlapCircleAll(transform.position, AttackRadius);
+        speed = 10f;
+        OnSpin?.Invoke();
+    }
 
-        foreach (Collider2D coll in Coll)
-        {
-            if (coll.gameObject.GetComponent<IDamageable>() != null)
-            {
-                coll.gameObject.GetComponent<IDamageable>().TakeDamage();
-            }
-        }
-
+    private void CallBirdbot()
+    {
+        IsCalled?.Invoke();
     }
 
 
@@ -133,7 +103,6 @@ public class PlayerController : MonoBehaviour
             OnHit?.Invoke();
         }
     }
-
 
     private void OnCollisionEnter2D(Collision2D collision)
     {

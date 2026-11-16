@@ -15,3 +15,9 @@ public interface ICollectable
 {
     public void Collect();
 }
+
+
+public interface ISlowdownable
+{
+    public void Slowdown();
+}
