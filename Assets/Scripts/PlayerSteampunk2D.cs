@@ -1,7 +1,8 @@
-using UnityEditor.Rendering.LookDev;
+
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+[RequireComponent(typeof(Rigidbody2D))]
 public class PlayerSteampunk2D : MonoBehaviour
 {
     [Header("Movimiento")]
@@ -43,7 +44,6 @@ public class PlayerSteampunk2D : MonoBehaviour
             GirarPersonaje();
         }
 
-        // Ataque con clic izquierdo
         if (Mouse.current != null &&
             Mouse.current.leftButton.wasPressedThisFrame)
         {
@@ -93,8 +93,6 @@ public class PlayerSteampunk2D : MonoBehaviour
                 rb.linearVelocity.x,
                 fuerzaSalto
             );
-
-            Debug.Log("El robot salto");
         }
     }
 
@@ -120,30 +118,33 @@ public class PlayerSteampunk2D : MonoBehaviour
 
         Debug.Log("El robot realizo un ataque");
 
-        Collider2D[] enemigos =
-            Physics2D.OverlapCircleAll(
-                puntoAtaque.position,
-                radioAtaque,
-                capaEnemigos
-            );
+        Collider2D[] enemigos = Physics2D.OverlapCircleAll(
+            puntoAtaque.position,
+            radioAtaque,
+            capaEnemigos
+        );
 
         bool golpeConectado = false;
 
         foreach (Collider2D enemigo in enemigos)
         {
-            VidaEnemigo2D vida =
-                enemigo.GetComponentInParent<VidaEnemigo2D>();
+            golpeConectado = true;
 
-            if (vida != null && !vida.EstaMuerto())
-            {
-                vida.RecibirDanio(danio);
-                golpeConectado = true;
-            }
+            enemigo.SendMessageUpwards(
+                "RecibirDanio",
+                danio,
+                SendMessageOptions.DontRequireReceiver
+            );
         }
 
-        if (golpeConectado && camaraShake != null)
+        if (golpeConectado)
         {
-            camaraShake.Sacudir();
+            Debug.Log("Golpe conectado");
+
+            if (camaraShake != null)
+            {
+                camaraShake.Sacudir();
+            }
         }
     }
 
@@ -152,6 +153,7 @@ public class PlayerSteampunk2D : MonoBehaviour
         if (puntoSuelo != null)
         {
             Gizmos.color = Color.green;
+
             Gizmos.DrawWireSphere(
                 puntoSuelo.position,
                 radioSuelo
@@ -161,6 +163,7 @@ public class PlayerSteampunk2D : MonoBehaviour
         if (puntoAtaque != null)
         {
             Gizmos.color = Color.red;
+
             Gizmos.DrawWireSphere(
                 puntoAtaque.position,
                 radioAtaque

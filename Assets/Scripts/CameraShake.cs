@@ -1,9 +1,10 @@
+
 using System.Collections;
 using UnityEngine;
 
 public class CameraShake : MonoBehaviour
 {
-    [Header("Sacudida de camara")]
+    [Header("Configuracion del Camera Shake")]
     [SerializeField] private float duracion = 0.15f;
     [SerializeField] private float intensidad = 0.12f;
 
@@ -32,8 +33,8 @@ public class CameraShake : MonoBehaviour
             float x = Random.Range(-1f, 1f) * intensidad;
             float y = Random.Range(-1f, 1f) * intensidad;
 
-            transform.localPosition =
-                posicionOriginal + new Vector3(x, y, 0f);
+            transform.localPosition = posicionOriginal
+                + new Vector3(x, y, 0f);
 
             tiempo += Time.unscaledDeltaTime;
 

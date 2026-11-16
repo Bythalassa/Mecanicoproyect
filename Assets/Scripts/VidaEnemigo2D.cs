@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class VidaEnemigo2D : MonoBehaviour
@@ -8,6 +9,11 @@ public class VidaEnemigo2D : MonoBehaviour
     private float vidaActual;
     private bool muerto = false;
 
+    // EVENTOS ACTION
+    public event Action<float, float> AlCambiarVida;
+    public event Action AlRecibirDanio;
+    public event Action AlMorir;
+
     private void Awake()
     {
         vidaActual = vidaMaxima;
@@ -15,24 +21,35 @@ public class VidaEnemigo2D : MonoBehaviour
 
     public void RecibirDanio(float cantidad)
     {
-        if (muerto) return;
+        if (muerto || cantidad <= 0f) return;
 
-        vidaActual -= cantidad;
+        vidaActual = Mathf.Max(0f, vidaActual - cantidad);
 
-        Debug.Log("Vida enemigo: " + vidaActual);
+        Debug.Log("Vida del enemigo: " + vidaActual);
+
+        // Avisamos que cambio la vida
+        AlCambiarVida?.Invoke(vidaActual, vidaMaxima);
+
+        // Avisamos que recibio un golpe
+        AlRecibirDanio?.Invoke();
 
         if (vidaActual <= 0f)
         {
-            muerto = true;
-
-            Debug.Log("Enemigo derrotado");
-
-            Destroy(gameObject);
+            Morir();
         }
     }
 
-    public bool EstaMuerto()
+    private void Morir()
     {
-        return muerto;
+        if (muerto) return;
+
+        muerto = true;
+
+        Debug.Log("Enemigo derrotado");
+
+        // Avisamos que el enemigo murio
+        AlMorir?.Invoke();
+
+        Destroy(gameObject);
     }
 }
