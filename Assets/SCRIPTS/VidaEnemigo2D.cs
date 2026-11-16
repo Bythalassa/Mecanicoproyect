@@ -1,8 +1,21 @@
+using MoreMountains.Feedbacks;
 using System;
 using UnityEngine;
 
 public class VidaEnemigo2D : MonoBehaviour
 {
+    public MMF_Player feedbacks;
+
+    private void Start()
+    {
+        feedbacks.PlayFeedbacks();
+
+
+    }
+
+
+
+
     [Header("Vida del enemigo")]
     [SerializeField] private float vidaMaxima = 50f;
 
