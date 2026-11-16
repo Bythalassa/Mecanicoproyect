@@ -4,15 +4,15 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - Enemy
+  - AtaqueEnemigo
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Suelo
+  - Enemy
   - Water
   - UI
-  - Enemy
+  - Suelo
   - 
   - 
   - 
