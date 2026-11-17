@@ -20,6 +20,9 @@ public enum CharacterType
     Birdbot 
 }
 
+//YO CREO QUE este script deberia escuchar los timpres para cambiar de personaje //
+
+
 public static class InputManagerController
 {
 

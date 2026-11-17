@@ -1,11 +1,9 @@
-
+using System;
 using UnityEngine;
 
 public class ClockborgAnimatorController : MonoBehaviour
 {
     public Animator controller;
-
-
 
     void Start()
     {
