@@ -14,41 +14,39 @@ public class ClockborgInputController : MonoBehaviour
     public float jumpForce = 5f;
 
     [Header("Ground Check")]
-    public bool isGrounded;
+    public bool IsOnLand;
     public float MoveInput;
+
 
     private Rigidbody2D rb;
 
-
-    public static event Action OnHit;
-    public static event Action<bool> OnGround;
+    public static event Action<bool> OnLand;
     public static event Action OnStepBack;
     public static event Action OnSpin;
-    public static event Action IsCalled;
+    public static event Action OnHit;
+    // public static event Action OnDeath;
 
     //Enum
-    /*crear el enum de estados aqui*/
+    /*crear el enum de estados aqui
+     cocinando*/
 
     private void OnEnable()
     {
-        InputClockborgController.OnMove += Move;
+        InputClockborgController.OnMovement += Move;
         InputClockborgController.OnCBShortJump += Jump;
         InputClockborgController.OnStepBack += StepBack;
         InputClockborgController.OnCBSpin += Spin;
-        InputClockborgController.OnCallBirdbot += CallBirdbot;
     }
-
 
     //controla la desubscripción de eventos cuando el objeto se desactiva
     // hacerlo para todas los eventos
 
     private void OnDisable()
     {
-        InputClockborgController.OnMove -= Move;
+        InputClockborgController.OnMovement -= Move;
         InputClockborgController.OnCBShortJump -= Jump;
         InputClockborgController.OnStepBack -= StepBack;
         InputClockborgController.OnCBSpin -= Spin;
-        InputClockborgController.OnCallBirdbot -= CallBirdbot;
     }
 
     private void Awake()
@@ -74,7 +72,7 @@ public class ClockborgInputController : MonoBehaviour
 
     private void Jump()
     {
-        if (!isGrounded) return;
+        if (!IsOnLand) return;
 
         Debug.Log("salte");
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0);
@@ -86,12 +84,6 @@ public class ClockborgInputController : MonoBehaviour
         speed = 10f;
         OnSpin?.Invoke();
     }
-
-    private void CallBirdbot()
-    {
-        IsCalled?.Invoke();
-    }
-
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -108,16 +100,19 @@ public class ClockborgInputController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
-            isGrounded = true;
-            OnGround?.Invoke(true);
+            IsOnLand = true;
+            OnLand?.Invoke(true);
         }
+
     }
     private void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
-            isGrounded = false;
-            OnGround?.Invoke(false);
+            IsOnLand = false;
+            OnLand?.Invoke(false);
         }
     }
 }
+
+

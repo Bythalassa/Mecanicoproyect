@@ -2,16 +2,12 @@ using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class InputBirdbotController : MonoBehaviour
+public class InputBirdbotController 
 {
     private static InputActionsGeneral inputs;
-
-    #region Birdbot Events 
-    public static Action OnCall; 
-    public static Action <Vector2>Fly;
-    public static Action OnFlyAway;
-    #endregion
-
+    
+    public static Action<Vector2> Fly;
+  
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
 
     public static void Initialize()
@@ -19,12 +15,9 @@ public class InputBirdbotController : MonoBehaviour
         inputs = new InputActionsGeneral();
         inputs.Enable();
 
-        #region Birdbot Action Map  [all actions in Birdbot]
-
         inputs.Birdbot.Fly.performed += OnFlyPerformed;
         inputs.Birdbot.Fly.canceled += OnFlyCanceled;
 
-        #endregion
     }
 
     private static void OnFlyPerformed(InputAction.CallbackContext context)
@@ -37,6 +30,7 @@ public class InputBirdbotController : MonoBehaviour
     {
         Fly?.Invoke(Vector2.zero);
     }
+
 
 
 }

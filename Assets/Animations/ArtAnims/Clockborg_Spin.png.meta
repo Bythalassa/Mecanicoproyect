@@ -1,55 +1,22 @@
 fileFormatVersion: 2
-guid: 3e9c894229714ae4ea23188fb6484ece
+guid: 78fa014350b4d6545abb0c8aee86b192
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1340639486456836031
-    second: Clockborg_HangAnim_0
+      213: -2225585865833299278
+    second: Clockborg_Spin_0
   - first:
-      213: -296362434810308271
-    second: Clockborg_HangAnim_1
+      213: 8205765638737706741
+    second: Clockborg_Spin_1
   - first:
-      213: -8194939816029003568
-    second: Clockborg_HangAnim_2
+      213: 3614873328152119832
+    second: Clockborg_Spin_2
   - first:
-      213: -233900564647546023
-    second: Clockborg_HangAnim_3
+      213: 885669600903449830
+    second: Clockborg_Spin_3
   - first:
-      213: 4043401354462448051
-    second: Clockborg_HangAnim_4
-  - first:
-      213: -5554103246191330586
-    second: Clockborg_HangAnim_5
-  - first:
-      213: 6477707805142779466
-    second: Clockborg_HangAnim_6
-  - first:
-      213: -7577475660137163329
-    second: Clockborg_HangAnim_7
-  - first:
-      213: -3428039703420612222
-    second: Clockborg_HangAnim_8
-  - first:
-      213: -6776945442499372252
-    second: Clockborg_HangAnim_9
-  - first:
-      213: 7589551856230289989
-    second: Clockborg_HangAnim_10
-  - first:
-      213: 8983529930130131473
-    second: Clockborg_HangAnim_11
-  - first:
-      213: -2618755075455230143
-    second: Clockborg_HangAnim_12
-  - first:
-      213: -8214982644533207991
-    second: Clockborg_HangAnim_13
-  - first:
-      213: -8722255607904332877
-    second: Clockborg_HangAnim_14
-  - first:
-      213: -862240195774787363
-    second: Clockborg_HangAnim_15
+      213: 6288820294046381722
+    second: Clockborg_Spin_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 93
+  spritePixelsToUnits: 300
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -145,89 +112,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Clockborg_HangAnim_0
+      name: Clockborg_Spin_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 55
-        width: 664
-        height: 836
+        x: 340
+        y: 1894
+        width: 943
+        height: 1047
       alignment: 9
-      pivot: {x: 0.5, y: 0}
+      pivot: {x: 0.49704137, y: 0.0500395}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 140d0e57d77156de0800000000000000
-      internalID: -1340639486456836031
+      spriteID: 2b240e952712d11e0800000000000000
+      internalID: -2225585865833299278
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clockborg_HangAnim_1
+      name: Clockborg_Spin_1
       rect:
         serializedVersion: 2
-        x: 1075
-        y: 60
-        width: 686
-        height: 677
+        x: 2123
+        y: 1905
+        width: 1090
+        height: 698
       alignment: 9
-      pivot: {x: 0.5, y: 0}
+      pivot: {x: 0.49235907, y: 0.021103473}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1599c5c8feb13ebf0800000000000000
-      internalID: -296362434810308271
+      spriteID: 5fe31175f5cb0e170800000000000000
+      internalID: 8205765638737706741
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clockborg_HangAnim_2
+      name: Clockborg_Spin_2
       rect:
         serializedVersion: 2
-        x: 2188
-        y: 90
-        width: 655
-        height: 621
+        x: 4091
+        y: 1845
+        width: 780
+        height: 1069
       alignment: 9
-      pivot: {x: 0.5, y: 0}
+      pivot: {x: 0.49058306, y: 0.03716076}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0d0e2ede7a9b54e80800000000000000
-      internalID: -8194939816029003568
+      spriteID: 81a8a88b32c9a2230800000000000000
+      internalID: 3614873328152119832
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clockborg_HangAnim_3
+      name: Clockborg_Spin_3
       rect:
         serializedVersion: 2
-        x: 3278
-        y: 77
-        width: 669
-        height: 629
+        x: 5759
+        y: 1895
+        width: 1041
+        height: 725
       alignment: 9
-      pivot: {x: 0.5, y: 0}
+      pivot: {x: 0.5062651, y: 0.014998822}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9537b6bfca401ccf0800000000000000
-      internalID: -233900564647546023
+      spriteID: 6ec463e3fc78a4c00800000000000000
+      internalID: 885669600903449830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clockborg_Spin_4
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 128
+        width: 1004
+        height: 769
+      alignment: 9
+      pivot: {x: 0.48042163, y: 0.005729209}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a96f6e2ecb0664750800000000000000
+      internalID: 6288820294046381722
       vertices: []
       indices: 
       edges: []
@@ -236,7 +225,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: e0cb18bdc3d8fe242aa2919394c9989e
+    spriteID: 455a9d287d8c9cb4fbb0aae494e09aca
     internalID: 0
     vertices: []
     indices: 
@@ -244,14 +233,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":1.0},"gridSpriteSize":{"x":1002.0,"y":946.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      Clockborg_HangAnim_0: -1340639486456836031
-      Clockborg_HangAnim_1: -296362434810308271
-      Clockborg_HangAnim_2: -8194939816029003568
-      Clockborg_HangAnim_3: -233900564647546023
+      Clockborg_Spin_0: -2225585865833299278
+      Clockborg_Spin_1: 8205765638737706741
+      Clockborg_Spin_2: 3614873328152119832
+      Clockborg_Spin_3: 885669600903449830
+      Clockborg_Spin_4: 6288820294046381722
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

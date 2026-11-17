@@ -11,7 +11,6 @@
 
 */
 
-using Unity.VisualScripting;
 using UnityEngine;
 
 public enum CharacterType 
@@ -23,8 +22,6 @@ public enum CharacterType
 
 public static class InputManagerController
 {
-
-
 
     public static InputActionsGeneral Inputs { get; private set; }
     public static CharacterType Current { get; private set; }

@@ -1,37 +1,76 @@
 fileFormatVersion: 2
-guid: 1bacf6f339c2ff14cb2d4e13545178d9
+guid: b32bc9cc8149e9245baff24aae622b19
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8982468937419367247
-    second: Birdbot_Aterrizaje_0
+      213: -1849474469266161653
+    second: Clockborg_RecieveDamage2.0_0
   - first:
-      213: -5146215284712276749
-    second: Birdbot_Aterrizaje_1
+      213: 3375274357825634663
+    second: Clockborg_RecieveDamage2.0_1
   - first:
-      213: 4809295426383332211
-    second: Birdbot_Aterrizaje_2
+      213: 7144515170872443264
+    second: Clockborg_RecieveDamage2.0_2
   - first:
-      213: -2662527750187842353
-    second: Birdbot_Aterrizaje_3
+      213: -7017658404502285670
+    second: Clockborg_RecieveDamage2.0_3
   - first:
-      213: 2801599607717515930
-    second: Birdbot_Aterrizaje_4
+      213: -1126385793220711650
+    second: Clockborg_RecieveDamage2.0_4
   - first:
-      213: -4434402259254435075
-    second: Birdbot_Aterrizaje_5
+      213: -9160447540014981410
+    second: Clockborg_RecieveDamage2.0_5
   - first:
-      213: -2491152098691254935
-    second: Birdbot_Aterrizaje_6
+      213: 3401907442425012448
+    second: Clockborg_RecieveDamage2.0_6
   - first:
-      213: 761531747433980239
-    second: Birdbot_Aterrizaje_7
+      213: 1302789481016988220
+    second: Clockborg_RecieveDamage2.0_7
   - first:
-      213: 1726307153682117068
-    second: Birdbot_Aterrizaje_8
+      213: -7369061245140585443
+    second: Clockborg_RecieveDamage2.0_8
   - first:
-      213: 3186063609598108429
-    second: Birdbot_Aterrizaje_9
+      213: 1588776602875435246
+    second: Clockborg_RecieveDamage2.0_9
+  - first:
+      213: 2963512982493678020
+    second: Clockborg_RecieveDamage2.0_10
+  - first:
+      213: -8181459347960959333
+    second: Clockborg_RecieveDamage2.0_11
+  - first:
+      213: -4333345715508854925
+    second: Clockborg_RecieveDamage2.0_12
+  - first:
+      213: 6679567410053036875
+    second: Clockborg_RecieveDamage2.0_13
+  - first:
+      213: 499754138987181059
+    second: Clockborg_RecieveDamage2.0_14
+  - first:
+      213: -768157614610673150
+    second: Clockborg_RecieveDamage2.0_15
+  - first:
+      213: 6095333967470793005
+    second: Clockborg_RecieveDamage2.0_16
+  - first:
+      213: 52302314889139463
+    second: Clockborg_RecieveDamage2.0_17
+  - first:
+      213: -8999291804038093753
+    second: Clockborg_RecieveDamage2.0_18
+  - first:
+      213: -648184246107876629
+    second: Clockborg_RecieveDamage2.0_19
+  - first:
+      213: -6245111661165859094
+    second: Clockborg_RecieveDamage2.0_20
+  - first:
+      213: -292010322109617670
+    second: Clockborg_RecieveDamage2.0_21
+  - first:
+      213: -4584973471311350255
+    second: Clockborg_RecieveDamage2.0_22
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -78,7 +117,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 173
+  spritePixelsToUnits: 380
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -127,89 +166,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Birdbot_Aterrizaje_0
+      name: Clockborg_RecieveDamage2.0_0
       rect:
         serializedVersion: 2
-        x: 160
-        y: 90
-        width: 1203
-        height: 1590
+        x: 0
+        y: 0
+        width: 2048
+        height: 2048
       alignment: 9
-      pivot: {x: 0.4953976, y: 0.27730083}
+      pivot: {x: 0.50342596, y: 0.091644384}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f43acdc48e328ac70800000000000000
-      internalID: 8982468937419367247
+      spriteID: b008c36e4c85556e0800000000000000
+      internalID: -1849474469266161653
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Birdbot_Aterrizaje_1
+      name: Clockborg_RecieveDamage2.0_1
       rect:
         serializedVersion: 2
-        x: 1723
-        y: 125
-        width: 1302
-        height: 1185
+        x: 2048
+        y: 0
+        width: 2048
+        height: 2048
       alignment: 9
-      pivot: {x: 0.5250276, y: 0.33255666}
+      pivot: {x: 0.49599683, y: 0.08742827}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3fcf901e678f498b0800000000000000
-      internalID: -5146215284712276749
+      spriteID: 7618ead352267de20800000000000000
+      internalID: 3375274357825634663
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Birdbot_Aterrizaje_2
+      name: Clockborg_RecieveDamage2.0_2
       rect:
         serializedVersion: 2
-        x: 3613
-        y: 237
-        width: 1656
-        height: 1070
+        x: 4096
+        y: 0
+        width: 2048
+        height: 2048
       alignment: 9
-      pivot: {x: 0.37963808, y: 0.14488386}
+      pivot: {x: 0.49533725, y: 0.082092315}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3734d75a5bc0eb240800000000000000
-      internalID: 4809295426383332211
+      spriteID: 081cd34d1ba662360800000000000000
+      internalID: 7144515170872443264
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Birdbot_Aterrizaje_3
+      name: Clockborg_RecieveDamage2.0_3
       rect:
         serializedVersion: 2
-        x: 5626
-        y: 218
-        width: 1490
-        height: 1044
+        x: 6144
+        y: 0
+        width: 2048
+        height: 2048
       alignment: 9
-      pivot: {x: 0.3922396, y: 0.095459215}
+      pivot: {x: 0.4989395, y: 0.08361423}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fc40f6d2e1dcc0bd0800000000000000
-      internalID: -2662527750187842353
+      spriteID: a925b9cbcd44c9e90800000000000000
+      internalID: -7017658404502285670
       vertices: []
       indices: 
       edges: []
@@ -218,7 +257,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 20bca17b123bf524790372d0b0bdab6c
+    spriteID: c2d8f6bc89c82994080a90fe513c82ba
     internalID: 0
     vertices: []
     indices: 
@@ -228,12 +267,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":1.0},"gridSpriteSize":{"x":1879.0,"y":1680.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":1.0},"gridSpriteSize":{"x":2048.0,"y":2048.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Birdbot_Aterrizaje_0: 8982468937419367247
-      Birdbot_Aterrizaje_1: -5146215284712276749
-      Birdbot_Aterrizaje_2: 4809295426383332211
-      Birdbot_Aterrizaje_3: -2662527750187842353
+      Clockborg_RecieveDamage2.0_0: -1849474469266161653
+      Clockborg_RecieveDamage2.0_1: 3375274357825634663
+      Clockborg_RecieveDamage2.0_2: 7144515170872443264
+      Clockborg_RecieveDamage2.0_3: -7017658404502285670
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

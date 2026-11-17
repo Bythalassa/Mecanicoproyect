@@ -49,6 +49,7 @@
    -   Idle
    -   Fall
    -   Rodar
+   -   RecieveDamage
 
    [Header("Clocksiniester")]
 
@@ -62,13 +63,14 @@
    - Idle
    - Fall
    - Rodar  
+   - RecieveDamage
 
     [Header(" Birdbot ! ")]
    - Fly  
    - Idle
    - Aparición
    - Fly  Away
-
+   - RecieveDamage
 
 ## Pendientes
 

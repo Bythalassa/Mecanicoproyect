@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Aterrizaje
+  m_Name: Fall2.0
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,13 +21,11 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 8982468937419367247, guid: 1bacf6f339c2ff14cb2d4e13545178d9, type: 3}
+      value: {fileID: -7147173797254414563, guid: 87415a9d778638e4ab5e22df16158990, type: 3}
     - time: 0.083333336
-      value: {fileID: -5146215284712276749, guid: 1bacf6f339c2ff14cb2d4e13545178d9, type: 3}
-    - time: 0.16666667
-      value: {fileID: 4809295426383332211, guid: 1bacf6f339c2ff14cb2d4e13545178d9, type: 3}
+      value: {fileID: -7968101711905780468, guid: 87415a9d778638e4ab5e22df16158990, type: 3}
     - time: 0.25
-      value: {fileID: -2662527750187842353, guid: 1bacf6f339c2ff14cb2d4e13545178d9, type: 3}
+      value: {fileID: -6786649423636100996, guid: 87415a9d778638e4ab5e22df16158990, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -50,10 +48,9 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: 8982468937419367247, guid: 1bacf6f339c2ff14cb2d4e13545178d9, type: 3}
-    - {fileID: -5146215284712276749, guid: 1bacf6f339c2ff14cb2d4e13545178d9, type: 3}
-    - {fileID: 4809295426383332211, guid: 1bacf6f339c2ff14cb2d4e13545178d9, type: 3}
-    - {fileID: -2662527750187842353, guid: 1bacf6f339c2ff14cb2d4e13545178d9, type: 3}
+    - {fileID: -7147173797254414563, guid: 87415a9d778638e4ab5e22df16158990, type: 3}
+    - {fileID: -7968101711905780468, guid: 87415a9d778638e4ab5e22df16158990, type: 3}
+    - {fileID: -6786649423636100996, guid: 87415a9d778638e4ab5e22df16158990, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}

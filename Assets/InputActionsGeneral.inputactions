@@ -41,15 +41,6 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
-                },
-                {
-                    "name": "CallBirdbot",
-                    "type": "Button",
-                    "id": "a2e69ce7-4a24-429a-8a60-3a0fee491ce7",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -182,28 +173,6 @@
                     "processors": "",
                     "groups": "",
                     "action": "Spin",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "b40c7bb1-0e9c-41c3-bed4-1ebd81061827",
-                    "path": "<Keyboard>/t",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "CallBirdbot",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "24ae010b-fa0f-4a5b-8206-d564c5c0f245",
-                    "path": "<Gamepad>/leftShoulder",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "CallBirdbot",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -459,6 +428,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "FinishRide",
+                    "type": "Button",
+                    "id": "d8652050-e12d-4bea-aeb7-5765ecdf1260",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -527,6 +505,17 @@
                     "action": "Fly",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "9342c7ae-daa6-4880-b82f-55d0ebb8c2ff",
+                    "path": "<Keyboard>/t",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FinishRide",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         },

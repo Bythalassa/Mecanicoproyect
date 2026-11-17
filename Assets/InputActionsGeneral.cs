@@ -127,15 +127,6 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""CallBirdbot"",
-                    ""type"": ""Button"",
-                    ""id"": ""a2e69ce7-4a24-429a-8a60-3a0fee491ce7"",
-                    ""expectedControlType"": """",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -268,28 +259,6 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Spin"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""b40c7bb1-0e9c-41c3-bed4-1ebd81061827"",
-                    ""path"": ""<Keyboard>/t"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""CallBirdbot"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""24ae010b-fa0f-4a5b-8206-d564c5c0f245"",
-                    ""path"": ""<Gamepad>/leftShoulder"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""CallBirdbot"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -545,6 +514,15 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""FinishRide"",
+                    ""type"": ""Button"",
+                    ""id"": ""d8652050-e12d-4bea-aeb7-5765ecdf1260"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -613,6 +591,17 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
                     ""action"": ""Fly"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""9342c7ae-daa6-4880-b82f-55d0ebb8c2ff"",
+                    ""path"": ""<Keyboard>/t"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""FinishRide"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         },
@@ -664,7 +653,6 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
         m_Clockborg_StepBack = m_Clockborg.FindAction("StepBack", throwIfNotFound: true);
         m_Clockborg_Jump = m_Clockborg.FindAction("Jump", throwIfNotFound: true);
         m_Clockborg_Spin = m_Clockborg.FindAction("Spin", throwIfNotFound: true);
-        m_Clockborg_CallBirdbot = m_Clockborg.FindAction("CallBirdbot", throwIfNotFound: true);
         // Clocksiniester
         m_Clocksiniester = asset.FindActionMap("Clocksiniester", throwIfNotFound: true);
         m_Clocksiniester_WalkUpsidedown = m_Clocksiniester.FindAction("WalkUpsidedown", throwIfNotFound: true);
@@ -676,6 +664,7 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
         // Birdbot
         m_Birdbot = asset.FindActionMap("Birdbot", throwIfNotFound: true);
         m_Birdbot_Fly = m_Birdbot.FindAction("Fly", throwIfNotFound: true);
+        m_Birdbot_FinishRide = m_Birdbot.FindAction("FinishRide", throwIfNotFound: true);
         // Transformation
         m_Transformation = asset.FindActionMap("Transformation", throwIfNotFound: true);
         m_Transformation_Transformation = m_Transformation.FindAction("Transformation", throwIfNotFound: true);
@@ -766,7 +755,6 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
     private readonly InputAction m_Clockborg_StepBack;
     private readonly InputAction m_Clockborg_Jump;
     private readonly InputAction m_Clockborg_Spin;
-    private readonly InputAction m_Clockborg_CallBirdbot;
     /// <summary>
     /// Provides access to input actions defined in input action map "Clockborg".
     /// </summary>
@@ -794,10 +782,6 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
         /// Provides access to the underlying input action "Clockborg/Spin".
         /// </summary>
         public InputAction @Spin => m_Wrapper.m_Clockborg_Spin;
-        /// <summary>
-        /// Provides access to the underlying input action "Clockborg/CallBirdbot".
-        /// </summary>
-        public InputAction @CallBirdbot => m_Wrapper.m_Clockborg_CallBirdbot;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -836,9 +820,6 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
             @Spin.started += instance.OnSpin;
             @Spin.performed += instance.OnSpin;
             @Spin.canceled += instance.OnSpin;
-            @CallBirdbot.started += instance.OnCallBirdbot;
-            @CallBirdbot.performed += instance.OnCallBirdbot;
-            @CallBirdbot.canceled += instance.OnCallBirdbot;
         }
 
         /// <summary>
@@ -862,9 +843,6 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
             @Spin.started -= instance.OnSpin;
             @Spin.performed -= instance.OnSpin;
             @Spin.canceled -= instance.OnSpin;
-            @CallBirdbot.started -= instance.OnCallBirdbot;
-            @CallBirdbot.performed -= instance.OnCallBirdbot;
-            @CallBirdbot.canceled -= instance.OnCallBirdbot;
         }
 
         /// <summary>
@@ -1054,6 +1032,7 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
     private readonly InputActionMap m_Birdbot;
     private List<IBirdbotActions> m_BirdbotActionsCallbackInterfaces = new List<IBirdbotActions>();
     private readonly InputAction m_Birdbot_Fly;
+    private readonly InputAction m_Birdbot_FinishRide;
     /// <summary>
     /// Provides access to input actions defined in input action map "Birdbot".
     /// </summary>
@@ -1069,6 +1048,10 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
         /// Provides access to the underlying input action "Birdbot/Fly".
         /// </summary>
         public InputAction @Fly => m_Wrapper.m_Birdbot_Fly;
+        /// <summary>
+        /// Provides access to the underlying input action "Birdbot/FinishRide".
+        /// </summary>
+        public InputAction @FinishRide => m_Wrapper.m_Birdbot_FinishRide;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -1098,6 +1081,9 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
             @Fly.started += instance.OnFly;
             @Fly.performed += instance.OnFly;
             @Fly.canceled += instance.OnFly;
+            @FinishRide.started += instance.OnFinishRide;
+            @FinishRide.performed += instance.OnFinishRide;
+            @FinishRide.canceled += instance.OnFinishRide;
         }
 
         /// <summary>
@@ -1112,6 +1098,9 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
             @Fly.started -= instance.OnFly;
             @Fly.performed -= instance.OnFly;
             @Fly.canceled -= instance.OnFly;
+            @FinishRide.started -= instance.OnFinishRide;
+            @FinishRide.performed -= instance.OnFinishRide;
+            @FinishRide.canceled -= instance.OnFinishRide;
         }
 
         /// <summary>
@@ -1276,13 +1265,6 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnSpin(InputAction.CallbackContext context);
-        /// <summary>
-        /// Method invoked when associated input action "CallBirdbot" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
-        /// </summary>
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnCallBirdbot(InputAction.CallbackContext context);
     }
     /// <summary>
     /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "Clocksiniester" which allows adding and removing callbacks.
@@ -1348,6 +1330,13 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnFly(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "FinishRide" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnFinishRide(InputAction.CallbackContext context);
     }
     /// <summary>
     /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "Transformation" which allows adding and removing callbacks.

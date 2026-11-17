@@ -2,13 +2,14 @@ using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class InputClockborgController : MonoBehaviour
+
+public class InputClockborgController 
 {
     private static InputActionsGeneral inputs;
 
     #region Clockborg Events 
 
-    public static Action<Vector2> OnMove;
+    public static Action<Vector2> OnMovement;
     public static Action OnStepBack;
     public static Action OnCBShortJump;
     public static Action OnCBSpin;
@@ -31,7 +32,6 @@ public class InputClockborgController : MonoBehaviour
         inputs.Clockborg.StepBack.performed += OnStepBackPerformed;
         inputs.Clockborg.Jump.performed += OnJumpPerformed;
         inputs.Clockborg.Spin.performed += OnSpinPerformed;
-        inputs.Clockborg.CallBirdbot.performed += OnCallBirdbotPerformed;
 
         #endregion
     }
@@ -39,12 +39,12 @@ public class InputClockborgController : MonoBehaviour
     private static void OnMovementPerformed(InputAction.CallbackContext context)
     {
         Vector2 moveInput = context.ReadValue<Vector2>();
-        OnMove?.Invoke(moveInput);
+        OnMovement?.Invoke(moveInput);
     }
 
     private static void OnMovementCanceled(InputAction.CallbackContext context)
     {
-        OnMove?.Invoke(Vector2.zero);
+        OnMovement?.Invoke(Vector2.zero);
     }
 
     private static void OnStepBackPerformed(InputAction.CallbackContext context)
@@ -62,10 +62,6 @@ public class InputClockborgController : MonoBehaviour
         OnCBSpin?.Invoke();
     }
 
-    private static void OnCallBirdbotPerformed(InputAction.CallbackContext context)
-    {
-        OnCallBirdbot?.Invoke();
-    }
 
 
 

@@ -3,7 +3,7 @@ using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class InputClocksiniesterController : MonoBehaviour
+public class InputClocksiniesterController
 {
     private static InputActionsGeneral inputs;
 

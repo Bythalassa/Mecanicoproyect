@@ -1,7 +1,6 @@
 /*
     - [ ] y.Y*/
 
-
 using System;
 using UnityEngine;
 
@@ -9,23 +8,24 @@ public class BirdbotInputController : MonoBehaviour
 {
     [Header("Movement")]
     public float speed = 13f;
-    private Rigidbody2D rb; 
-
     public float MoveInput;
 
-    [Header("Player_riding Check")]
-    public bool Isriding;
 
+    private Rigidbody2D rb;
+
+    public static event Action OnHit;
+    //public static event Action desaparecer;
 
     private void OnEnable()
     {
         InputBirdbotController.Fly += OnFly;
-
+        //el timbre de desaparecer lo va a tocar transformation - paciencia  a que eso este
     }
 
     private void OnDisable()
     {
         InputBirdbotController.Fly -= OnFly;
+        //el timbre de desaparecer lo va a tocar transformation - paciencia  a que eso este
     }
 
     private void Awake()
@@ -40,11 +40,22 @@ public class BirdbotInputController : MonoBehaviour
 
     private void OnFly(Vector2 input)
     {
-
-        if (!Isriding) return;
-
         MoveInput = input.x;
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.GetComponent<IDamageable>() != null)
+        {
+            //->a
+            //->b
+            //->c
+            OnHit?.Invoke();
+        }
+    }
+
+
+
+
 
 }
 
