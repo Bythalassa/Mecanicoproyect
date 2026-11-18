@@ -41,6 +41,11 @@ public class InputClocksiniesterController
         OnWalkUpsidedown?.Invoke(moveInput);
     }
 
+    public static Vector2 GetActualWalkDir()
+    {
+        return inputs.Clocksiniester.WalkUpsidedown.ReadValue<Vector2>();
+    }
+
     private static void OnWalkUpsidedownCanceled(InputAction.CallbackContext context)
     {
         OnWalkUpsidedown?.Invoke(Vector2.zero);

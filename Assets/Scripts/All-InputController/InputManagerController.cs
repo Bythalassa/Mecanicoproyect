@@ -33,26 +33,40 @@ public static class InputManagerController
     
     public static void SwitchTo(CharacterType character)
     {
-
-        Inputs.Clockborg.Disable();
-        Inputs.Clocksiniester.Disable();
-        Inputs.Birdbot.Disable();
-
         switch (character)
         {
             case CharacterType.Clockborg: 
                 Inputs.Clockborg.Enable();
                 Debug.Log("Clockborg enable");
+
+                Inputs.Clocksiniester.Disable();
+                Debug.Log("Clocksiniester Disable");
+
+                Inputs.Birdbot.Disable();
+                Debug.Log("Birdbot Disable");
                 break;        
 
             case CharacterType.Clocksiniester:
                 Inputs.Clocksiniester.Enable();
                 Debug.Log("clocksiniester enable");
+
+                Inputs.Clockborg.Disable();
+                Debug.Log("Clockborg Disable");
+                Inputs.Birdbot.Disable();
+                Debug.Log("Birdbot Disable");
+
+
                 break;
 
             case CharacterType.Birdbot:
                 Inputs.Birdbot.Enable();
                 Debug.Log(" Birdbit enable");
+                Inputs.Clockborg.Disable();
+                Debug.Log("Clockborg Disable");
+                Inputs.Clocksiniester.Disable();
+                Debug.Log("Clocksiniester Disable");
+
+
                 break;
         }
         Current = character;
@@ -60,19 +74,21 @@ public static class InputManagerController
 
     private static void OnClocksiniesterPerformed(InputAction.CallbackContext context) 
     {
-        OnCharacterChanged?.Invoke(CharacterType.Clocksiniester);
+        Debug.Log("hi");
         
        CharacterType next = (Current == CharacterType.Clocksiniester)
             ? CharacterType.Clockborg
             : CharacterType.Clocksiniester;
+
+        OnCharacterChanged?.Invoke(next);
     }
 
     private static void OnBirdbotPerformed(InputAction.CallbackContext context)
     {
-        OnCharacterChanged?.Invoke(CharacterType.Birdbot);
         CharacterType next = (Current == CharacterType.Birdbot)
             ? CharacterType.Clockborg
             : CharacterType.Birdbot;
+        OnCharacterChanged?.Invoke(next);
     }
 
 

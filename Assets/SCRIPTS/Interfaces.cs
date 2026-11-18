@@ -21,3 +21,11 @@ public interface ISlowdownable
 {
     public void Slowdown();
 }
+
+
+public interface IBreakWall
+{
+
+
+    
+}

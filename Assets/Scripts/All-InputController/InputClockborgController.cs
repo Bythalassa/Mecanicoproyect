@@ -41,6 +41,11 @@ public class InputClockborgController
         OnMovement?.Invoke(moveInput);
     }
 
+    public static Vector2 GetActualWalkDir()
+    {
+        return inputs.Clockborg.Movement.ReadValue<Vector2>();
+    }
+
     private static void OnMovementCanceled(InputAction.CallbackContext context)
     {
         OnMovement?.Invoke(Vector2.zero);

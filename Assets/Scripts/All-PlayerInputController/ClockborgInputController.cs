@@ -21,7 +21,6 @@ public class ClockborgInputController : MonoBehaviour
     private Rigidbody2D rb;
 
     public static event Action<bool> OnLand;
-    public static event Action OnStepBack;
     public static event Action OnSpin;
     public static event Action OnHit;
     // public static event Action OnDeath;
@@ -37,6 +36,8 @@ public class ClockborgInputController : MonoBehaviour
         InputClockborgController.OnMovement += Move;
         InputClockborgController.OnCBShortJump += Jump;
         InputClockborgController.OnCBSpin += Spin;
+
+        MoveInput = InputClockborgController.GetActualWalkDir().x;
     }
 
     //controla la desubscripción de eventos cuando el objeto se desactiva
@@ -47,6 +48,8 @@ public class ClockborgInputController : MonoBehaviour
         InputClockborgController.OnMovement -= Move;
         InputClockborgController.OnCBShortJump -= Jump;
         InputClockborgController.OnCBSpin -= Spin;
+
+        MoveInput = InputClockborgController.GetActualWalkDir().x;
     }
 
     private void Awake()
@@ -79,12 +82,13 @@ public class ClockborgInputController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.GetComponent<IDamageable>() != null)
+        if (collision.GetComponent<IDamageable>() != null) 
         {
-            //->a
+            //->a 1 hit muera 
             //->b
             //->c
             OnHit?.Invoke();
+            //onhit2 (ondestroy)
         }
     }
 

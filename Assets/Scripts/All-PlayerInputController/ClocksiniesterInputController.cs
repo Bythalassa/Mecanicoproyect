@@ -24,7 +24,8 @@ public class ClocksiniesterInputController : MonoBehaviour
     public static event Action OnCSHit;
     public static event Action<bool> OnGround;
 
-private void OnEnable()
+
+    private void OnEnable()
     {
         InputClocksiniesterController.OnWalkUpsidedown += Move;
         InputClocksiniesterController.OnCSShortJump += Jump;
@@ -33,6 +34,7 @@ private void OnEnable()
         InputClocksiniesterController.OnAttack += Attack;
         InputClocksiniesterController.OnSpeedGear += SpeedGear;
 
+        MoveInput = InputClocksiniesterController.GetActualWalkDir().x;
     }
 
     //controla la desubscripción de eventos cuando el objeto se desactiva
@@ -45,7 +47,9 @@ private void OnEnable()
         InputClocksiniesterController.OnPunchImpulse -= PunchImpulse;
         InputClocksiniesterController.OnCSSpin -= Spin;
         InputClocksiniesterController.OnAttack -= Attack;
-        InputClocksiniesterController.OnSpeedGear -= SpeedGear;  
+        InputClocksiniesterController.OnSpeedGear -= SpeedGear;
+
+        MoveInput = InputClocksiniesterController.GetActualWalkDir().x;
     }
 
     private void Awake()

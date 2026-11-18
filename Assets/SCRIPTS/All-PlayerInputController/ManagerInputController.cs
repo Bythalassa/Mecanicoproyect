@@ -15,6 +15,12 @@ public class ManagerInputController : MonoBehaviour
 
     }
 
+    private void Start()
+    {
+        CharacterChanged(InputManagerController.Current);
+    }
+
+
     private void OnEnable()
     { 
         InputManagerController.OnCharacterChanged += CharacterChanged;
@@ -30,19 +36,28 @@ public class ManagerInputController : MonoBehaviour
     {
         if (InputManagerController.Current == CharacterType.Clockborg)
         {
-            current = clockborgPrefab;
+            clockborgPrefab.SetActive(true);
+            clocksiniesterPrefab.SetActive(false);
+            birdbotPrefab.SetActive(false);
+
         }
         else if (InputManagerController.Current == CharacterType.Clocksiniester)
         {
-            current = clocksiniesterPrefab;
+            clockborgPrefab.SetActive(false);
+            clocksiniesterPrefab.SetActive(true);
+            birdbotPrefab.SetActive(false);
         }
         else if (InputManagerController.Current == CharacterType.Birdbot)
         {
-            current = birdbotPrefab;
+            clockborgPrefab.SetActive(false);
+            clocksiniesterPrefab.SetActive(false);
+            birdbotPrefab.SetActive(true);
         }
         else
         {
-            current = clockborgPrefab;
+            clockborgPrefab.SetActive(true);
+            clocksiniesterPrefab.SetActive(false);
+            birdbotPrefab.SetActive(false);
         }
 
     }
