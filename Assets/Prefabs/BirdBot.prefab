@@ -143,7 +143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37a86e60e1a32b24eb56dcb1cb21e884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BirdbotInputController
-  speed: 35
+  speed: 26
   MoveInput: 0
 --- !u!50 &8333914254703169154
 Rigidbody2D:

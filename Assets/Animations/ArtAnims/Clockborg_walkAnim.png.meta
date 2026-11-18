@@ -60,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 350
+  spritePixelsToUnits: 450
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -109,15 +109,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Clockborg_walkAnim_0
+      name: Clockborg_walkAnim_6
       rect:
         serializedVersion: 2
-        x: 42
-        y: 1892
-        width: 1441
-        height: 1602
-      alignment: 9
-      pivot: {x: 0.5470456, y: 0.05184986}
+        x: 0
+        y: 1751
+        width: 1866
+        height: 1751
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -131,15 +131,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clockborg_walkAnim_2
+      name: Clockborg_walkAnim_4
       rect:
         serializedVersion: 2
-        x: 1945
-        y: 1885
-        width: 1434
-        height: 1617
-      alignment: 9
-      pivot: {x: 0.501332, y: 0.054234173}
+        x: 3732
+        y: 1751
+        width: 1866
+        height: 1751
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -153,15 +153,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clockborg_walkAnim_4
+      name: Clockborg_walkAnim_2
       rect:
         serializedVersion: 2
-        x: 3766
-        y: 1843
-        width: 1483
-        height: 1659
-      alignment: 9
-      pivot: {x: 0.51238906, y: 0.07241345}
+        x: 0
+        y: 0
+        width: 1866
+        height: 1751
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -175,15 +175,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clockborg_walkAnim_6
+      name: Clockborg_walkAnim_0
       rect:
         serializedVersion: 2
-        x: 5649
-        y: 1781
-        width: 1464
-        height: 1721
-      alignment: 9
-      pivot: {x: 0.48125023, y: 0.098903336}
+        x: 3732
+        y: 0
+        width: 1866
+        height: 1751
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -197,67 +197,67 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clockborg_walkAnim_7
+      name: Clockborg_walkAnim_5
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
-        width: 1430
-        height: 1794
-      alignment: 9
-      pivot: {x: 0.51996285, y: 0.11729887}
+        x: 1866
+        y: 1751
+        width: 1866
+        height: 1751
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d10445f00bb34b429d5abb6de9a69d5
-      internalID: -341769873
+      spriteID: 8534f4576fc33f04f9666f9e292ad912
+      internalID: 622584667
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clockborg_walkAnim_9
+      name: Clockborg_walkAnim_3
       rect:
         serializedVersion: 2
-        x: 1956
-        y: 17
-        width: 1482
-        height: 1741
-      alignment: 9
-      pivot: {x: 0.505089, y: 0.10280469}
+        x: 5598
+        y: 1751
+        width: 1866
+        height: 1751
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c49471e175785a4d8ca769c30014a5f
-      internalID: 651844965
+      spriteID: 57f3ab7ea626de14e957415c9e488e87
+      internalID: -6199701515330412723
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clockborg_walkAnim_11
+      name: Clockborg_walkAnim_1
       rect:
         serializedVersion: 2
-        x: 3827
+        x: 1870
         y: 0
-        width: 1503
-        height: 1758
-      alignment: 9
-      pivot: {x: 0.52315897, y: 0.10844613}
+        width: 1866
+        height: 1751
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df3bdad5dfd8e3a428773e8191c24486
-      internalID: 1488417479
+      spriteID: f80a4a9eed04d0e4b84a9b39e6983aa1
+      internalID: 1710079793042598243
       vertices: []
       indices: 
       edges: []
@@ -276,20 +276,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":7.0,"y":2.0},"gridSpriteSize":{"x":1066.0,"y":1751.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":1.0,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":2.0},"gridSpriteSize":{"x":1866.0,"y":1751.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Clockborg_walkAnim_0: 4336040317716004704
-      Clockborg_walkAnim_1: 1710079793042598243
-      Clockborg_walkAnim_10: -249083681
-      Clockborg_walkAnim_11: 1488417479
-      Clockborg_walkAnim_2: -108858889640314379
+      Clockborg_walkAnim_0: -1519636851
+      Clockborg_walkAnim_1: 622584667
+      Clockborg_walkAnim_2: 752893401
       Clockborg_walkAnim_3: -6199701515330412723
-      Clockborg_walkAnim_4: 752893401
-      Clockborg_walkAnim_5: 622584667
-      Clockborg_walkAnim_6: -1519636851
-      Clockborg_walkAnim_7: -341769873
-      Clockborg_walkAnim_8: 647442041
-      Clockborg_walkAnim_9: 651844965
+      Clockborg_walkAnim_4: -108858889640314379
+      Clockborg_walkAnim_5: 1710079793042598243
+      Clockborg_walkAnim_6: 4336040317716004704
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
