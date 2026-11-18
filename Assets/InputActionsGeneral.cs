@@ -610,9 +610,18 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
             ""id"": ""441e8cba-2e54-4e9f-92c6-a174d7f5f2c8"",
             ""actions"": [
                 {
-                    ""name"": ""Transformation"",
+                    ""name"": ""Clocksiniester"",
                     ""type"": ""Button"",
                     ""id"": ""36f8ddd7-b88a-4d93-9105-139d263de3ff"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Birdbot"",
+                    ""type"": ""Button"",
+                    ""id"": ""131fcf3e-bb52-4a82-a923-0a10c5216359"",
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
@@ -627,7 +636,7 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Transformation"",
+                    ""action"": ""Clocksiniester"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -638,7 +647,29 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Transformation"",
+                    ""action"": ""Clocksiniester"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""baf7096c-f715-4b9c-8883-3f315dfd9a26"",
+                    ""path"": ""<Keyboard>/1"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Birdbot"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""67c41882-cad3-4e70-b687-e2d94a0158e9"",
+                    ""path"": ""<Gamepad>/dpad/up"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Birdbot"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -667,7 +698,8 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
         m_Birdbot_FinishRide = m_Birdbot.FindAction("FinishRide", throwIfNotFound: true);
         // Transformation
         m_Transformation = asset.FindActionMap("Transformation", throwIfNotFound: true);
-        m_Transformation_Transformation = m_Transformation.FindAction("Transformation", throwIfNotFound: true);
+        m_Transformation_Clocksiniester = m_Transformation.FindAction("Clocksiniester", throwIfNotFound: true);
+        m_Transformation_Birdbot = m_Transformation.FindAction("Birdbot", throwIfNotFound: true);
     }
 
     ~@InputActionsGeneral()
@@ -1138,7 +1170,8 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
     // Transformation
     private readonly InputActionMap m_Transformation;
     private List<ITransformationActions> m_TransformationActionsCallbackInterfaces = new List<ITransformationActions>();
-    private readonly InputAction m_Transformation_Transformation;
+    private readonly InputAction m_Transformation_Clocksiniester;
+    private readonly InputAction m_Transformation_Birdbot;
     /// <summary>
     /// Provides access to input actions defined in input action map "Transformation".
     /// </summary>
@@ -1151,9 +1184,13 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
         /// </summary>
         public TransformationActions(@InputActionsGeneral wrapper) { m_Wrapper = wrapper; }
         /// <summary>
-        /// Provides access to the underlying input action "Transformation/Transformation".
+        /// Provides access to the underlying input action "Transformation/Clocksiniester".
         /// </summary>
-        public InputAction @Transformation => m_Wrapper.m_Transformation_Transformation;
+        public InputAction @Clocksiniester => m_Wrapper.m_Transformation_Clocksiniester;
+        /// <summary>
+        /// Provides access to the underlying input action "Transformation/Birdbot".
+        /// </summary>
+        public InputAction @Birdbot => m_Wrapper.m_Transformation_Birdbot;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -1180,9 +1217,12 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
         {
             if (instance == null || m_Wrapper.m_TransformationActionsCallbackInterfaces.Contains(instance)) return;
             m_Wrapper.m_TransformationActionsCallbackInterfaces.Add(instance);
-            @Transformation.started += instance.OnTransformation;
-            @Transformation.performed += instance.OnTransformation;
-            @Transformation.canceled += instance.OnTransformation;
+            @Clocksiniester.started += instance.OnClocksiniester;
+            @Clocksiniester.performed += instance.OnClocksiniester;
+            @Clocksiniester.canceled += instance.OnClocksiniester;
+            @Birdbot.started += instance.OnBirdbot;
+            @Birdbot.performed += instance.OnBirdbot;
+            @Birdbot.canceled += instance.OnBirdbot;
         }
 
         /// <summary>
@@ -1194,9 +1234,12 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
         /// <seealso cref="TransformationActions" />
         private void UnregisterCallbacks(ITransformationActions instance)
         {
-            @Transformation.started -= instance.OnTransformation;
-            @Transformation.performed -= instance.OnTransformation;
-            @Transformation.canceled -= instance.OnTransformation;
+            @Clocksiniester.started -= instance.OnClocksiniester;
+            @Clocksiniester.performed -= instance.OnClocksiniester;
+            @Clocksiniester.canceled -= instance.OnClocksiniester;
+            @Birdbot.started -= instance.OnBirdbot;
+            @Birdbot.performed -= instance.OnBirdbot;
+            @Birdbot.canceled -= instance.OnBirdbot;
         }
 
         /// <summary>
@@ -1346,11 +1389,18 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
     public interface ITransformationActions
     {
         /// <summary>
-        /// Method invoked when associated input action "Transformation" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// Method invoked when associated input action "Clocksiniester" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
         /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnTransformation(InputAction.CallbackContext context);
+        void OnClocksiniester(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Birdbot" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnBirdbot(InputAction.CallbackContext context);
     }
 }

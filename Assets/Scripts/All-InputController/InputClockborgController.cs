@@ -29,7 +29,6 @@ public class InputClockborgController
 
         inputs.Clockborg.Movement.performed += OnMovementPerformed;
         inputs.Clockborg.Movement.canceled += OnMovementCanceled;
-        inputs.Clockborg.StepBack.performed += OnStepBackPerformed;
         inputs.Clockborg.Jump.performed += OnJumpPerformed;
         inputs.Clockborg.Spin.performed += OnSpinPerformed;
 
@@ -45,11 +44,6 @@ public class InputClockborgController
     private static void OnMovementCanceled(InputAction.CallbackContext context)
     {
         OnMovement?.Invoke(Vector2.zero);
-    }
-
-    private static void OnStepBackPerformed(InputAction.CallbackContext context)
-    {
-        OnStepBack?.Invoke();
     }
 
     private static void OnJumpPerformed(InputAction.CallbackContext context)

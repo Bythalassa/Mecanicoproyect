@@ -524,9 +524,18 @@
             "id": "441e8cba-2e54-4e9f-92c6-a174d7f5f2c8",
             "actions": [
                 {
-                    "name": "Transformation",
+                    "name": "Clocksiniester",
                     "type": "Button",
                     "id": "36f8ddd7-b88a-4d93-9105-139d263de3ff",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Birdbot",
+                    "type": "Button",
+                    "id": "131fcf3e-bb52-4a82-a923-0a10c5216359",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -541,7 +550,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Transformation",
+                    "action": "Clocksiniester",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -552,7 +561,29 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Transformation",
+                    "action": "Clocksiniester",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "baf7096c-f715-4b9c-8883-3f315dfd9a26",
+                    "path": "<Keyboard>/1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Birdbot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "67c41882-cad3-4e70-b687-e2d94a0158e9",
+                    "path": "<Gamepad>/dpad/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Birdbot",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

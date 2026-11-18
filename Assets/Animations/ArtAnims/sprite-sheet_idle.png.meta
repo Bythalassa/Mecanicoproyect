@@ -1,0 +1,263 @@
+fileFormatVersion: 2
+guid: fe2a9286631b81944955fa4e015640a8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6105017062381422050
+    second: sprite-sheet_idle_0
+  - first:
+      213: -3482615909189991180
+    second: sprite-sheet_idle_1
+  - first:
+      213: 4052693764426426095
+    second: sprite-sheet_idle_2
+  - first:
+      213: -8864566593891999523
+    second: sprite-sheet_idle_3
+  - first:
+      213: -639561079139997120
+    second: sprite-sheet_idle_4
+  - first:
+      213: 3167020096551276420
+    second: sprite-sheet_idle_5
+  - first:
+      213: -2364911223143666165
+    second: sprite-sheet_idle_6
+  - first:
+      213: 1150347247706687569
+    second: sprite-sheet_idle_7
+  - first:
+      213: -1437545752233537000
+    second: sprite-sheet_idle_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sprite-sheet_idle_0
+      rect:
+        serializedVersion: 2
+        x: 5437
+        y: 2671
+        width: 2997
+        height: 2589
+      alignment: 9
+      pivot: {x: 0.46248788, y: 0.06641238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1a7e09d35f964ba0800000000000000
+      internalID: -6105017062381422050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-sheet_idle_2
+      rect:
+        serializedVersion: 2
+        x: 10986
+        y: 2615
+        width: 3578
+        height: 2611
+      alignment: 9
+      pivot: {x: 0.3906815, y: 0.070741594}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe6e314b18f0e3830800000000000000
+      internalID: 4052693764426426095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-sheet_idle_3
+      rect:
+        serializedVersion: 2
+        x: 16626
+        y: 2711
+        width: 2348
+        height: 2954
+      alignment: 9
+      pivot: {x: 0.44212577, y: 0.022801446}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd0e54b36abbaf480800000000000000
+      internalID: -8864566593891999523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-sheet_idle_4
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1712
+        width: 2700
+        height: 3640
+      alignment: 9
+      pivot: {x: 0.41416427, y: 0.029869532}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ae1b94692df17f0800000000000000
+      internalID: -639561079139997120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-sheet_idle_6
+      rect:
+        serializedVersion: 2
+        x: 21551
+        y: 2557
+        width: 3028
+        height: 2631
+      alignment: 9
+      pivot: {x: 0.4938639, y: 0.051768947}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0eef2bb5c52e2fd0800000000000000
+      internalID: -2364911223143666165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b4e65de7612690e45be7bef0db038327
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sprite-sheet_idle_0: -6105017062381422050
+      sprite-sheet_idle_1: -3482615909189991180
+      sprite-sheet_idle_2: 4052693764426426095
+      sprite-sheet_idle_3: -8864566593891999523
+      sprite-sheet_idle_4: -639561079139997120
+      sprite-sheet_idle_5: 3167020096551276420
+      sprite-sheet_idle_6: -2364911223143666165
+      sprite-sheet_idle_7: 1150347247706687569
+      sprite-sheet_idle_8: -1437545752233537000
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

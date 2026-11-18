@@ -9,7 +9,6 @@ public class ClockborgAnimatorController : MonoBehaviour
     {
         ClockborgInputController.OnLand += SetGroundAnimation;
         InputClockborgController.OnMovement += PlayMoveAnimation;
-        InputClockborgController.OnStepBack += PlayStepBackAnimation;
         InputClockborgController.OnCBShortJump += PlayJumpAnimation;
         InputClockborgController.OnCBSpin += PlaySpinAnimation;
        // TransformationInputController.IsCalled += PlayCallBirdbotAnimation;
@@ -32,11 +31,6 @@ public class ClockborgAnimatorController : MonoBehaviour
         controller.SetBool("IsMoving", moveInput.x != 0 ? true : false);
         Debug.Log("IsMoving" + moveInput.x);
         GetComponent<SpriteRenderer>().flipX = (moveInput.x == -1) ? true : false;
-    }
-
-    private void PlayStepBackAnimation()
-    {
-        controller.SetTrigger("OnStepBack");
     }
 
     private void PlayJumpAnimation()

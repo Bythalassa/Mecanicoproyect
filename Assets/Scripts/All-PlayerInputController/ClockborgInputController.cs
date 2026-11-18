@@ -27,6 +27,8 @@ public class ClockborgInputController : MonoBehaviour
     // public static event Action OnDeath;
 
     //Enum
+ 
+    
     /*crear el enum de estados aqui
      cocinando*/
 
@@ -34,7 +36,6 @@ public class ClockborgInputController : MonoBehaviour
     {
         InputClockborgController.OnMovement += Move;
         InputClockborgController.OnCBShortJump += Jump;
-        InputClockborgController.OnStepBack += StepBack;
         InputClockborgController.OnCBSpin += Spin;
     }
 
@@ -45,7 +46,6 @@ public class ClockborgInputController : MonoBehaviour
     {
         InputClockborgController.OnMovement -= Move;
         InputClockborgController.OnCBShortJump -= Jump;
-        InputClockborgController.OnStepBack -= StepBack;
         InputClockborgController.OnCBSpin -= Spin;
     }
 
@@ -61,13 +61,6 @@ public class ClockborgInputController : MonoBehaviour
     private void Move(Vector2 input)
     {
         MoveInput = input.x;
-        speed = 8f;
-    }
-
-    private void StepBack()
-    {
-         speed = 6f;
-         OnStepBack?.Invoke();
     }
 
     private void Jump()
@@ -81,7 +74,6 @@ public class ClockborgInputController : MonoBehaviour
 
     private void Spin()
     {
-        speed = 10f;
         OnSpin?.Invoke();
     }
 
