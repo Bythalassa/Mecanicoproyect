@@ -37,7 +37,6 @@ public class ClockborgInputController : MonoBehaviour
     {
         InputClockborgController.OnMovement += Move;
         InputClockborgController.OnCBShortJump += Jump;
-        InputClockborgController.OnCBShortJumpDisabled += DisableJump;
         InputClockborgController.OnCBPunchImpulse += PunchImpulse;
         InputClockborgController.OnCBSpin += Spin;
 
@@ -51,7 +50,6 @@ public class ClockborgInputController : MonoBehaviour
     {
         InputClockborgController.OnMovement -= Move;
         InputClockborgController.OnCBShortJump -= Jump;
-        InputClockborgController.OnCBShortJumpDisabled -= DisableJump;
         InputClockborgController.OnCBPunchImpulse -= PunchImpulse;
         InputClockborgController.OnCBSpin -= Spin;
 
@@ -78,11 +76,6 @@ public class ClockborgInputController : MonoBehaviour
 
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0);
         rb.AddForce(Vector2.up * normaljumpForce, ForceMode2D.Impulse);
-    }
-
-    private void DisableJump()
-    {
-        OnDisableJump?.Invoke();
     }
 
     private void PunchImpulse()

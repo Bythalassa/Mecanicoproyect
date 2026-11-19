@@ -1,19 +1,31 @@
 fileFormatVersion: 2
-guid: 9c59941f7d835e141a3e48b74ee61b80
+guid: 944060b2ecf0b2c4ab9afe7101b66a0b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 19359798922955521
-    second: pLAYER-STEPBACK_0
+      213: -20436328490002561
+    second: Clockborg_jump2.0_0
   - first:
-      213: 5544623888050107698
-    second: pLAYER-STEPBACK_1
+      213: -5601686487073712532
+    second: Clockborg_jump2.0_1
   - first:
-      213: -4231814260920545332
-    second: pLAYER-STEPBACK_2
+      213: 837025609186687794
+    second: Clockborg_jump2.0_2
   - first:
-      213: -894784504774469084
-    second: pLAYER-STEPBACK_3
+      213: 8131760550765977783
+    second: Clockborg_jump2.0_3
+  - first:
+      213: 6592676042195594876
+    second: Clockborg_jump2.0_4
+  - first:
+      213: -4370595537118208492
+    second: Clockborg_jump2.0_5
+  - first:
+      213: 3959815261165246223
+    second: Clockborg_jump2.0_6
+  - first:
+      213: 8850942755443708892
+    second: Clockborg_jump2.0_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -60,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 430
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -109,89 +121,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pLAYER-STEPBACK_0
+      name: Clockborg_jump2.0_0
       rect:
         serializedVersion: 2
-        x: 351
-        y: 71
-        width: 317
-        height: 328
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 0
+        y: 0
+        width: 1805
+        height: 1999
+      alignment: 9
+      pivot: {x: 0.5255126, y: 0.09794215}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 10bc9b172a7c44000800000000000000
-      internalID: 19359798922955521
+      spriteID: f7717db744567bff0800000000000000
+      internalID: -20436328490002561
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pLAYER-STEPBACK_1
+      name: Clockborg_jump2.0_1
       rect:
         serializedVersion: 2
-        x: 718
-        y: 76
-        width: 356
-        height: 321
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1844
+        y: 0
+        width: 1806
+        height: 1999
+      alignment: 9
+      pivot: {x: 0.561871, y: 0.11609211}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2353f5cac0672fc40800000000000000
-      internalID: 5544623888050107698
+      spriteID: c669ddaa1dfc242b0800000000000000
+      internalID: -5601686487073712532
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pLAYER-STEPBACK_2
+      name: Clockborg_jump2.0_2
       rect:
         serializedVersion: 2
-        x: 1118
-        y: 64
-        width: 337
-        height: 331
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 3732
+        y: 0
+        width: 1812
+        height: 1999
+      alignment: 9
+      pivot: {x: 0.5300228, y: 0.110890254}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ccf066ec9539545c0800000000000000
-      internalID: -4231814260920545332
+      spriteID: 23b3a775b56bd9b00800000000000000
+      internalID: 837025609186687794
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pLAYER-STEPBACK_3
+      name: Clockborg_jump2.0_3
       rect:
         serializedVersion: 2
-        x: 1571
-        y: 57
-        width: 284
-        height: 325
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 5637
+        y: 0
+        width: 1827
+        height: 1999
+      alignment: 9
+      pivot: {x: 0.5431088, y: 0.13862805}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 42ad462db361593f0800000000000000
-      internalID: -894784504774469084
+      spriteID: 7b0e0f21321d9d070800000000000000
+      internalID: 8131760550765977783
       vertices: []
       indices: 
       edges: []
@@ -200,7 +212,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 9d9bb85cbe24a444789e76a05afcfa0f
+    spriteID: 8e5f245c26f7e074f86367b9ba8cdfc7
     internalID: 0
     vertices: []
     indices: 
@@ -208,12 +220,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":1.0},"gridSpriteSize":{"x":1866.0,"y":1999.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      pLAYER-STEPBACK_0: 19359798922955521
-      pLAYER-STEPBACK_1: 5544623888050107698
-      pLAYER-STEPBACK_2: -4231814260920545332
-      pLAYER-STEPBACK_3: -894784504774469084
+      Clockborg_jump2.0_0: -20436328490002561
+      Clockborg_jump2.0_1: -5601686487073712532
+      Clockborg_jump2.0_2: 837025609186687794
+      Clockborg_jump2.0_3: 8131760550765977783
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

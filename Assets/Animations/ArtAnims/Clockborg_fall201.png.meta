@@ -1,19 +1,37 @@
 fileFormatVersion: 2
-guid: c5790e3be69393a4aab5346654b07b7f
+guid: db20f74180ed9964196179ae10503d89
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1873003056369343530
-    second: Clockborg_1RodarAnim_0
+      213: -8006638993386559468
+    second: Clockborg_fall201_0
   - first:
-      213: 8732451556092974554
-    second: Clockborg_1RodarAnim_1
+      213: -3036270045229089370
+    second: Clockborg_fall201_1
   - first:
-      213: 4940216057320162180
-    second: Clockborg_1RodarAnim_2
+      213: 6863450210013907530
+    second: Clockborg_fall201_2
   - first:
-      213: -505290791591723881
-    second: Clockborg_1RodarAnim_3
+      213: 7128107047061288671
+    second: Clockborg_fall201_3
+  - first:
+      213: 4708958890961391925
+    second: Clockborg_fall201_4
+  - first:
+      213: -3161449228925599678
+    second: Clockborg_fall201_5
+  - first:
+      213: 6980651899484645239
+    second: Clockborg_fall201_6
+  - first:
+      213: -5506165320264959306
+    second: Clockborg_fall201_7
+  - first:
+      213: -5701330425176458346
+    second: Clockborg_fall201_8
+  - first:
+      213: 7010395641459956524
+    second: Clockborg_fall201_9
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -60,7 +78,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 500
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -109,89 +127,133 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Clockborg_1RodarAnim_0
+      name: Clockborg_fall201_0
       rect:
         serializedVersion: 2
-        x: 31
-        y: 30
-        width: 247
-        height: 243
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 1751
+        width: 1866
+        height: 1751
+      alignment: 9
+      pivot: {x: 0.49729523, y: 0.083961226}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a2c9d1e2b5e3ef910800000000000000
-      internalID: 1873003056369343530
+      spriteID: 418276aa144b2e090800000000000000
+      internalID: -8006638993386559468
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clockborg_1RodarAnim_1
+      name: Clockborg_fall201_1
       rect:
         serializedVersion: 2
-        x: 387
-        y: 28
-        width: 275
-        height: 232
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1866
+        y: 1751
+        width: 1866
+        height: 1751
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.046121594}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ad59a3b7c66ef2970800000000000000
-      internalID: 8732451556092974554
+      spriteID: 6adf5ff0b700dd5d0800000000000000
+      internalID: -3036270045229089370
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clockborg_1RodarAnim_2
+      name: Clockborg_fall201_2
       rect:
         serializedVersion: 2
-        x: 807
-        y: 27
-        width: 234
-        height: 246
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3803
+        y: 1757
+        width: 1724
+        height: 1745
+      alignment: 9
+      pivot: {x: 0.50000113, y: 0.043913554}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 483cf3a645c2f8440800000000000000
-      internalID: 4940216057320162180
+      spriteID: a4a85751a9fdf3f50800000000000000
+      internalID: 6863450210013907530
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clockborg_1RodarAnim_3
+      name: Clockborg_fall201_3
       rect:
         serializedVersion: 2
-        x: 1126
-        y: 19
-        width: 257
-        height: 222
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 5598
+        y: 1751
+        width: 1866
+        height: 1751
+      alignment: 9
+      pivot: {x: 0.48700166, y: 0.037025996}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 79c36e2c3b8dcf8f0800000000000000
-      internalID: -505290791591723881
+      spriteID: fd6fb0dc79f1ce260800000000000000
+      internalID: 7128107047061288671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clockborg_fall201_4
+      rect:
+        serializedVersion: 2
+        x: 3737
+        y: 0
+        width: 1861
+        height: 1757
+      alignment: 9
+      pivot: {x: 0.47882104, y: 0.030931218}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 531dba58925995140800000000000000
+      internalID: 4708958890961391925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clockborg_fall201_5
+      rect:
+        serializedVersion: 2
+        x: 5598
+        y: 0
+        width: 1866
+        height: 1751
+      alignment: 9
+      pivot: {x: 0.5361658, y: 0.10268836}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24005762da64024d0800000000000000
+      internalID: -3161449228925599678
       vertices: []
       indices: 
       edges: []
@@ -200,7 +262,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5c36f5fd386e04b4281ceeec4b6ef32a
     internalID: 0
     vertices: []
     indices: 
@@ -208,12 +270,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":2.0},"gridSpriteSize":{"x":1866.0,"y":1751.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Clockborg_1RodarAnim_0: 1873003056369343530
-      Clockborg_1RodarAnim_1: 8732451556092974554
-      Clockborg_1RodarAnim_2: 4940216057320162180
-      Clockborg_1RodarAnim_3: -505290791591723881
+      Clockborg_fall201_0: -8006638993386559468
+      Clockborg_fall201_1: -3036270045229089370
+      Clockborg_fall201_2: 6863450210013907530
+      Clockborg_fall201_3: 7128107047061288671
+      Clockborg_fall201_4: 4708958890961391925
+      Clockborg_fall201_5: -3161449228925599678
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

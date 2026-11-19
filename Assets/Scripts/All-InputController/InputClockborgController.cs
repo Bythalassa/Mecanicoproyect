@@ -11,7 +11,6 @@ public class InputClockborgController
 
     public static Action<Vector2> OnMovement;
     public static Action OnCBShortJump;
-    public static Action OnCBShortJumpDisabled;
     public static Action OnCBPunchImpulse;
     public static Action OnCBSpin;
     public static Action OnCallBirdbot;
@@ -31,7 +30,6 @@ public class InputClockborgController
         inputs.Clockborg.Movement.performed += OnMovementPerformed;
         inputs.Clockborg.Movement.canceled += OnMovementCanceled;
         inputs.Clockborg.Jump.performed += OnJumpPerformed;
-        inputs.Clockborg.Jump.canceled += OnJumpCanceled;
         inputs.Clockborg.PunchImpulse.performed += OnPunchImpulse;
         inputs.Clockborg.Spin.performed += OnSpinPerformed;
 
@@ -57,12 +55,6 @@ public class InputClockborgController
     private static void OnJumpPerformed(InputAction.CallbackContext context)
     {
         OnCBShortJump?.Invoke();
-    }
-
-    //fix double jump lueego
-    private static void OnJumpCanceled(InputAction.CallbackContext context)
-    {
-        OnCBShortJumpDisabled?.Invoke();
     }
 
 

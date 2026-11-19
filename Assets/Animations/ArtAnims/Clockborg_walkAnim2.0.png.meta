@@ -69,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 480
+  spritePixelsToUnits: 490
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -126,7 +126,7 @@ TextureImporter:
         width: 1866
         height: 1751
       alignment: 9
-      pivot: {x: 0.3955775, y: 0.10633697}
+      pivot: {x: 0.39883447, y: 0.13510506}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -143,12 +143,12 @@ TextureImporter:
       name: Clockborg_walkAnim2.0_1
       rect:
         serializedVersion: 2
-        x: 1866
+        x: 1861
         y: 1751
         width: 1866
         height: 1751
       alignment: 9
-      pivot: {x: 0.386772, y: 0.11654891}
+      pivot: {x: 0.39887488, y: 0.15844245}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -166,11 +166,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3759
-        y: 1782
+        y: 1777
         width: 1790
         height: 1720
       alignment: 9
-      pivot: {x: 0.4043558, y: 0.099690355}
+      pivot: {x: 0.40536538, y: 0.15920892}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -188,11 +188,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 5598
-        y: 1751
+        y: 1747
         width: 1866
         height: 1751
       alignment: 9
-      pivot: {x: 0.36229998, y: 0.11335124}
+      pivot: {x: 0.34497985, y: 0.15161572}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -214,7 +214,7 @@ TextureImporter:
         width: 1866
         height: 1751
       alignment: 9
-      pivot: {x: 0.4941328, y: 0.09221699}
+      pivot: {x: 0.47851261, y: 0.116716444}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -236,7 +236,7 @@ TextureImporter:
         width: 1866
         height: 1751
       alignment: 9
-      pivot: {x: 0.48017988, y: 0.09344791}
+      pivot: {x: 0.4563297, y: 0.12767386}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -258,7 +258,7 @@ TextureImporter:
         width: 1866
         height: 1751
       alignment: 9
-      pivot: {x: 0.38735855, y: 0.09949594}
+      pivot: {x: 0.3832576, y: 0.13358873}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

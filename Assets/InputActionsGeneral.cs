@@ -265,7 +265,7 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""33d165b2-146e-4e7f-8c98-51945cc6be21"",
-                    ""path"": ""<Gamepad>/leftTrigger"",
+                    ""path"": ""<Keyboard>/downArrow"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",

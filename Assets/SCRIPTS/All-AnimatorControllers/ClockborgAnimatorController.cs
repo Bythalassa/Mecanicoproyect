@@ -58,7 +58,7 @@ public class ClockborgAnimatorController : MonoBehaviour
     private void PlayJumpAnimation()
     {
         controller.SetTrigger("OnJump");
-        controller.SetBool("MoveOnAir",true);
+       // controller.SetBool("MoveOnAir",true);
     }
 
     private void PlayPunchJumpAnimation()
