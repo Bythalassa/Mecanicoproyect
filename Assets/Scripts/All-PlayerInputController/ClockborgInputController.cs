@@ -11,7 +11,8 @@ public class ClockborgInputController : MonoBehaviour
 {
     [Header("Movement")]
     public float speed = 8f;
-    public float jumpForce = 5f;
+    public float normaljumpForce = 5f;
+    public float PunchjumpForce = 9f;
 
     [Header("Ground Check")]
     public bool IsOnLand;
@@ -23,6 +24,7 @@ public class ClockborgInputController : MonoBehaviour
     public static event Action<bool> OnLand;
     public static event Action OnSpin;
     public static event Action OnHit;
+    public static event Action OnDisableJump;
     // public static event Action OnDeath;
 
     //Enum
@@ -35,6 +37,8 @@ public class ClockborgInputController : MonoBehaviour
     {
         InputClockborgController.OnMovement += Move;
         InputClockborgController.OnCBShortJump += Jump;
+        InputClockborgController.OnCBShortJumpDisabled += DisableJump;
+        InputClockborgController.OnCBPunchImpulse += PunchImpulse;
         InputClockborgController.OnCBSpin += Spin;
 
         MoveInput = InputClockborgController.GetActualWalkDir().x;
@@ -47,6 +51,8 @@ public class ClockborgInputController : MonoBehaviour
     {
         InputClockborgController.OnMovement -= Move;
         InputClockborgController.OnCBShortJump -= Jump;
+        InputClockborgController.OnCBShortJumpDisabled -= DisableJump;
+        InputClockborgController.OnCBPunchImpulse -= PunchImpulse;
         InputClockborgController.OnCBSpin -= Spin;
 
         MoveInput = InputClockborgController.GetActualWalkDir().x;
@@ -70,9 +76,21 @@ public class ClockborgInputController : MonoBehaviour
     {
         if (!IsOnLand) return;
 
-        Debug.Log("salte");
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0);
-        rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+        rb.AddForce(Vector2.up * normaljumpForce, ForceMode2D.Impulse);
+    }
+
+    private void DisableJump()
+    {
+        OnDisableJump?.Invoke();
+    }
+
+    private void PunchImpulse()
+    {
+        if (!IsOnLand) return;
+
+        rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0);
+        rb.AddForce(Vector2.up * PunchjumpForce, ForceMode2D.Impulse);
     }
 
     private void Spin()

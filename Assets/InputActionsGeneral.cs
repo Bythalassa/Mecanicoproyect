@@ -102,18 +102,18 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": true
                 },
                 {
-                    ""name"": ""StepBack"",
+                    ""name"": ""Jump"",
                     ""type"": ""Button"",
-                    ""id"": ""eac80ebc-0a59-4dbd-883b-deb4d4def1ae"",
+                    ""id"": ""01bdb57d-928b-4443-b630-d74ad814bf02"",
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""Jump"",
+                    ""name"": ""PunchImpulse"",
                     ""type"": ""Button"",
-                    ""id"": ""01bdb57d-928b-4443-b630-d74ad814bf02"",
+                    ""id"": ""9c116078-63e0-44f6-9135-798ab431f302"",
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
@@ -153,17 +153,6 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": false
                 },
                 {
-                    ""name"": ""up"",
-                    ""id"": ""af921cd4-2ad7-438c-83d6-b23eb5dbd68d"",
-                    ""path"": ""<Keyboard>/w"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Movement"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
                     ""name"": ""down"",
                     ""id"": ""73abcfa5-916b-473f-8104-27f0c45e9492"",
                     ""path"": ""<Keyboard>/s"",
@@ -197,26 +186,48 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": true
                 },
                 {
-                    ""name"": """",
-                    ""id"": ""d9e653cc-5879-46e2-861a-8932646342ba"",
-                    ""path"": ""<Keyboard>/a"",
+                    ""name"": ""2D Vector"",
+                    ""id"": ""e733cb39-a47e-4ce2-a04e-bff8531ca616"",
+                    ""path"": ""2DVector"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""StepBack"",
-                    ""isComposite"": false,
+                    ""action"": ""Movement"",
+                    ""isComposite"": true,
                     ""isPartOfComposite"": false
                 },
                 {
-                    ""name"": """",
-                    ""id"": ""3f908c15-d00d-4517-ab8e-528a35d0576e"",
-                    ""path"": ""<Gamepad>/leftStick/down"",
+                    ""name"": ""down"",
+                    ""id"": ""f477473c-09bb-4547-8c6b-2398b2b75b27"",
+                    ""path"": ""<Keyboard>/downArrow"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""StepBack"",
+                    ""action"": ""Movement"",
                     ""isComposite"": false,
-                    ""isPartOfComposite"": false
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""left"",
+                    ""id"": ""42716105-d4ba-4c80-91ef-afa3d5904739"",
+                    ""path"": ""<Keyboard>/leftArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Movement"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""right"",
+                    ""id"": ""8cfa51a5-92fb-4ce2-be01-bfe2cb786ac1"",
+                    ""path"": ""<Keyboard>/rightArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Movement"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
                 },
                 {
                     ""name"": """",
@@ -259,6 +270,28 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Spin"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""477ed845-c675-40d9-8da7-d5feadb6db5c"",
+                    ""path"": ""<Keyboard>/w"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""PunchImpulse"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""1201b084-6d81-43d7-af77-e034b0a3b7d5"",
+                    ""path"": ""<Keyboard>/upArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""PunchImpulse"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -681,8 +714,8 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
         // Clockborg
         m_Clockborg = asset.FindActionMap("Clockborg", throwIfNotFound: true);
         m_Clockborg_Movement = m_Clockborg.FindAction("Movement", throwIfNotFound: true);
-        m_Clockborg_StepBack = m_Clockborg.FindAction("StepBack", throwIfNotFound: true);
         m_Clockborg_Jump = m_Clockborg.FindAction("Jump", throwIfNotFound: true);
+        m_Clockborg_PunchImpulse = m_Clockborg.FindAction("PunchImpulse", throwIfNotFound: true);
         m_Clockborg_Spin = m_Clockborg.FindAction("Spin", throwIfNotFound: true);
         // Clocksiniester
         m_Clocksiniester = asset.FindActionMap("Clocksiniester", throwIfNotFound: true);
@@ -784,8 +817,8 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
     private readonly InputActionMap m_Clockborg;
     private List<IClockborgActions> m_ClockborgActionsCallbackInterfaces = new List<IClockborgActions>();
     private readonly InputAction m_Clockborg_Movement;
-    private readonly InputAction m_Clockborg_StepBack;
     private readonly InputAction m_Clockborg_Jump;
+    private readonly InputAction m_Clockborg_PunchImpulse;
     private readonly InputAction m_Clockborg_Spin;
     /// <summary>
     /// Provides access to input actions defined in input action map "Clockborg".
@@ -803,13 +836,13 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
         /// </summary>
         public InputAction @Movement => m_Wrapper.m_Clockborg_Movement;
         /// <summary>
-        /// Provides access to the underlying input action "Clockborg/StepBack".
-        /// </summary>
-        public InputAction @StepBack => m_Wrapper.m_Clockborg_StepBack;
-        /// <summary>
         /// Provides access to the underlying input action "Clockborg/Jump".
         /// </summary>
         public InputAction @Jump => m_Wrapper.m_Clockborg_Jump;
+        /// <summary>
+        /// Provides access to the underlying input action "Clockborg/PunchImpulse".
+        /// </summary>
+        public InputAction @PunchImpulse => m_Wrapper.m_Clockborg_PunchImpulse;
         /// <summary>
         /// Provides access to the underlying input action "Clockborg/Spin".
         /// </summary>
@@ -843,12 +876,12 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
             @Movement.started += instance.OnMovement;
             @Movement.performed += instance.OnMovement;
             @Movement.canceled += instance.OnMovement;
-            @StepBack.started += instance.OnStepBack;
-            @StepBack.performed += instance.OnStepBack;
-            @StepBack.canceled += instance.OnStepBack;
             @Jump.started += instance.OnJump;
             @Jump.performed += instance.OnJump;
             @Jump.canceled += instance.OnJump;
+            @PunchImpulse.started += instance.OnPunchImpulse;
+            @PunchImpulse.performed += instance.OnPunchImpulse;
+            @PunchImpulse.canceled += instance.OnPunchImpulse;
             @Spin.started += instance.OnSpin;
             @Spin.performed += instance.OnSpin;
             @Spin.canceled += instance.OnSpin;
@@ -866,12 +899,12 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
             @Movement.started -= instance.OnMovement;
             @Movement.performed -= instance.OnMovement;
             @Movement.canceled -= instance.OnMovement;
-            @StepBack.started -= instance.OnStepBack;
-            @StepBack.performed -= instance.OnStepBack;
-            @StepBack.canceled -= instance.OnStepBack;
             @Jump.started -= instance.OnJump;
             @Jump.performed -= instance.OnJump;
             @Jump.canceled -= instance.OnJump;
+            @PunchImpulse.started -= instance.OnPunchImpulse;
+            @PunchImpulse.performed -= instance.OnPunchImpulse;
+            @PunchImpulse.canceled -= instance.OnPunchImpulse;
             @Spin.started -= instance.OnSpin;
             @Spin.performed -= instance.OnSpin;
             @Spin.canceled -= instance.OnSpin;
@@ -1288,19 +1321,19 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnMovement(InputAction.CallbackContext context);
         /// <summary>
-        /// Method invoked when associated input action "StepBack" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
-        /// </summary>
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnStepBack(InputAction.CallbackContext context);
-        /// <summary>
         /// Method invoked when associated input action "Jump" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
         /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnJump(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "PunchImpulse" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnPunchImpulse(InputAction.CallbackContext context);
         /// <summary>
         /// Method invoked when associated input action "Spin" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>

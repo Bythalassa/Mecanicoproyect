@@ -16,18 +16,18 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "StepBack",
+                    "name": "Jump",
                     "type": "Button",
-                    "id": "eac80ebc-0a59-4dbd-883b-deb4d4def1ae",
+                    "id": "01bdb57d-928b-4443-b630-d74ad814bf02",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Jump",
+                    "name": "PunchImpulse",
                     "type": "Button",
-                    "id": "01bdb57d-928b-4443-b630-d74ad814bf02",
+                    "id": "9c116078-63e0-44f6-9135-798ab431f302",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -67,17 +67,6 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "up",
-                    "id": "af921cd4-2ad7-438c-83d6-b23eb5dbd68d",
-                    "path": "<Keyboard>/w",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Movement",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
                     "name": "down",
                     "id": "73abcfa5-916b-473f-8104-27f0c45e9492",
                     "path": "<Keyboard>/s",
@@ -111,26 +100,48 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "",
-                    "id": "d9e653cc-5879-46e2-861a-8932646342ba",
-                    "path": "<Keyboard>/a",
+                    "name": "2D Vector",
+                    "id": "e733cb39-a47e-4ce2-a04e-bff8531ca616",
+                    "path": "2DVector",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "StepBack",
-                    "isComposite": false,
+                    "action": "Movement",
+                    "isComposite": true,
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "",
-                    "id": "3f908c15-d00d-4517-ab8e-528a35d0576e",
-                    "path": "<Gamepad>/leftStick/down",
+                    "name": "down",
+                    "id": "f477473c-09bb-4547-8c6b-2398b2b75b27",
+                    "path": "<Keyboard>/downArrow",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "StepBack",
+                    "action": "Movement",
                     "isComposite": false,
-                    "isPartOfComposite": false
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "42716105-d4ba-4c80-91ef-afa3d5904739",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "8cfa51a5-92fb-4ce2-be01-bfe2cb786ac1",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
                 },
                 {
                     "name": "",
@@ -173,6 +184,28 @@
                     "processors": "",
                     "groups": "",
                     "action": "Spin",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "477ed845-c675-40d9-8da7-d5feadb6db5c",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PunchImpulse",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1201b084-6d81-43d7-af77-e034b0a3b7d5",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PunchImpulse",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

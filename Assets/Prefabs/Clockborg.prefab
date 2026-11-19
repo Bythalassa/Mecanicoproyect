@@ -143,8 +143,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf536c47f0b023549bcd1762a9507308, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ClockborgInputController
-  speed: 14
-  jumpForce: 4
+  speed: 8
+  normaljumpForce: 14
+  PunchjumpForce: 20
   IsOnLand: 0
   MoveInput: 0
 --- !u!50 &1174863678047365929
