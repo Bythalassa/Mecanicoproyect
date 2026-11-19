@@ -1,9 +1,13 @@
+
 using UnityEngine;
 
-public class MuroRompible2D : MonoBehaviour
+public class MuroRompible2D : MonoBehaviour, IDamageable, IBreakWall
 {
     [Header("Resistencia del muro")]
-    [SerializeField] private float vidaMaxima = 30f;
+    [SerializeField] private float vidaMaxima = 10f;
+
+    [Header("Daño mediante interfaces")]
+    [SerializeField] private float danioPorInterfaz = 10f;
 
     private float vidaActual;
     private bool destruido = false;
@@ -13,6 +17,7 @@ public class MuroRompible2D : MonoBehaviour
         vidaActual = vidaMaxima;
     }
 
+    // Sistema de daño que ya utilizamos
     public void RecibirDanio(float danio)
     {
         if (destruido || danio <= 0f) return;
@@ -25,6 +30,18 @@ public class MuroRompible2D : MonoBehaviour
         {
             RomperMuro();
         }
+    }
+
+    // Interfaz IDamageable
+    public void TakeDamage()
+    {
+        RecibirDanio(danioPorInterfaz);
+    }
+
+    // Interfaz IBreakWall
+    public void Attack2()
+    {
+        RecibirDanio(danioPorInterfaz);
     }
 
     private void RomperMuro()
