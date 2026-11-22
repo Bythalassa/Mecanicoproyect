@@ -22,7 +22,7 @@ public class DisparoBasico2D : MonoBehaviour
     private void Awake()
     {
         municionMaxima = Mathf.Max(1, municionMaxima);
-        municionActual = Mathf.Clamp(municionInicial, 0, municionMaxima);
+         municionActual = Mathf.Clamp(municionInicial, 0, municionMaxima);
         ActualizarAMMO();
     }
 
