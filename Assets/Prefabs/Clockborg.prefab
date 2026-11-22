@@ -21,7 +21,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6981917911667387239
 Transform:
   m_ObjectHideFlags: 0
@@ -143,11 +143,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf536c47f0b023549bcd1762a9507308, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ClockborgInputController
-  speed: 8
-  normaljumpForce: 12
-  PunchjumpForce: 15
+  speed: 6
+  normaljumpForce: 18
+  PunchjumpForce: 24
   IsOnLand: 0
   MoveInput: 0
+  jumpCutMultiplier: 0.1
+  SpinForce: 40
 --- !u!50 &1174863678047365929
 Rigidbody2D:
   serializedVersion: 5
@@ -160,7 +162,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1.5
+  m_Mass: 1.7
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 1

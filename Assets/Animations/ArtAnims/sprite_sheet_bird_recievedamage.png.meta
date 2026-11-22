@@ -1,22 +1,10 @@
 fileFormatVersion: 2
-guid: 2902e81d58ee0b3479bb5c78d1cf2737
+guid: 3e8f2af5d0743474ab9d15c4670c3bcd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5266837954824948675
-    second: Clockborg_jump_0
-  - first:
-      213: -8689732288325203156
-    second: Clockborg_jump_1
-  - first:
-      213: -7990151844190153732
-    second: Clockborg_jump_2
-  - first:
-      213: 4394709516055607034
-    second: Clockborg_jump_3
-  - first:
-      213: -8079415996556376524
-    second: Clockborg_jump_4
+      213: 389222366799794901
+    second: sprite_sheet_bird_recievedamage_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -63,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 350
+  spritePixelsToUnits: 210
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -112,89 +100,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Clockborg_jump_2
-      rect:
-        serializedVersion: 2
-        x: 3732
-        y: 0
-        width: 1866
-        height: 1751
-      alignment: 9
-      pivot: {x: 0.45696375, y: 0.052838378}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cf31d993b374d1190800000000000000
-      internalID: -7990151844190153732
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Clockborg_jump_3
-      rect:
-        serializedVersion: 2
-        x: 5598
-        y: 0
-        width: 1866
-        height: 1751
-      alignment: 9
-      pivot: {x: 0.4573743, y: 0.031923495}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: af6f58b45052dfc30800000000000000
-      internalID: 4394709516055607034
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Clockborg_jump_0
+      name: sprite_sheet_bird_recievedamage_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1866
-        height: 1751
+        width: 2766
+        height: 2712
       alignment: 9
-      pivot: {x: 0.4440533, y: 0.0894316}
+      pivot: {x: 0.32039252, y: 0.09793487}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 03cd5fe021b56a24da5ef1eab002a17f
-      internalID: -5266837954824948675
+      spriteID: 5d21dbf2eabc66500800000000000000
+      internalID: 389222366799794901
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clockborg_jump_1
+      name: sprite_sheet_bird_recievedamage_1
       rect:
         serializedVersion: 2
-        x: 1866
+        x: 2766
         y: 0
-        width: 1866
-        height: 1751
+        width: 2766
+        height: 2712
       alignment: 9
-      pivot: {x: 0.47466996, y: 0.07186902}
+      pivot: {x: 0.46872732, y: 0.081922345}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1662f14044737dd43a438202f5921512
-      internalID: -8689732288325203156
+      spriteID: ccbeb768fbc55bd4788e2dfdcabd26c7
+      internalID: 1511274028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_bird_recievedamage_2
+      rect:
+        serializedVersion: 2
+        x: 5532
+        y: 0
+        width: 2766
+        height: 2712
+      alignment: 9
+      pivot: {x: 0.4335775, y: 0.0890425}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ec6d0d02d0b424687397f8253572ea
+      internalID: 1801424503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_bird_recievedamage_3
+      rect:
+        serializedVersion: 2
+        x: 8296
+        y: 0
+        width: 2766
+        height: 2712
+      alignment: 9
+      pivot: {x: 0.36523262, y: 0.069778144}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f27d8b0a229b0e428fd085e5247a413
+      internalID: -845746724
       vertices: []
       indices: 
       edges: []
@@ -203,7 +191,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 4eb513b725bc2a141af4446108de088b
+    spriteID: ccab756c82b6e1c4b89d589e0a39d764
     internalID: 0
     vertices: []
     indices: 
@@ -213,12 +201,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":1.0},"gridSpriteSize":{"x":1866.0,"y":1751.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":1.0},"gridSpriteSize":{"x":2766.0,"y":2712.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Clockborg_jump_0: -5266837954824948675
-      Clockborg_jump_1: -8689732288325203156
-      Clockborg_jump_2: -7990151844190153732
-      Clockborg_jump_3: 4394709516055607034
+      sprite_sheet_bird_recievedamage_0: 389222366799794901
+      sprite_sheet_bird_recievedamage_1: 1511274028
+      sprite_sheet_bird_recievedamage_2: 1801424503
+      sprite_sheet_bird_recievedamage_3: -845746724
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

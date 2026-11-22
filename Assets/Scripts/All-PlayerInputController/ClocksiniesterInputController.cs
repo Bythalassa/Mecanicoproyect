@@ -10,6 +10,7 @@ public class ClocksiniesterInputController : MonoBehaviour
     [Header("Movement")]
     public float speed = 8f;
     public float jumpForce = 7f;
+    public float punchForce = 19f;
 
     [Header("Ground Check")]
     public bool isGrounded;
@@ -18,11 +19,16 @@ public class ClocksiniesterInputController : MonoBehaviour
     [Header("Combat")]
     public float AttackRadius;
 
-    private Rigidbody2D rb;
+    [SerializeField] private float jumpCutMultiplier = 2f;
 
+
+
+    private Rigidbody2D rb;
 
     public static event Action OnCSHit;
     public static event Action<bool> OnGround;
+    public static Action OnCSSpin;
+
 
 
     private void OnEnable()
@@ -68,22 +74,28 @@ public class ClocksiniesterInputController : MonoBehaviour
 
     private void Jump()
     {
-        jumpForce = 7f;
         if (!isGrounded) return;
 
-        Debug.Log("salte");
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0);
         rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+
+        if (rb.linearVelocity.y <= 0 || !isGrounded)
+        {
+            rb.AddForce(Vector2.down * rb.linearVelocity.y * (1 - jumpCutMultiplier), ForceMode2D.Impulse);
+        }
+
     }
 
     private void PunchImpulse()
     {
-        jumpForce = 10f;
+        rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0);
+        rb.AddForce(Vector2.up * punchForce, ForceMode2D.Impulse);
+
     }
 
     private void Spin()
     {
-        speed = 9f;
+        OnCSSpin?.Invoke();
     }
 
     private void Attack()

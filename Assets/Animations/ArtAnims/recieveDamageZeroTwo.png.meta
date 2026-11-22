@@ -1,37 +1,34 @@
 fileFormatVersion: 2
-guid: 87415a9d778638e4ab5e22df16158990
+guid: 90f507b788a892845b37e793dac60d38
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3768972763996751334
-    second: Clockborg_fall2.0_0
+      213: -4394061605245781073
+    second: recieveDamageZeroTwo_0
   - first:
-      213: -3451916146604224217
-    second: Clockborg_fall2.0_1
+      213: -5328774607889244818
+    second: recieveDamageZeroTwo_1
   - first:
-      213: -6162290005390902920
-    second: Clockborg_fall2.0_2
+      213: 2903915790939398807
+    second: recieveDamageZeroTwo_2
   - first:
-      213: 8219667759137590938
-    second: Clockborg_fall2.0_3
+      213: 6925308095491117516
+    second: recieveDamageZeroTwo_3
   - first:
-      213: 7251989066986112871
-    second: Clockborg_fall2.0_4
+      213: 5682878496584130456
+    second: recieveDamageZeroTwo_4
   - first:
-      213: -6786649423636100996
-    second: Clockborg_fall2.0_5
+      213: -3300966154545241861
+    second: recieveDamageZeroTwo_5
   - first:
-      213: -7968101711905780468
-    second: Clockborg_fall2.0_6
+      213: 2713403308592100084
+    second: recieveDamageZeroTwo_6
   - first:
-      213: -4779006716136413734
-    second: Clockborg_fall2.0_7
+      213: 314110686904948592
+    second: recieveDamageZeroTwo_7
   - first:
-      213: -7147173797254414563
-    second: Clockborg_fall2.0_8
-  - first:
-      213: -2044556468088607592
-    second: Clockborg_fall2.0_9
+      213: -689413753861804891
+    second: recieveDamageZeroTwo_8
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -78,7 +75,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 350
+  spritePixelsToUnits: 309
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -127,133 +124,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Clockborg_fall2.0_0
-      rect:
-        serializedVersion: 2
-        x: 62
-        y: 1751
-        width: 1546
-        height: 1296
-      alignment: 9
-      pivot: {x: 0.5034301, y: 0.07698577}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6e5062e82c41e4430800000000000000
-      internalID: 3768972763996751334
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Clockborg_fall2.0_2
-      rect:
-        serializedVersion: 2
-        x: 1982
-        y: 1756
-        width: 1759
-        height: 1746
-      alignment: 9
-      pivot: {x: 0.39954245, y: 0.04924684}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8793cb9a3e52b7aa0800000000000000
-      internalID: -6162290005390902920
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Clockborg_fall2.0_3
-      rect:
-        serializedVersion: 2
-        x: 3740
-        y: 1726
-        width: 1671
-        height: 1776
-      alignment: 9
-      pivot: {x: 0.51020014, y: 0.05174881}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a9e802bf640221270800000000000000
-      internalID: 8219667759137590938
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Clockborg_fall2.0_5
-      rect:
-        serializedVersion: 2
-        x: 5681
-        y: 1743
-        width: 1783
-        height: 1759
-      alignment: 9
-      pivot: {x: 0.39246586, y: 0.088116445}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c788f017e4af0d1a0800000000000000
-      internalID: -6786649423636100996
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Clockborg_fall2.0_6
+      name: recieveDamageZeroTwo_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1532
-        height: 1724
+        width: 3194
+        height: 3480
       alignment: 9
-      pivot: {x: 0.4612976, y: 0.0842398}
+      pivot: {x: 0.4819247, y: 0.08319662}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c0d8ca7b5bd9b6190800000000000000
-      internalID: -7968101711905780468
+      spriteID: fab742230482503c0800000000000000
+      internalID: -4394061605245781073
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clockborg_fall2.0_8
+      name: recieveDamageZeroTwo_1
       rect:
         serializedVersion: 2
-        x: 2034
+        x: 3196
         y: 0
-        width: 1691
-        height: 1756
+        width: 3194
+        height: 3480
       alignment: 9
-      pivot: {x: 0.3631428, y: 0.04878062}
+      pivot: {x: 0.45204493, y: 0.08210285}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d1fbbaa7c4320dc90800000000000000
-      internalID: -7147173797254414563
+      spriteID: e6dd3a82ab36c06b0800000000000000
+      internalID: -5328774607889244818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: recieveDamageZeroTwo_2
+      rect:
+        serializedVersion: 2
+        x: 6388
+        y: 0
+        width: 3194
+        height: 3480
+      alignment: 9
+      pivot: {x: 0.4935444, y: 0.08633496}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7922798b608cc4820800000000000000
+      internalID: 2903915790939398807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: recieveDamageZeroTwo_3
+      rect:
+        serializedVersion: 2
+        x: 9582
+        y: 0
+        width: 3194
+        height: 3480
+      alignment: 9
+      pivot: {x: 0.46034464, y: 0.07787075}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc192ef5503ab1060800000000000000
+      internalID: 6925308095491117516
       vertices: []
       indices: 
       edges: []
@@ -262,7 +215,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 68101ccbcea18964b854fc819e4bdde9
+    spriteID: a11aea458f7f8e94a8ae3f0f0ab1451f
     internalID: 0
     vertices: []
     indices: 
@@ -272,17 +225,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":2.0},"gridSpriteSize":{"x":1244.0,"y":1751.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":1.0},"gridSpriteSize":{"x":3194.0,"y":3480.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Clockborg_fall2.0_0: 3768972763996751334
-      Clockborg_fall2.0_1: -3451916146604224217
-      Clockborg_fall2.0_2: -6162290005390902920
-      Clockborg_fall2.0_3: 8219667759137590938
-      Clockborg_fall2.0_4: 7251989066986112871
-      Clockborg_fall2.0_5: -6786649423636100996
-      Clockborg_fall2.0_6: -7968101711905780468
-      Clockborg_fall2.0_7: -4779006716136413734
-      Clockborg_fall2.0_8: -7147173797254414563
+      recieveDamageZeroTwo_0: -4394061605245781073
+      recieveDamageZeroTwo_1: -5328774607889244818
+      recieveDamageZeroTwo_2: 2903915790939398807
+      recieveDamageZeroTwo_3: 6925308095491117516
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

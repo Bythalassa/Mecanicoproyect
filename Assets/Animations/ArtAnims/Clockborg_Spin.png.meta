@@ -120,7 +120,7 @@ TextureImporter:
         width: 943
         height: 1047
       alignment: 9
-      pivot: {x: 0.48948583, y: 0.104479596}
+      pivot: {x: 0.47497338, y: 0.0963748}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -142,7 +142,7 @@ TextureImporter:
         width: 1090
         height: 698
       alignment: 9
-      pivot: {x: 0.49235907, y: 0.123178564}
+      pivot: {x: 0.5187341, y: 0.08543138}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -159,12 +159,12 @@ TextureImporter:
       name: Clockborg_Spin_2
       rect:
         serializedVersion: 2
-        x: 4091
+        x: 4099
         y: 1845
         width: 780
         height: 1069
       alignment: 9
-      pivot: {x: 0.49058306, y: 0.077150606}
+      pivot: {x: 0.50513947, y: 0.06906793}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -186,7 +186,7 @@ TextureImporter:
         width: 1041
         height: 725
       alignment: 9
-      pivot: {x: 0.49942073, y: 0.08379058}
+      pivot: {x: 0.49600276, y: 0.12804131}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -203,12 +203,12 @@ TextureImporter:
       name: Clockborg_Spin_4
       rect:
         serializedVersion: 2
-        x: 285
-        y: 128
-        width: 1004
-        height: 769
+        x: 272
+        y: 110
+        width: 1017
+        height: 803
       alignment: 9
-      pivot: {x: 0.48751807, y: 0.07984966}
+      pivot: {x: 0.4975553, y: 0.15447071}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

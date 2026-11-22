@@ -7,6 +7,8 @@ public class InputBirdbotController
     private static InputActionsGeneral inputs;
     
     public static Action<Vector2> Fly;
+    public static Action Jump;
+    public static Action FlyAway;
   
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
 
@@ -17,6 +19,8 @@ public class InputBirdbotController
 
         inputs.Birdbot.Fly.performed += OnFlyPerformed;
         inputs.Birdbot.Fly.canceled += OnFlyCanceled;
+        inputs.Birdbot.Jump.performed += OnJumpPerformed;
+        inputs.Birdbot.FinishRide.performed += OnFinishRidePerformed;
 
     }
 
@@ -31,6 +35,14 @@ public class InputBirdbotController
         Fly?.Invoke(Vector2.zero);
     }
 
+    private static void OnJumpPerformed(InputAction.CallbackContext context)
+    {
+        Jump?.Invoke();
+    }
 
+    private static void OnFinishRidePerformed(InputAction.CallbackContext context)
+    {
+        FlyAway?.Invoke();
+    }
 
 }

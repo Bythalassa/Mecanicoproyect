@@ -41,7 +41,7 @@ public class ClocksiniesterAnimatorController : MonoBehaviour
     }
     private void PlayPunchImpulseAnimation()
     {
-        controller.SetTrigger("OnPunchImpulse");
+        controller.SetTrigger("OnCSPunchImpulse");
     }
 
     private void PlaySpinAnimation()

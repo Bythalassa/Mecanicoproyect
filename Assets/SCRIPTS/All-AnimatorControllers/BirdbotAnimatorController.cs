@@ -9,8 +9,9 @@ public class BirdbotAnimatorController : MonoBehaviour
     { 
         InputBirdbotController.Fly += ActivateFlyAnimation;
         BirdbotInputController.OnHit += ActivateHitAnimation;
-        //el timbre de desaparecer lo va a tocar transformation - paciencia  a que eso este
-
+        InputBirdbotController.FlyAway += ActivateFlyAwayAnimation;
+        InputBirdbotController.Jump += ActivateJumpAnimation;
+        ManagerInputController.BirdAppears += ActivateAppearsAnim;
     }
 
     private void ActivateFlyAnimation(Vector2 moveInput)
@@ -25,12 +26,25 @@ public class BirdbotAnimatorController : MonoBehaviour
         GetComponent<SpriteRenderer>().flipX = (moveInput.x == -1) ? true : false;
     }
 
+    private void ActivateJumpAnimation()
+    {
+        controller.SetTrigger("OnJump");
+
+    }
+
     private void ActivateHitAnimation()
     {
         controller.SetTrigger("OnHit");
     }
 
+    private void ActivateFlyAwayAnimation()
+    {
+        controller.SetTrigger("FinishRide");
+    }
 
-
+    private void ActivateAppearsAnim()
+    {
+        controller.SetTrigger("BirdAppears");
+    }
 
 }

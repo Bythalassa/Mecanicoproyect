@@ -9,23 +9,28 @@ public class BirdbotInputController : MonoBehaviour
     [Header("Movement")]
     public float speed = 13f;
     public float MoveInput;
-
+    public float jumpForce = 6;
 
     private Rigidbody2D rb;
 
     public static event Action OnHit;
-    //public static event Action desaparecer;
+    public static event Action BirdAppears2;
 
     private void OnEnable()
     {
         InputBirdbotController.Fly += OnFly;
-        //el timbre de desaparecer lo va a tocar transformation - paciencia  a que eso este
+        InputBirdbotController.FlyAway += FinishRide;
+        InputBirdbotController.Jump += OnJump;
+        ManagerInputController.BirdAppears += BirdAppearsDos;
+
     }
 
     private void OnDisable()
     {
         InputBirdbotController.Fly -= OnFly;
-        //el timbre de desaparecer lo va a tocar transformation - paciencia  a que eso este
+        InputBirdbotController.FlyAway -= FinishRide;
+        InputBirdbotController.Jump -= OnJump;
+        ManagerInputController.BirdAppears -= BirdAppearsDos;
     }
 
     private void Awake()
@@ -42,6 +47,30 @@ public class BirdbotInputController : MonoBehaviour
     {
         MoveInput = input.x;
     }
+
+    private void OnJump()
+    {
+        rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0);
+        rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+
+    }
+
+    private void BirdAppearsDos()
+    {
+        BirdAppears2?.Invoke();
+    }
+
+
+    private void FinishRide()
+    {
+        //que se mueva en una dirección hacia la derecha
+        
+
+
+
+
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.GetComponent<IDamageable>() != null)
@@ -52,10 +81,6 @@ public class BirdbotInputController : MonoBehaviour
             OnHit?.Invoke();
         }
     }
-
-
-
-
 
 }
 

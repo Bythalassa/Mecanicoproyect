@@ -1,0 +1,355 @@
+fileFormatVersion: 2
+guid: 8d4d29e9f3afc164e807bad11999aca2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7142719164384410917
+    second: sprite-sheet_volar (2)_0
+  - first:
+      213: -8556161983915405276
+    second: sprite-sheet_volar (2)_1
+  - first:
+      213: -3199844175557636692
+    second: sprite-sheet_volar (2)_2
+  - first:
+      213: 4763857251676710127
+    second: sprite-sheet_volar (2)_3
+  - first:
+      213: -2361327840920070163
+    second: sprite-sheet_volar (2)_4
+  - first:
+      213: -7125938128231612577
+    second: sprite-sheet_volar (2)_5
+  - first:
+      213: 6152303322286554077
+    second: sprite-sheet_volar (2)_6
+  - first:
+      213: -5061361297447093746
+    second: sprite-sheet_volar (2)_7
+  - first:
+      213: -7247861426516307916
+    second: sprite-sheet_volar (2)_8
+  - first:
+      213: -3108251500011422894
+    second: sprite-sheet_volar (2)_9
+  - first:
+      213: 942415099807400735
+    second: sprite-sheet_volar (2)_10
+  - first:
+      213: 3461091567186042387
+    second: sprite-sheet_volar (2)_11
+  - first:
+      213: -7502172923402043044
+    second: sprite-sheet_volar (2)_12
+  - first:
+      213: -6963372587491192935
+    second: sprite-sheet_volar (2)_13
+  - first:
+      213: 9204084127307280250
+    second: sprite-sheet_volar (2)_14
+  - first:
+      213: -6618586625391827576
+    second: sprite-sheet_volar (2)_15
+  - first:
+      213: -7967147752509309417
+    second: sprite-sheet_volar (2)_16
+  - first:
+      213: 4292310413805083747
+    second: sprite-sheet_volar (2)_17
+  - first:
+      213: 6484938665541137662
+    second: sprite-sheet_volar (2)_18
+  - first:
+      213: 6000209309694464190
+    second: sprite-sheet_volar (2)_19
+  - first:
+      213: -7776476665068988144
+    second: sprite-sheet_volar (2)_20
+  - first:
+      213: -5085152951784290267
+    second: sprite-sheet_volar (2)_21
+  - first:
+      213: -5562864530140813377
+    second: sprite-sheet_volar (2)_22
+  - first:
+      213: 5687787536578015646
+    second: sprite-sheet_volar (2)_23
+  - first:
+      213: 5077820194313906646
+    second: sprite-sheet_volar (2)_24
+  - first:
+      213: -6029693083368012184
+    second: sprite-sheet_volar (2)_25
+  - first:
+      213: -316102361231098104
+    second: sprite-sheet_volar (2)_26
+  - first:
+      213: 2535295261175519578
+    second: sprite-sheet_volar (2)_27
+  - first:
+      213: 5191377997463332154
+    second: sprite-sheet_volar (2)_28
+  - first:
+      213: -2953338319217151442
+    second: sprite-sheet_volar (2)_29
+  - first:
+      213: -1097620705194373519
+    second: sprite-sheet_volar (2)_30
+  - first:
+      213: 157087450186144025
+    second: sprite-sheet_volar (2)_31
+  - first:
+      213: 5584248103109233507
+    second: sprite-sheet_volar (2)_32
+  - first:
+      213: -312897968260783700
+    second: sprite-sheet_volar (2)_33
+  - first:
+      213: -6966448230523181725
+    second: sprite-sheet_volar (2)_34
+  - first:
+      213: -7510303716039129900
+    second: sprite-sheet_volar (2)_35
+  - first:
+      213: 535876101540964357
+    second: sprite-sheet_volar (2)_36
+  - first:
+      213: -7418405637520937433
+    second: sprite-sheet_volar (2)_37
+  - first:
+      213: 6320172823804274596
+    second: sprite-sheet_volar (2)_38
+  - first:
+      213: -2801847244789720981
+    second: sprite-sheet_volar (2)_39
+  - first:
+      213: -3493231632616564519
+    second: sprite-sheet_volar (2)_40
+  - first:
+      213: 8370027648069606436
+    second: sprite-sheet_volar (2)_41
+  - first:
+      213: -9134525983691085384
+    second: sprite-sheet_volar (2)_42
+  - first:
+      213: -199613731832197199
+    second: sprite-sheet_volar (2)_43
+  - first:
+      213: 8031203890950691189
+    second: sprite-sheet_volar (2)_44
+  - first:
+      213: 4831370361467980769
+    second: sprite-sheet_volar (2)_45
+  - first:
+      213: -31517919843421497
+    second: sprite-sheet_volar (2)_46
+  - first:
+      213: -7996881687442338090
+    second: sprite-sheet_volar (2)_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 155
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sprite-sheet_volar (2)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2048
+        height: 2048
+      alignment: 9
+      pivot: {x: 0.46674556, y: 0.37156942}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52df18b7c39002360800000000000000
+      internalID: 7142719164384410917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-sheet_volar (2)_1
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 2048
+        height: 2048
+      alignment: 9
+      pivot: {x: 0.47018564, y: 0.36583593}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42055041208624980800000000000000
+      internalID: -8556161983915405276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-sheet_volar (2)_2
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 0
+        width: 2048
+        height: 2048
+      alignment: 9
+      pivot: {x: 0.48509264, y: 0.36468926}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cadc8430daed793d0800000000000000
+      internalID: -3199844175557636692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-sheet_volar (2)_3
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 0
+        width: 2048
+        height: 2048
+      alignment: 9
+      pivot: {x: 0.48389363, y: 0.35013342}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe4ebde2eee9c1240800000000000000
+      internalID: 4763857251676710127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 76fd07efa71411a4581e4c58e7bf4d6d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":1.0},"gridSpriteSize":{"x":2048.0,"y":2048.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      sprite-sheet_volar (2)_0: 7142719164384410917
+      sprite-sheet_volar (2)_1: -8556161983915405276
+      sprite-sheet_volar (2)_2: -3199844175557636692
+      sprite-sheet_volar (2)_3: 4763857251676710127
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

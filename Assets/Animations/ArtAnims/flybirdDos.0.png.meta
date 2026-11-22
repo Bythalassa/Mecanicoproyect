@@ -1,43 +1,19 @@
 fileFormatVersion: 2
-guid: 4ae9aa225ca111441af804eb5ed6ab7b
+guid: 9914fa4e5fad14b4a97f4408f676b309
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8519444509749315102
-    second: Birdbot_idle_0
+      213: 1489489667827285825
+    second: flybirdDos.0_0
   - first:
-      213: -379083818530673831
-    second: Birdbot_idle_1
+      213: -3738282861302788638
+    second: flybirdDos.0_1
   - first:
-      213: 2643370361382483304
-    second: Birdbot_idle_2
+      213: 5657225033339590403
+    second: flybirdDos.0_2
   - first:
-      213: 1907449554820765044
-    second: Birdbot_idle_3
-  - first:
-      213: -6549538886832476308
-    second: Birdbot_idle_4
-  - first:
-      213: -3266409982843226480
-    second: Birdbot_idle_5
-  - first:
-      213: -2579432434397591242
-    second: Birdbot_idle_6
-  - first:
-      213: -6363511680667907321
-    second: Birdbot_idle_7
-  - first:
-      213: 1202900384420532066
-    second: Birdbot_idle_8
-  - first:
-      213: -6928258486218283336
-    second: Birdbot_idle_9
-  - first:
-      213: 9046547636357560013
-    second: Birdbot_idle_10
-  - first:
-      213: 8501015117367943510
-    second: Birdbot_idle_11
+      213: -5286919973445156379
+    second: flybirdDos.0_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -84,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 173
+  spritePixelsToUnits: 300
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -133,89 +109,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Birdbot_idle_0
+      name: flybirdDos.0_0
       rect:
         serializedVersion: 2
-        x: 254
-        y: 45
-        width: 1249
-        height: 1066
+        x: 0
+        y: 0
+        width: 3170
+        height: 3288
       alignment: 9
-      pivot: {x: 0.5000577, y: 0.042964756}
+      pivot: {x: 0.23718995, y: 0.09041607}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2e97db83b5ad4c980800000000000000
-      internalID: -8519444509749315102
+      spriteID: 14fb57316fabba410800000000000000
+      internalID: 1489489667827285825
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Birdbot_idle_1
+      name: flybirdDos.0_1
       rect:
         serializedVersion: 2
-        x: 2225
-        y: 61
-        width: 1151
-        height: 949
+        x: 3170
+        y: 0
+        width: 3170
+        height: 3288
       alignment: 9
-      pivot: {x: 0.57572114, y: 0.029427515}
+      pivot: {x: 0.28182024, y: 0.07898157}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 95b616886493dbaf0800000000000000
-      internalID: -379083818530673831
+      spriteID: 2edcd1e3b83fe1cc0800000000000000
+      internalID: -3738282861302788638
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Birdbot_idle_2
+      name: flybirdDos.0_2
       rect:
         serializedVersion: 2
-        x: 3903
-        y: 69
-        width: 1233
-        height: 1006
+        x: 6340
+        y: 0
+        width: 3170
+        height: 3288
       alignment: 9
-      pivot: {x: 0.46595812, y: 0.02250462}
+      pivot: {x: 0.3932839, y: 0.09177143}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 865bff7a6532fa420800000000000000
-      internalID: 2643370361382483304
+      spriteID: 30757aec130828e40800000000000000
+      internalID: 5657225033339590403
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Birdbot_idle_3
+      name: flybirdDos.0_3
       rect:
         serializedVersion: 2
-        x: 5817
-        y: 93
-        width: 1176
-        height: 925
+        x: 9510
+        y: 0
+        width: 3170
+        height: 3288
       alignment: 9
-      pivot: {x: 0.5792589, y: 0.02453068}
+      pivot: {x: 0.38200969, y: 0.076346226}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4759116934f987a10800000000000000
-      internalID: 1907449554820765044
+      spriteID: 5e142e2ab4611a6b0800000000000000
+      internalID: -5286919973445156379
       vertices: []
       indices: 
       edges: []
@@ -224,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: b72869bfeb1d02644b752da650ed7644
+    spriteID: 12ee840ee423fa34bbc8bdf55e7cb9ed
     internalID: 0
     vertices: []
     indices: 
@@ -234,12 +210,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":1.0},"gridSpriteSize":{"x":1848.0,"y":1111.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":1.0},"gridSpriteSize":{"x":3170.0,"y":3288.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Birdbot_idle_0: -8519444509749315102
-      Birdbot_idle_1: -379083818530673831
-      Birdbot_idle_2: 2643370361382483304
-      Birdbot_idle_3: 1907449554820765044
+      flybirdDos.0_0: 1489489667827285825
+      flybirdDos.0_1: -3738282861302788638
+      flybirdDos.0_2: 5657225033339590403
+      flybirdDos.0_3: -5286919973445156379
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

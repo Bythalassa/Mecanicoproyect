@@ -8,18 +8,38 @@ public class ManagerInputController : MonoBehaviour
     public GameObject birdbotPrefab;
 
     private GameObject current;
+   
+    
+    [Header("Countdown Delay BirdOnEnable")]
+    private float DelaySpawn = 1.5f;
+    private float timer;
+    public static event Action BirdAppears;
 
-    private void Update()
-    {
-
-
-    }
 
     private void Start()
     {
         CharacterChanged(InputManagerController.Current);
     }
 
+    private void Update()
+    {
+        if (InputManagerController.Current == CharacterType.Birdbot && !birdbotPrefab.activeSelf)
+        //ActiveSelf es
+        {
+            timer -= Time.deltaTime;
+            Debug.Log(timer);
+
+            if (timer <= 0f)
+            {
+                clockborgPrefab.SetActive(false);
+                clocksiniesterPrefab.SetActive(false);
+                birdbotPrefab.SetActive(true);
+
+                BirdAppears?.Invoke();
+            }
+        }
+
+    }
 
     private void OnEnable()
     { 
@@ -49,9 +69,7 @@ public class ManagerInputController : MonoBehaviour
         }
         else if (InputManagerController.Current == CharacterType.Birdbot)
         {
-            clockborgPrefab.SetActive(false);
-            clocksiniesterPrefab.SetActive(false);
-            birdbotPrefab.SetActive(true);
+            timer = DelaySpawn;
         }
         else
         {

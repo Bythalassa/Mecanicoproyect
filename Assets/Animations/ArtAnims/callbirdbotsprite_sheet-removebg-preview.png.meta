@@ -1,64 +1,19 @@
 fileFormatVersion: 2
-guid: 06c8a15ddd433214693782b4bddce153
+guid: 9b3ccb353e1c9ac4289ddc3e6aa59035
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7796296006169573787
-    second: flybird_0
+      213: 3623687208335707440
+    second: callbirdbotsprite_sheet-removebg-preview_0
   - first:
-      213: 2905705703318506292
-    second: flybird_1
+      213: 3103168452647570739
+    second: callbirdbotsprite_sheet-removebg-preview_1
   - first:
-      213: -4978532994965233662
-    second: flybird_2
+      213: 5481169406818004341
+    second: callbirdbotsprite_sheet-removebg-preview_2
   - first:
-      213: 5941280579368722971
-    second: flybird_3
-  - first:
-      213: -7999823150913195151
-    second: flybird_4
-  - first:
-      213: 2039526120742259987
-    second: flybird_5
-  - first:
-      213: 7373694705983784660
-    second: flybird_6
-  - first:
-      213: 6224134536366117339
-    second: flybird_7
-  - first:
-      213: 2251020586046773770
-    second: flybird_8
-  - first:
-      213: 2461894813364649562
-    second: flybird_9
-  - first:
-      213: -7789384173102940448
-    second: flybird_10
-  - first:
-      213: -8894859925909939859
-    second: flybird_11
-  - first:
-      213: 3183288350928327810
-    second: flybird_12
-  - first:
-      213: 9138027830988891707
-    second: flybird_13
-  - first:
-      213: 3715136783779627574
-    second: flybird_14
-  - first:
-      213: 4537356210737841416
-    second: flybird_15
-  - first:
-      213: -9189386588925758362
-    second: flybird_16
-  - first:
-      213: -7911442558360739996
-    second: flybird_17
-  - first:
-      213: 589638516991123048
-    second: flybird_18
+      213: -7085742564274972855
+    second: callbirdbotsprite_sheet-removebg-preview_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -105,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 263
+  spritePixelsToUnits: 60
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -154,89 +109,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: flybird_0
+      name: callbirdbotsprite_sheet-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 2048
-        height: 2048
+        x: 68
+        y: 30
+        width: 110
+        height: 205
       alignment: 9
-      pivot: {x: 0.40559757, y: 0.10300637}
+      pivot: {x: 0.49373862, y: 0.06601525}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5664774c61efdc390800000000000000
-      internalID: -7796296006169573787
+      spriteID: 03d0afd115ce94230800000000000000
+      internalID: 3623687208335707440
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flybird_1
+      name: callbirdbotsprite_sheet-removebg-preview_1
       rect:
         serializedVersion: 2
-        x: 2048
-        y: 0
-        width: 2048
-        height: 2048
+        x: 313
+        y: 30
+        width: 115
+        height: 205
       alignment: 9
-      pivot: {x: 0.3922876, y: 0.10912956}
+      pivot: {x: 0.5013377, y: 0.06323601}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 43b402c21f3235820800000000000000
-      internalID: 2905705703318506292
+      spriteID: 33dc142344ba01b20800000000000000
+      internalID: 3103168452647570739
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flybird_2
+      name: callbirdbotsprite_sheet-removebg-preview_2
       rect:
         serializedVersion: 2
-        x: 4087
-        y: 0
-        width: 2048
-        height: 2048
+        x: 563
+        y: 30
+        width: 115
+        height: 205
       alignment: 9
-      pivot: {x: 0.47600985, y: 0.07614375}
+      pivot: {x: 0.5033999, y: 0.0649955}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 20029845e92b8eab0800000000000000
-      internalID: -4978532994965233662
+      spriteID: 57d2027f886011c40800000000000000
+      internalID: 5481169406818004341
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flybird_3
+      name: callbirdbotsprite_sheet-removebg-preview_3
       rect:
         serializedVersion: 2
-        x: 6144
-        y: 0
-        width: 2048
-        height: 2048
+        x: 819
+        y: 30
+        width: 120
+        height: 205
       alignment: 9
-      pivot: {x: 0.39718866, y: 0.07614375}
+      pivot: {x: 0.4506358, y: 0.06827006}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b12233c653ba37250800000000000000
-      internalID: 5941280579368722971
+      spriteID: 947568efda26aad90800000000000000
+      internalID: -7085742564274972855
       vertices: []
       indices: 
       edges: []
@@ -245,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 76308a7ff9a096340ab8e408b5c7fa58
+    spriteID: bd6517dd76be85b46b9a048439300063
     internalID: 0
     vertices: []
     indices: 
@@ -253,14 +208,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":1.0},"gridSpriteSize":{"x":2048.0,"y":2048.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      flybird_0: -7796296006169573787
-      flybird_1: 2905705703318506292
-      flybird_2: -4978532994965233662
-      flybird_3: 5941280579368722971
+      callbirdbotsprite_sheet-removebg-preview_0: 3623687208335707440
+      callbirdbotsprite_sheet-removebg-preview_1: 3103168452647570739
+      callbirdbotsprite_sheet-removebg-preview_2: 5481169406818004341
+      callbirdbotsprite_sheet-removebg-preview_3: -7085742564274972855
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

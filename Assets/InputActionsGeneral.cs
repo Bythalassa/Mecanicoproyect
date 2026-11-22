@@ -127,6 +127,15 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""CallBirdbot"",
+                    ""type"": ""Button"",
+                    ""id"": ""78e4867d-064c-4510-984b-b4c41b32573e"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -294,6 +303,17 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
                     ""action"": ""PunchImpulse"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""08bdda17-e2b8-4456-be31-b45ab2fffe0a"",
+                    ""path"": ""<Keyboard>/1"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""CallBirdbot"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         },
@@ -424,6 +444,50 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": true
                 },
                 {
+                    ""name"": ""2D Vector"",
+                    ""id"": ""38330480-a7da-416e-b5b3-6e4819809705"",
+                    ""path"": ""2DVector"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""WalkUpsidedown"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""down"",
+                    ""id"": ""825d906f-5cee-4a94-a870-7a7471324341"",
+                    ""path"": ""<Keyboard>/downArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""WalkUpsidedown"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""left"",
+                    ""id"": ""1594475c-7575-4c5f-9353-9550e3efe219"",
+                    ""path"": ""<Keyboard>/leftArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""WalkUpsidedown"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""right"",
+                    ""id"": ""026c2ef7-215c-4a1c-96a8-8935c77a1745"",
+                    ""path"": ""<Keyboard>/rightArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""WalkUpsidedown"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
                     ""name"": """",
                     ""id"": ""febad2df-7c3b-4cb9-ab2b-25184c1f5d72"",
                     ""path"": ""<Keyboard>/space"",
@@ -448,7 +512,7 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""33580422-759c-4444-b8a6-9354238af3db"",
-                    ""path"": ""<Keyboard>/c"",
+                    ""path"": ""<Keyboard>/w"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -460,6 +524,17 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
                     ""name"": """",
                     ""id"": ""1d831d02-5bda-4f82-af8e-ef561a2fe0cc"",
                     ""path"": ""<Gamepad>/rightShoulder"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""PunchImpulse"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""36dde756-855c-4fa8-9c86-eed8a2d1a7a3"",
+                    ""path"": ""<Keyboard>/upArrow"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -482,6 +557,17 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
                     ""name"": """",
                     ""id"": ""84b05416-f1ca-43c8-91c2-09b545901516"",
                     ""path"": ""<Gamepad>/leftTrigger"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Spin"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""38169ebc-f5ad-40ca-8a4a-83bf43155a1e"",
+                    ""path"": ""<Keyboard>/downArrow"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -514,7 +600,7 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""4a7bff6d-e74a-4997-a266-22926ed2d8e5"",
-                    ""path"": ""<Keyboard>/t"",
+                    ""path"": ""<Mouse>/rightButton"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -556,6 +642,15 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Jump"",
+                    ""type"": ""Button"",
+                    ""id"": ""caa06253-cae8-4144-96dc-fe4e391c305c"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -580,17 +675,6 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
                     ""action"": ""Fly"",
                     ""isComposite"": true,
                     ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": ""up"",
-                    ""id"": ""bf35f95c-f583-4f4c-8422-70c9a6eb5e05"",
-                    ""path"": ""<Keyboard>/w"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Fly"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
                 },
                 {
                     ""name"": ""down"",
@@ -626,13 +710,79 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": true
                 },
                 {
+                    ""name"": ""2D Vector"",
+                    ""id"": ""d2f46fc8-1168-4e6a-9205-66e5a22bfdc9"",
+                    ""path"": ""2DVector"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Fly"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""down"",
+                    ""id"": ""7a4a3d6b-f103-44d8-a3d1-5635ef30c1ac"",
+                    ""path"": ""<Keyboard>/downArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Fly"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""left"",
+                    ""id"": ""62c969cc-c91e-4642-aa91-681d55aabc58"",
+                    ""path"": ""<Keyboard>/leftArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Fly"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""right"",
+                    ""id"": ""286f999c-707b-4d5a-b5c2-9ff5983d1f38"",
+                    ""path"": ""<Keyboard>/rightArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Fly"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
                     ""name"": """",
                     ""id"": ""9342c7ae-daa6-4880-b82f-55d0ebb8c2ff"",
-                    ""path"": ""<Keyboard>/t"",
+                    ""path"": ""<Keyboard>/1"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""FinishRide"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""60757a0f-c0fc-46ea-a307-56ed2e83e71f"",
+                    ""path"": ""<Keyboard>/q"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""FinishRide"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""67237a79-2de6-4def-8097-b39e902ba473"",
+                    ""path"": ""<Keyboard>/space"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Jump"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -717,6 +867,7 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
         m_Clockborg_Jump = m_Clockborg.FindAction("Jump", throwIfNotFound: true);
         m_Clockborg_PunchImpulse = m_Clockborg.FindAction("PunchImpulse", throwIfNotFound: true);
         m_Clockborg_Spin = m_Clockborg.FindAction("Spin", throwIfNotFound: true);
+        m_Clockborg_CallBirdbot = m_Clockborg.FindAction("CallBirdbot", throwIfNotFound: true);
         // Clocksiniester
         m_Clocksiniester = asset.FindActionMap("Clocksiniester", throwIfNotFound: true);
         m_Clocksiniester_WalkUpsidedown = m_Clocksiniester.FindAction("WalkUpsidedown", throwIfNotFound: true);
@@ -729,6 +880,7 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
         m_Birdbot = asset.FindActionMap("Birdbot", throwIfNotFound: true);
         m_Birdbot_Fly = m_Birdbot.FindAction("Fly", throwIfNotFound: true);
         m_Birdbot_FinishRide = m_Birdbot.FindAction("FinishRide", throwIfNotFound: true);
+        m_Birdbot_Jump = m_Birdbot.FindAction("Jump", throwIfNotFound: true);
         // Transformation
         m_Transformation = asset.FindActionMap("Transformation", throwIfNotFound: true);
         m_Transformation_Clocksiniester = m_Transformation.FindAction("Clocksiniester", throwIfNotFound: true);
@@ -820,6 +972,7 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
     private readonly InputAction m_Clockborg_Jump;
     private readonly InputAction m_Clockborg_PunchImpulse;
     private readonly InputAction m_Clockborg_Spin;
+    private readonly InputAction m_Clockborg_CallBirdbot;
     /// <summary>
     /// Provides access to input actions defined in input action map "Clockborg".
     /// </summary>
@@ -847,6 +1000,10 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
         /// Provides access to the underlying input action "Clockborg/Spin".
         /// </summary>
         public InputAction @Spin => m_Wrapper.m_Clockborg_Spin;
+        /// <summary>
+        /// Provides access to the underlying input action "Clockborg/CallBirdbot".
+        /// </summary>
+        public InputAction @CallBirdbot => m_Wrapper.m_Clockborg_CallBirdbot;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -885,6 +1042,9 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
             @Spin.started += instance.OnSpin;
             @Spin.performed += instance.OnSpin;
             @Spin.canceled += instance.OnSpin;
+            @CallBirdbot.started += instance.OnCallBirdbot;
+            @CallBirdbot.performed += instance.OnCallBirdbot;
+            @CallBirdbot.canceled += instance.OnCallBirdbot;
         }
 
         /// <summary>
@@ -908,6 +1068,9 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
             @Spin.started -= instance.OnSpin;
             @Spin.performed -= instance.OnSpin;
             @Spin.canceled -= instance.OnSpin;
+            @CallBirdbot.started -= instance.OnCallBirdbot;
+            @CallBirdbot.performed -= instance.OnCallBirdbot;
+            @CallBirdbot.canceled -= instance.OnCallBirdbot;
         }
 
         /// <summary>
@@ -1098,6 +1261,7 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
     private List<IBirdbotActions> m_BirdbotActionsCallbackInterfaces = new List<IBirdbotActions>();
     private readonly InputAction m_Birdbot_Fly;
     private readonly InputAction m_Birdbot_FinishRide;
+    private readonly InputAction m_Birdbot_Jump;
     /// <summary>
     /// Provides access to input actions defined in input action map "Birdbot".
     /// </summary>
@@ -1117,6 +1281,10 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
         /// Provides access to the underlying input action "Birdbot/FinishRide".
         /// </summary>
         public InputAction @FinishRide => m_Wrapper.m_Birdbot_FinishRide;
+        /// <summary>
+        /// Provides access to the underlying input action "Birdbot/Jump".
+        /// </summary>
+        public InputAction @Jump => m_Wrapper.m_Birdbot_Jump;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -1149,6 +1317,9 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
             @FinishRide.started += instance.OnFinishRide;
             @FinishRide.performed += instance.OnFinishRide;
             @FinishRide.canceled += instance.OnFinishRide;
+            @Jump.started += instance.OnJump;
+            @Jump.performed += instance.OnJump;
+            @Jump.canceled += instance.OnJump;
         }
 
         /// <summary>
@@ -1166,6 +1337,9 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
             @FinishRide.started -= instance.OnFinishRide;
             @FinishRide.performed -= instance.OnFinishRide;
             @FinishRide.canceled -= instance.OnFinishRide;
+            @Jump.started -= instance.OnJump;
+            @Jump.performed -= instance.OnJump;
+            @Jump.canceled -= instance.OnJump;
         }
 
         /// <summary>
@@ -1341,6 +1515,13 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnSpin(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "CallBirdbot" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnCallBirdbot(InputAction.CallbackContext context);
     }
     /// <summary>
     /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "Clocksiniester" which allows adding and removing callbacks.
@@ -1413,6 +1594,13 @@ public partial class @InputActionsGeneral: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnFinishRide(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Jump" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnJump(InputAction.CallbackContext context);
     }
     /// <summary>
     /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "Transformation" which allows adding and removing callbacks.

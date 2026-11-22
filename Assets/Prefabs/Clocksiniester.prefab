@@ -17,11 +17,11 @@ GameObject:
   - component: {fileID: 2365631309024609979}
   m_Layer: 0
   m_Name: Clocksiniester
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4764386115866066355
 Transform:
   m_ObjectHideFlags: 0
@@ -144,10 +144,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ClocksiniesterInputController
   speed: 8
-  jumpForce: 7
+  jumpForce: 18
+  punchForce: 24
   isGrounded: 0
   MoveInput: 0
   AttackRadius: 0
+  jumpCutMultiplier: 2
 --- !u!50 &1747359758834329266
 Rigidbody2D:
   serializedVersion: 5

@@ -13,6 +13,7 @@ public class InputClockborgController
     public static Action OnCBShortJump;
     public static Action OnCBPunchImpulse;
     public static Action OnCBSpin;
+    public static Action OnCBSpinFinish;
     public static Action OnCallBirdbot;
 
     #endregion
@@ -32,6 +33,8 @@ public class InputClockborgController
         inputs.Clockborg.Jump.performed += OnJumpPerformed;
         inputs.Clockborg.PunchImpulse.performed += OnPunchImpulse;
         inputs.Clockborg.Spin.performed += OnSpinPerformed;
+        inputs.Clockborg.Spin.canceled += OnSpinCanceled;
+        inputs.Clockborg.CallBirdbot.performed += OnCallBirdbotPerformed;
 
         #endregion
     }
@@ -57,7 +60,6 @@ public class InputClockborgController
         OnCBShortJump?.Invoke();
     }
 
-
     private static void OnPunchImpulse(InputAction.CallbackContext context)
     {
         OnCBPunchImpulse?.Invoke();
@@ -65,6 +67,18 @@ public class InputClockborgController
     private static void OnSpinPerformed(InputAction.CallbackContext context)
     {
         OnCBSpin?.Invoke();
+    }
+
+    private static void OnSpinCanceled(InputAction.CallbackContext context)
+    {
+        OnCBSpinFinish?.Invoke();
+
+    }
+
+    private static void OnCallBirdbotPerformed(InputAction.CallbackContext context)
+    {
+        OnCallBirdbot?.Invoke();
+
     }
 
 

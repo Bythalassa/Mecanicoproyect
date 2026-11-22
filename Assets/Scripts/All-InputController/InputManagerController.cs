@@ -12,10 +12,12 @@ public enum CharacterType
 
 public static class InputManagerController
 {
+    
     public static InputActionsGeneral Inputs { get; private set; }
 
     public static CharacterType Current { get; private set; }
     public static event Action<CharacterType> OnCharacterChanged;
+
    
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
     private static void Initialize()
@@ -58,7 +60,7 @@ public static class InputManagerController
 
                 break;
 
-            case CharacterType.Birdbot:
+            case CharacterType.Birdbot:                
                 Inputs.Birdbot.Enable();
                 Debug.Log(" Birdbit enable");
                 Inputs.Clockborg.Disable();
@@ -74,8 +76,6 @@ public static class InputManagerController
 
     private static void OnClocksiniesterPerformed(InputAction.CallbackContext context) 
     {
-        Debug.Log("hi");
-        
        CharacterType next = (Current == CharacterType.Clocksiniester)
             ? CharacterType.Clockborg
             : CharacterType.Clocksiniester;
@@ -88,6 +88,7 @@ public static class InputManagerController
         CharacterType next = (Current == CharacterType.Birdbot)
             ? CharacterType.Clockborg
             : CharacterType.Birdbot;
+
         OnCharacterChanged?.Invoke(next);
     }
 
