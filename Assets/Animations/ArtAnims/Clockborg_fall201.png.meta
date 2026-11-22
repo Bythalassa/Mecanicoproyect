@@ -135,7 +135,7 @@ TextureImporter:
         width: 1866
         height: 1751
       alignment: 9
-      pivot: {x: 0.49729523, y: 0.083961226}
+      pivot: {x: 0.49231425, y: 0.06272859}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -152,12 +152,12 @@ TextureImporter:
       name: Clockborg_fall201_1
       rect:
         serializedVersion: 2
-        x: 1866
+        x: 1875
         y: 1751
         width: 1866
         height: 1751
       alignment: 9
-      pivot: {x: 0.5000001, y: 0.046121594}
+      pivot: {x: 0.50000024, y: 0.0301971}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -179,7 +179,7 @@ TextureImporter:
         width: 1724
         height: 1745
       alignment: 9
-      pivot: {x: 0.50000113, y: 0.043913554}
+      pivot: {x: 0.49460992, y: 0.035923928}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -218,12 +218,12 @@ TextureImporter:
       name: Clockborg_fall201_4
       rect:
         serializedVersion: 2
-        x: 3737
+        x: 3742
         y: 0
         width: 1861
         height: 1757
       alignment: 9
-      pivot: {x: 0.47882104, y: 0.030931218}
+      pivot: {x: 0.5018264, y: 0.059213866}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -245,7 +245,7 @@ TextureImporter:
         width: 1866
         height: 1751
       alignment: 9
-      pivot: {x: 0.5361658, y: 0.10268836}
+      pivot: {x: 0.5499052, y: 0.07752665}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
