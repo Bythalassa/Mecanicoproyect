@@ -11,7 +11,7 @@ public class ClocksiniesterAnimatorController : MonoBehaviour
         InputClocksiniesterController.OnWalkUpsidedown += PlayMoveAnimation;
         InputClocksiniesterController.OnCSShortJump += PlayJumpAnimation;
         InputClocksiniesterController.OnPunchImpulse += PlayPunchImpulseAnimation;
-        InputClocksiniesterController.OnCSSpin += PlaySpinAnimation;
+        ClocksiniesterInputController.OnCSSpin += PlaySpinAnimation;
         InputClocksiniesterController.OnAttack += PlayAttackAnimation;       //puede que el timbre lo que active script(????        
         InputClocksiniesterController.OnSpeedGear += PlaySpeedGearAnimation; //puede que el timbre lo que active script(?   ????     
         ClocksiniesterInputController.OnCSHit += PlayHitAnimation;
@@ -44,9 +44,9 @@ public class ClocksiniesterAnimatorController : MonoBehaviour
         controller.SetTrigger("OnCSPunchImpulse");
     }
 
-    private void PlaySpinAnimation()
+    private void PlaySpinAnimation(bool value)
     {
-        controller.SetTrigger("OnSpin");
+        controller.SetBool("IsSpining", value);
     }
 
     private void PlayAttackAnimation()

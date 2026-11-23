@@ -8,8 +8,8 @@ public class ManagerInputController : MonoBehaviour
     public GameObject birdbotPrefab;
 
     private GameObject current;
-   
-    
+
+
     [Header("Countdown Delay BirdOnEnable")]
     private float DelaySpawn = 1.5f;
     private float timer;
@@ -31,9 +31,7 @@ public class ManagerInputController : MonoBehaviour
 
             if (timer <= 0f)
             {
-                clockborgPrefab.SetActive(false);
-                clocksiniesterPrefab.SetActive(false);
-                birdbotPrefab.SetActive(true);
+                Activate(birdbotPrefab);
 
                 BirdAppears?.Invoke();
             }
@@ -42,7 +40,7 @@ public class ManagerInputController : MonoBehaviour
     }
 
     private void OnEnable()
-    { 
+    {
         InputManagerController.OnCharacterChanged += CharacterChanged;
     }
 
@@ -56,16 +54,12 @@ public class ManagerInputController : MonoBehaviour
     {
         if (InputManagerController.Current == CharacterType.Clockborg)
         {
-            clockborgPrefab.SetActive(true);
-            clocksiniesterPrefab.SetActive(false);
-            birdbotPrefab.SetActive(false);
+            Activate(clockborgPrefab);
 
         }
         else if (InputManagerController.Current == CharacterType.Clocksiniester)
         {
-            clockborgPrefab.SetActive(false);
-            clocksiniesterPrefab.SetActive(true);
-            birdbotPrefab.SetActive(false);
+            Activate(clocksiniesterPrefab);
         }
         else if (InputManagerController.Current == CharacterType.Birdbot)
         {
@@ -73,14 +67,24 @@ public class ManagerInputController : MonoBehaviour
         }
         else
         {
-            clockborgPrefab.SetActive(true);
-            clocksiniesterPrefab.SetActive(false);
-            birdbotPrefab.SetActive(false);
+            Activate(clockborgPrefab);
         }
-
     }
+        private void Activate(GameObject next)
+        {
+        if (current != null)
+            next.transform.position = current.transform.position;
 
+        clockborgPrefab.SetActive(next == clockborgPrefab);
+        clocksiniesterPrefab.SetActive(next == clocksiniesterPrefab);
+        birdbotPrefab.SetActive(next == birdbotPrefab);
 
-
+        current = next;
+         }
 
 }
+
+
+
+
+

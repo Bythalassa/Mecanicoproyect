@@ -16,6 +16,11 @@ public class ClocksiniesterInputController : MonoBehaviour
     public bool isGrounded;
     public float MoveInput;
 
+    [Header("Spin")]
+    [SerializeField] private int SpinForce = 20;
+    private bool canSpin;
+    private bool airPunchUsed;
+
     [Header("Combat")]
     public float AttackRadius;
 
@@ -27,7 +32,7 @@ public class ClocksiniesterInputController : MonoBehaviour
 
     public static event Action OnCSHit;
     public static event Action<bool> OnGround;
-    public static Action OnCSSpin;
+    public static Action<bool> OnCSSpin;
 
 
 
@@ -39,6 +44,8 @@ public class ClocksiniesterInputController : MonoBehaviour
         InputClocksiniesterController.OnCSSpin += Spin;
         InputClocksiniesterController.OnAttack += Attack;
         InputClocksiniesterController.OnSpeedGear += SpeedGear;
+        InputClocksiniesterController.OnCSSpinFinish += StopSpinAnimation;
+
 
         MoveInput = InputClocksiniesterController.GetActualWalkDir().x;
     }
@@ -54,6 +61,9 @@ public class ClocksiniesterInputController : MonoBehaviour
         InputClocksiniesterController.OnCSSpin -= Spin;
         InputClocksiniesterController.OnAttack -= Attack;
         InputClocksiniesterController.OnSpeedGear -= SpeedGear;
+        InputClocksiniesterController.OnCSSpinFinish -= StopSpinAnimation;
+
+
 
         MoveInput = InputClocksiniesterController.GetActualWalkDir().x;
     }
@@ -88,16 +98,26 @@ public class ClocksiniesterInputController : MonoBehaviour
 
     private void PunchImpulse()
     {
+        if (!isGrounded && airPunchUsed) return;
+        if (!isGrounded) airPunchUsed = true;
+
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0);
         rb.AddForce(Vector2.up * punchForce, ForceMode2D.Impulse);
-
     }
 
     private void Spin()
     {
-        OnCSSpin?.Invoke();
+        canSpin = true;
+        rb.AddForce(new Vector2(MoveInput * SpinForce, 0f), ForceMode2D.Force);
+
+        OnCSSpin?.Invoke(true);
     }
 
+    private void StopSpinAnimation()
+    {
+        canSpin = false;
+        OnCSSpin?.Invoke(false);
+    }
     private void Attack()
     {
 
@@ -142,6 +162,7 @@ public class ClocksiniesterInputController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
+            airPunchUsed = false;
             isGrounded = true;
             OnGround?.Invoke(true);
         }
@@ -150,6 +171,7 @@ public class ClocksiniesterInputController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
+
             isGrounded = false;
             OnGround?.Invoke(false);
         }

@@ -1,11 +1,8 @@
 /*
     - [ ] y.Y
 */
-
-
 using System;
 using UnityEngine;
-using static UnityEngine.Rendering.DebugUI;
 
 
 public class ClockborgInputController : MonoBehaviour
@@ -24,6 +21,8 @@ public class ClockborgInputController : MonoBehaviour
 
     [Header("Spin")]
     [SerializeField] private int SpinForce = 20;
+    private bool airPunchUsed;
+
     private bool canSpin;
 
     private Rigidbody2D rb;
@@ -97,6 +96,9 @@ public class ClockborgInputController : MonoBehaviour
 
     private void PunchImpulse()
     {
+        if (!IsOnLand && airPunchUsed) return;
+        if (!IsOnLand) airPunchUsed = true;
+
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0);
         rb.AddForce(Vector2.up * PunchjumpForce, ForceMode2D.Impulse);
 
@@ -139,6 +141,7 @@ public class ClockborgInputController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
+            airPunchUsed = false;
             IsOnLand = true;
             OnLand?.Invoke(true);
         }

@@ -4,6 +4,8 @@ public class camara : MonoBehaviour
 {
     [SerializeField] private float followSpeed = 5f;
     [SerializeField] private float radiusMovement = 1.7f;
+    [SerializeField] private float yUpDistance = 1.2f;
+
 
     private Transform target;
 
@@ -19,7 +21,7 @@ public class camara : MonoBehaviour
             target = player.transform;
 
         Vector3 myPos = transform.position;
-        Vector3 filterPos = new Vector3(target.position.x, target.position.y, myPos.z);
+        Vector3 filterPos = new Vector3(target.position.x, target.position.y * yUpDistance, myPos.z);
 
         if (Vector3.Distance(filterPos, myPos) > radiusMovement)
         {

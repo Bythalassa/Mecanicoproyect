@@ -13,6 +13,7 @@ public class InputClocksiniesterController
     public static Action OnCSShortJump;
     public static Action OnPunchImpulse;
     public static Action OnCSSpin;
+    public static Action OnCSSpinFinish;
     public static Action OnAttack;
     public static Action OnSpeedGear;
 
@@ -30,6 +31,7 @@ public class InputClocksiniesterController
         inputs.Clocksiniester.Jump.performed += OnShortJumpPerformed;
         inputs.Clocksiniester.PunchImpulse.performed += OnPunchImpulsePerformed;
         inputs.Clocksiniester.Spin.performed += OnSpinPerformed;
+        inputs.Clocksiniester.Spin.canceled += OnSpinCanceled;
         inputs.Clocksiniester.Attack.performed += OnAttackPerformed;
         inputs.Clocksiniester.Speedgear.performed += OnSpeedGearPerformed;
 
@@ -64,6 +66,13 @@ public class InputClocksiniesterController
     {
         OnCSSpin?.Invoke();
     }
+
+    private static void OnSpinCanceled(InputAction.CallbackContext context)
+    {
+        OnCSSpinFinish?.Invoke();
+
+    }
+
     private static void OnAttackPerformed(InputAction.CallbackContext context)
     {
         OnAttack?.Invoke();
