@@ -2087,7 +2087,8 @@ GameObject:
   - component: {fileID: 582918158}
   - component: {fileID: 582918160}
   - component: {fileID: 582918159}
-  m_Layer: 0
+  - component: {fileID: 582918161}
+  m_Layer: 7
   m_Name: def (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2214,6 +2215,20 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &582918161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 582918157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65532dacb44b5124fbc516c50a3f3766, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MuroRompible2D
+  vidaMaxima: 10
+  danioPorInterfaz: 10
 --- !u!1 &586364929
 GameObject:
   m_ObjectHideFlags: 0
@@ -2569,7 +2584,7 @@ Transform:
   m_GameObject: {fileID: 610821326}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 22.4, y: 47.2, z: -10}
+  m_LocalPosition: {x: -81.7, y: 37.4, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2661,8 +2676,8 @@ Transform:
   m_GameObject: {fileID: 613084964}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.0503, y: 3.11227, z: 0}
-  m_LocalScale: {x: 0.85943097, y: 0.16474575, z: 1}
+  m_LocalPosition: {x: 1.0436, y: 3.11227, z: 0}
+  m_LocalScale: {x: 0.8460217, y: 0.16474575, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1018048559}
@@ -8132,8 +8147,8 @@ Transform:
   m_GameObject: {fileID: 1770746370}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.915, y: 3.14, z: 0}
-  m_LocalScale: {x: 0.7303439, y: 0.11025067, z: 1}
+  m_LocalPosition: {x: 1.915, y: 3.128, z: 0}
+  m_LocalScale: {x: 0.7303439, y: 0.13425003, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1018048559}
@@ -8544,7 +8559,7 @@ Transform:
   m_GameObject: {fileID: 1820156860}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.7, y: 38.1, z: 0}
+  m_LocalPosition: {x: -86.5, y: 26.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9389,10 +9404,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1820156861}
     m_Modifications:
-    - target: {fileID: 4491754605688971846, guid: 32257ee2d38597b429b46cd9adcdc618, type: 3}
-      propertyPath: balaMetalicaPrefab
-      value: 
-      objectReference: {fileID: 6551829015934130627, guid: d1bf1e4d106d4a944a09a1aef05dce19, type: 3}
     - target: {fileID: 6981917911667387239, guid: 32257ee2d38597b429b46cd9adcdc618, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

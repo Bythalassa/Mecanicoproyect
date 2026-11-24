@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - AtaqueEnemigo
+  - Ground
   layers:
   - Default
   - TransparentFX
@@ -14,8 +15,8 @@ TagManager:
   - UI
   - Suelo
   - Destructible
-  - 
-  - 
+  - PlayerBullet
+  - Player
   - 
   - 
   - 

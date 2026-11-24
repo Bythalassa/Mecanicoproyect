@@ -1,9 +1,10 @@
 public interface IDamageable
-{
+{        //ADD KNOCKBACKs
+
     void TakeDamage()
     {
 
-        //ADD KNOCKBACKs
+        
 
 
 
