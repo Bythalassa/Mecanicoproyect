@@ -52,7 +52,6 @@ public class ClocksiniesterInputController : MonoBehaviour
     
      */
 
-
     [SerializeField] private float bulletSpeed = 10f;
 
     private Vector2 aimDir = Vector2.right;
@@ -162,7 +161,8 @@ public class ClocksiniesterInputController : MonoBehaviour
     {
 
         Collider2D[] Coll = Physics2D.OverlapCircleAll(transform.position, AttackRadius);
-  
+    
+            // cambiar el transform por un empty object que sea el punto de disparo y refereciarlo a aqui
         GameObject bullet = Instantiate(balaMetalicaPrefab, transform.position, Quaternion.identity);
         bullet.GetComponent<Rigidbody2D>().linearVelocity = aimDir * bulletSpeed;
     
