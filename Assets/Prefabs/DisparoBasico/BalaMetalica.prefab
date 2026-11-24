@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8482435412478901588}
   - component: {fileID: 4098830953696104671}
   - component: {fileID: -6236598898803244085}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BalaMetalica
   m_TagString: Untagged
   m_Icon: {fileID: 0}

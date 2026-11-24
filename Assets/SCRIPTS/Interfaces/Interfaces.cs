@@ -1,6 +1,13 @@
 public interface IDamageable
 {
-    void TakeDamage();
+    void TakeDamage()
+    {
+
+        //ADD KNOCKBACKs
+
+
+
+    } 
 }
 
 public interface IInteractable

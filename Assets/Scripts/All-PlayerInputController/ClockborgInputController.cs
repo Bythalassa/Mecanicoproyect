@@ -15,6 +15,10 @@ public class ClockborgInputController : MonoBehaviour
     [Header("Ground Check")]
     public bool IsOnLand;
     public float MoveInput;
+    [SerializeField] private Transform groundCheck;
+    [SerializeField] private float groundCheckRadius = 0.15f;
+    [SerializeField] private LayerMask groundLayer;      
+
 
     [Header("Jump Cut")]
     [SerializeField] private float jumpCutMultiplier = 0.1f;
@@ -65,7 +69,6 @@ public class ClockborgInputController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         ClockborgAnimatorController = GetComponent<ClockborgAnimatorController>();
 
-
     }
     private void FixedUpdate()
     {
@@ -73,6 +76,19 @@ public class ClockborgInputController : MonoBehaviour
 
         if ( canSpin )
             rb.AddForce(new Vector2(MoveInput * SpinForce, 0f), ForceMode2D.Force);
+
+        bool grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+        /*Collider2D Physics2D.OverlapCircle(Vector2 punto, float radio, LayerMask capas);*/
+
+        if (grounded != IsOnLand)
+        {
+            IsOnLand = grounded;
+
+            if (grounded)
+                airPunchUsed = false;
+
+            OnLand?.Invoke(grounded);
+        }
 
     }
 
@@ -102,15 +118,11 @@ public class ClockborgInputController : MonoBehaviour
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0);
         rb.AddForce(Vector2.up * PunchjumpForce, ForceMode2D.Impulse);
 
-        //agregar la condición si ha presionado 2 veces entonces return.
-
     }
 
     private void Spin()
     {
         canSpin = true;
-        rb.AddForce(new Vector2(MoveInput * SpinForce, 0f), ForceMode2D.Force);
-
         OnSpin?.Invoke(true);
     }
 
@@ -133,29 +145,9 @@ public class ClockborgInputController : MonoBehaviour
             //->b
             //->c
             OnHit?.Invoke();
-            //onhit2 (ondestroy) okay
+            //onhit2 (ondestroy) okay.-.
         }
     }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Ground"))
-        {
-            airPunchUsed = false;
-            IsOnLand = true;
-            OnLand?.Invoke(true);
-        }
-
-    }
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Ground"))
-        {
-            IsOnLand = false;
-            OnLand?.Invoke(false);
-        }
-    }
-
 
 }
 

@@ -16,17 +16,16 @@ public class ClocksiniesterInputController : MonoBehaviour
     public bool isGrounded;
     public float MoveInput;
 
+    [SerializeField] private Transform groundCheck;
+    [SerializeField] private float groundCheckRadius = 0.15f;
+    [SerializeField] private LayerMask groundLayer;
+
     [Header("Spin")]
     [SerializeField] private int SpinForce = 20;
     private bool canSpin;
     private bool airPunchUsed;
 
-    [Header("Combat")]
-    public float AttackRadius;
-
     [SerializeField] private float jumpCutMultiplier = 2f;
-
-
 
     private Rigidbody2D rb;
 
@@ -34,8 +33,29 @@ public class ClocksiniesterInputController : MonoBehaviour
     public static event Action<bool> OnGround;
     public static Action<bool> OnCSSpin;
 
+    [Header("Combat")]
+    public float AttackRadius;
+    [SerializeField] private GameObject balaMetalicaPrefab;
+    /*Información que deberia hacerse fetch desde un SO
+     -- BulletSpeed
+
+    -- municionActual--; (funcion que verifique si tiene municion), ademas que tenga referencia a una variante que suma municion dentro del script CollectAMMo.
+    -- siguienteDisparo = Time.time + tiempoEntreDisparos;
+    
+    -- sabiendo que el prefab de balametalica tiene un script que configura las siguientes caracteristicas:
+    +++ Velocidad
+    +++ Danio
+    +++ Tiempo Vida
+
+    que es caracteristicas y parametros podria establecer desde el script dispar
+    y que se mantiene en el prefab de la bala? 
+    
+     */
 
 
+    [SerializeField] private float bulletSpeed = 10f;
+
+    private Vector2 aimDir = Vector2.right;
     private void OnEnable()
     {
         InputClocksiniesterController.OnWalkUpsidedown += Move;
@@ -45,7 +65,7 @@ public class ClocksiniesterInputController : MonoBehaviour
         InputClocksiniesterController.OnAttack += Attack;
         InputClocksiniesterController.OnSpeedGear += SpeedGear;
         InputClocksiniesterController.OnCSSpinFinish += StopSpinAnimation;
-
+        AimController.OnAim += UpdateAim;
 
         MoveInput = InputClocksiniesterController.GetActualWalkDir().x;
     }
@@ -62,7 +82,7 @@ public class ClocksiniesterInputController : MonoBehaviour
         InputClocksiniesterController.OnAttack -= Attack;
         InputClocksiniesterController.OnSpeedGear -= SpeedGear;
         InputClocksiniesterController.OnCSSpinFinish -= StopSpinAnimation;
-
+        AimController.OnAim -= UpdateAim;
 
 
         MoveInput = InputClocksiniesterController.GetActualWalkDir().x;
@@ -75,6 +95,20 @@ public class ClocksiniesterInputController : MonoBehaviour
     private void FixedUpdate()
     {
         rb.linearVelocity = new Vector2(MoveInput * speed, rb.linearVelocity.y);
+
+        bool grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+        /*Collider2D Physics2D.OverlapCircle(Vector2 punto, float radio, LayerMask capas);*/
+
+        if (grounded != isGrounded)
+        {
+            isGrounded = grounded;
+
+            if (grounded)
+                airPunchUsed = false;
+
+            OnGround?.Invoke(grounded);
+        }
+
     }
 
     private void Move(Vector2 input)
@@ -118,10 +152,21 @@ public class ClocksiniesterInputController : MonoBehaviour
         canSpin = false;
         OnCSSpin?.Invoke(false);
     }
+
+    private void UpdateAim(Vector2 dir)
+    {
+        aimDir = dir;
+    }
+
     private void Attack()
     {
 
         Collider2D[] Coll = Physics2D.OverlapCircleAll(transform.position, AttackRadius);
+  
+        GameObject bullet = Instantiate(balaMetalicaPrefab, transform.position, Quaternion.identity);
+        bullet.GetComponent<Rigidbody2D>().linearVelocity = aimDir * bulletSpeed;
+    
+
 
         foreach (Collider2D coll in Coll)
         {
@@ -157,23 +202,4 @@ public class ClocksiniesterInputController : MonoBehaviour
         }
     }
 
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Ground"))
-        {
-            airPunchUsed = false;
-            isGrounded = true;
-            OnGround?.Invoke(true);
-        }
-    }
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Ground"))
-        {
-
-            isGrounded = false;
-            OnGround?.Invoke(false);
-        }
-    }
 }

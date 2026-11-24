@@ -1,4 +1,6 @@
-﻿public static class ReadMe_2_0 { }
+﻿using UnityEngine;
+
+public static class ReadMe_2_0 { }
 /*
    // ╔══════════════════════════════════════════════════════════════╗
    // ║  INDEX                                                       ║
@@ -6,6 +8,7 @@
    // ║  2 METRICS                                                   ║
    // ║  3 ANIMATIONS                                                ║
    // ║  4 Learning Forces formula and UNITY                         ║
+   // ║  5 Errores                                                   ║   
    // ╚══════════════════════════════════════════════════════════════╝
 
     [Header("PLAYER INPUTS")]
@@ -102,8 +105,41 @@
     lastJumpTime = 0 //khe 
   }
 
+ [Header("Errores")] 
 
+ Implementación de colision por capa Layer  "Suelo"
 
+    [Header("Ground Check")]
+    public bool isGrounded;
+    public float MoveInput;
+
+    [SerializeField] private Transform groundCheck;
+    [SerializeField] private float groundCheckRadius = 0.15f;
+    [SerializeField] private LayerMask groundLayer;
+
+    private void FixedUpdate()
+    {
+        bool grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+        /*Collider2D Physics2D.OverlapCircle(Vector2 punto, float radio, LayerMask capas);
+
+        Debuger
+        Collider2D hit = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);    
+        Debug.Log($"[{name}] groundCheck de: {groundCheck.parent.name} | mask: {groundLayer.value} | toca: {(hit ? hit.name : "nada")}");
+
+        if (grounded != isGrounded)
+        {
+            isGrounded = grounded;
+
+            if (grounded)
+                airPunchUsed = false;
+
+            OnGround?.Invoke(grounded);
+        }
+            }
+
+      El problema es que el círculo no está tocando ningún collider de la layer Suelo.
+      Asegurar que el Punto Ground este lo suficiente abajo o muy abajo para detectar el suelo, 
+      Opción B es subir el Radio.
 
 
 */
