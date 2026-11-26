@@ -1,4 +1,5 @@
 
+
 using UnityEngine;
 
 public class VidaPlayerPrueba2D : MonoBehaviour, IDamageable
@@ -35,5 +36,14 @@ public class VidaPlayerPrueba2D : MonoBehaviour, IDamageable
             // No destruimos al Player porque
             // estamos realizando una prueba.
         }
+    }
+
+    // Devuelve el porcentaje de vida del jugador
+    public float ObtenerPorcentajeVida()
+    {
+        if (vidaMaxima <= 0f)
+            return 0f;
+
+        return vidaActual / vidaMaxima;
     }
 }
