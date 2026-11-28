@@ -6,6 +6,7 @@ TagManager:
   tags:
   - AtaqueEnemigo
   - Ground
+  - Birdbot
   layers:
   - Default
   - TransparentFX
@@ -17,7 +18,7 @@ TagManager:
   - Destructible
   - PlayerBullet
   - Player
-  - 
+  - BackgroundLow
   - 
   - 
   - 

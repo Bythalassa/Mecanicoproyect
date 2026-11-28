@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 1660149476069373322}
   m_Layer: 0
   m_Name: BirdBot
-  m_TagString: Player
+  m_TagString: Birdbot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84,7 +84,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_MaskInteraction: 0
   m_Sprite: {fileID: -5093543150013466908, guid: 41615f2e0479cab49a74e325c2a95bff, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

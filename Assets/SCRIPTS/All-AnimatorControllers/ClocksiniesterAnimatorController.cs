@@ -31,7 +31,6 @@ public class ClocksiniesterAnimatorController : MonoBehaviour
             controller.SetBool("IsCSMoving", false);
 
         controller.SetBool("IsCSMoving", moveInput.x != 0 ? true : false);
-        Debug.Log("IsCSMoving" + moveInput.x);
         GetComponent<SpriteRenderer>().flipX = (moveInput.x == -1) ? true : false;
     }
 
